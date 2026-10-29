@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Melta — вариант 4 «Смелый поп»</title>
+  <meta name="description" content="Мыльные основы, бытовая химия и косметика собственного производства из Минска.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="variants">
+  <span>Концепт редизайна melta.by</span>
+  <nav aria-label="Варианты дизайна"><a href="../">1</a><a href="../v2/">2</a><a href="../v3/">3</a><a href="./" aria-current="page">4</a><a href="../v5/">5</a></nav>
+</div>
+
+<header class="header" id="top">
+  <div class="container header__row">
+    <a class="logo" href="#top" aria-label="Melta — на главную"><img src="../assets/melta-logo-header.png" alt="Melta" width="126" height="45"></a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#rooms">Каталог</a>
+      <a href="#bestsellers">Хиты</a>
+      <a href="#b2b">Опт и СТМ</a>
+      <a href="#where">Где купить</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="btn btn--pink" href="#price">Прайс</a>
+    <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="hero__kicker">Мыльные основы · бытовая химия · косметика</p>
+        <h1>Сделано<br>в&nbsp;<span class="hl">Минске</span></h1>
+        <p class="hero__lead">Собственное производство с 2013 года. Продаём в Беларуси, России и Казахстане — в магазинах, на Wildberries и оптом.</p>
+        <div class="hero__actions">
+          <a class="btn btn--ink btn--lg" href="#rooms">Выбрать товары</a>
+          <a class="btn btn--outline btn--lg" href="#price">Оптовый прайс</a>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img src="../assets/hero-products.jpg" alt="Продукция Melta: гель для стирки, средство для посуды, шампунь и мыло" width="680" height="540">
+        <span class="sticker sticker--a">с&nbsp;2011</span>
+        <span class="sticker sticker--b">BY · RU · KZ</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Своё производство</span><span>✦</span><span>Сертификаты на всё</span><span>✦</span><span>Опт и розница</span><span>✦</span><span>Мыльные основы от 1 до 15 кг</span><span>✦</span><span>Под вашей маркой</span><span>✦</span>
+      <span>Своё производство</span><span>✦</span><span>Сертификаты на всё</span><span>✦</span><span>Опт и розница</span><span>✦</span><span>Мыльные основы от 1 до 15 кг</span><span>✦</span><span>Под вашей маркой</span><span>✦</span>
+    </div>
+  </div>
+
+  <section class="section" id="rooms">
+    <div class="container">
+      <h2>Что нужно сегодня?</h2>
+      <div class="tabs" role="tablist" aria-label="Каталог по задачам">
+        <button role="tab" id="t-kitchen" aria-controls="p-kitchen" aria-selected="true">Кухня</button>
+        <button role="tab" id="t-laundry" aria-controls="p-laundry" aria-selected="false" tabindex="-1">Стирка</button>
+        <button role="tab" id="t-care" aria-controls="p-care" aria-selected="false" tabindex="-1">Уход</button>
+        <button role="tab" id="t-craft" aria-controls="p-craft" aria-selected="false" tabindex="-1">Мыловарение</button>
+        <button role="tab" id="t-pets" aria-controls="p-pets" aria-selected="false" tabindex="-1">Питомцы</button>
+      </div>
+
+      <div class="panel panel--yellow" role="tabpanel" id="p-kitchen" aria-labelledby="t-kitchen">
+        <div class="panel__text">
+          <h3>Посуда блестит</h3>
+          <p>Средства для мытья посуды и уборки Biolut — в удобных бутылках и выгодных канистрах по 5 литров.</p>
+          <div class="panel__links"><a class="btn btn--ink" href="https://melta.by/product-category/domestic-chemicals/">Бытовая химия</a><a class="btn btn--wb" href="https://www.wildberries.by/catalog/209417211/detail.aspx" target="_blank" rel="noopener">Хит на WB</a></div>
+        </div>
+        <img src="../assets/sredstvo-dlya-mytya-posudy-5-litrov-limon-800x800.jpg" alt="Средство для мытья посуды 5 литров, лимон">
+      </div>
+      <div class="panel panel--cyan" role="tabpanel" id="p-laundry" aria-labelledby="t-laundry" hidden>
+        <div class="panel__text">
+          <h3>Стирка без лишнего</h3>
+          <p>Гели для стирки для автоматических машин — для белого и цветного белья.</p>
+          <div class="panel__links"><a class="btn btn--ink" href="https://melta.by/product-category/domestic-chemicals/">Бытовая химия</a><a class="btn btn--wb" href="https://www.wildberries.by/catalog/221596715/detail.aspx" target="_blank" rel="noopener">Хит на WB</a></div>
+        </div>
+        <img src="../assets/gel-dlya-stirki-belya-5-litrov-avtomat-800x800.jpg" alt="Гель для стирки белья 5 литров">
+      </div>
+      <div class="panel panel--pink" role="tabpanel" id="p-care" aria-labelledby="t-care" hidden>
+        <div class="panel__text">
+          <h3>Уход каждый день</h3>
+          <p>Косметика для лица, тела и волос и мыло ручной работы с эфирными маслами.</p>
+          <div class="panel__links"><a class="btn btn--ink" href="https://melta.by/product-category/cosmetics/">Косметика</a><a class="btn btn--wb" href="https://www.wildberries.ru/catalog/200578459/detail.aspx" target="_blank" rel="noopener">Хит на WB</a></div>
+        </div>
+        <img src="../assets/kosmetika-2.jpg" alt="Косметика Melta">
+      </div>
+      <div class="panel panel--lime" role="tabpanel" id="p-craft" aria-labelledby="t-craft" hidden>
+        <div class="panel__text">
+          <h3>Растопить и залить</h3>
+          <p>Мыльные основы — прозрачные, белые, кремообразные, дегтярные — и всё для домашней мастерской.</p>
+          <div class="panel__links"><a class="btn btn--ink" href="https://melta.by/product-category/soap-base/">Мыльные основы</a><a class="btn btn--outline" href="https://melta.by/product-category/soap-making/">Для мыловарения</a></div>
+        </div>
+        <img src="../assets/mylnaya-osnova.jpg" alt="Мыльная основа">
+      </div>
+      <div class="panel panel--peach" role="tabpanel" id="p-pets" aria-labelledby="t-pets" hidden>
+        <div class="panel__text">
+          <h3>Для хвостатых</h3>
+          <p>Шампуни и средства ухода для домашних животных.</p>
+          <div class="panel__links"><a class="btn btn--ink" href="https://melta.by/product-category/pet-products/">Товары для животных</a></div>
+        </div>
+        <img src="../assets/dlya-zhivotnih-1.jpg" alt="Косметика для животных">
+      </div>
+    </div>
+  </section>
+
+  <section class="values">
+    <div class="container values__grid">
+      <div class="value"><span class="value__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l6 4V10l6 4V6l6 4v11z"/></svg></span><strong>Своё производство</strong><span>в Минске с 2013 года</span></div>
+      <div class="value"><span class="value__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 14l2 2 4-4"/></svg></span><strong>Документы на всё</strong><span>сертификаты и протоколы</span></div>
+      <div class="value"><span class="value__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><strong>Три страны</strong><span>Беларусь, Россия, Казахстан</span></div>
+      <div class="value"><span class="value__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7H4v13h16zM16 7V4H8v3"/></svg></span><strong>Опт и розница</strong><span>для бизнеса и частных лиц</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="bestsellers">
+    <div class="container">
+      <div class="head-row">
+        <h2>Хиты</h2>
+        <a class="btn btn--wb" href="https://www.wildberries.by/seller/450099" target="_blank" rel="noopener">Весь магазин на WB →</a>
+      </div>
+      <div class="cards">
+        <a class="card card--cyan" href="https://www.wildberries.by/catalog/221596715/detail.aspx" target="_blank" rel="noopener"><img src="../assets/gel-dlya-stirki-belya-5-litrov-avtomat-800x800.jpg" alt="" loading="lazy"><span>Гель для стирки белья 5 л, автомат</span></a>
+        <a class="card card--yellow" href="https://www.wildberries.by/catalog/209417211/detail.aspx" target="_blank" rel="noopener"><img src="../assets/sredstvo-dlya-mytya-posudy-5-litrov-limon-800x800.jpg" alt="" loading="lazy"><span>Средство для посуды 5 л «Лимон»</span></a>
+        <a class="card card--lime" href="https://www.wildberries.ru/catalog/200578459/detail.aspx" target="_blank" rel="noopener"><img src="../assets/mylo-ruchnoj-raboty-s-efirnymi-maslami-nabor-5-sht-roza-myata-vostochnyj-lavanda-bereza-800x800.jpg" alt="" loading="lazy"><span>Мыло ручной работы, набор 5 шт.</span></a>
+        <a class="card card--pink" href="https://www.wildberries.ru/catalog/399568585/detail.aspx" target="_blank" rel="noopener"><img src="../assets/gel-smazka-sliki-klubnichnaya-na-vodnoj-osnove-250ml-800x800.jpg" alt="" loading="lazy"><span>Гель-смазка «SLIKI» клубничная, 250 мл</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--ink" id="b2b">
+    <div class="container b2b">
+      <h2>Для бизнеса</h2>
+      <div class="b2b__grid">
+        <a class="b2b__card b2b__card--pink" href="#price">
+          <strong>Опт</strong>
+          <span>Магазинам и оптовым компаниям в Беларуси, России и Казахстане. Гибкие условия и личный менеджер.</span>
+          <em>Получить прайс →</em>
+        </a>
+        <a class="b2b__card b2b__card--cyan" href="https://agnex.by" target="_blank" rel="noopener">
+          <strong>Ваша марка</strong>
+          <span>Контрактное производство бытовой химии, косметики и мыльных основ под вашим брендом.</span>
+          <em>agnex.by →</em>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="where">
+    <div class="container">
+      <h2>Ищите на полках</h2>
+      <ul class="stores">
+        <li><img src="../assets/wb-logo.png" alt="Wildberries" loading="lazy"></li>
+        <li><img src="../assets/21vek-logo.png" alt="21vek.by" loading="lazy"></li>
+        <li><img src="../assets/evroopt.png" alt="Евроопт" loading="lazy"></li>
+        <li><img src="../assets/gippo.png" alt="Гиппо" loading="lazy"></li>
+        <li><img src="../assets/grin.png" alt="Green" loading="lazy"></li>
+        <li><img src="../assets/sosedi.png" alt="Соседи" loading="lazy"></li>
+        <li><img src="../assets/tri-czeny.png" alt="Три цены" loading="lazy"></li>
+        <li><img src="../assets/svetofor.png" alt="Светофор" loading="lazy"></li>
+        <li><img src="../assets/prostor.png" alt="ProStore" loading="lazy"></li>
+        <li><img src="../assets/fixprice_logo.svg-1.png" alt="Fix Price" loading="lazy"></li>
+        <li><img src="../assets/ostrov-chistotypng.png" alt="Остров чистоты" loading="lazy"></li>
+        <li><img src="../assets/tc-cum.png" alt="ЦУМ" loading="lazy"></li>
+        <li><img src="../assets/gum-logo.png" alt="ГУМ" loading="lazy"></li>
+        <li><img src="../assets/tc-kirmash-logo.png" alt="ТЦ Кирмаш" loading="lazy"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--yellow" id="price">
+    <div class="container request">
+      <div>
+        <h2>Прайс за&nbsp;один звонок</h2>
+        <p>Или оставьте заявку — менеджер ответит в рабочее время, пн–пт 8:30–17:00.</p>
+        <a class="phone" href="tel:+375291041703">+375 (29) 104-17-03</a>
+        <a class="mail" href="mailto:sales@agnex.by">sales@agnex.by</a>
+      </div>
+      <form class="form" id="price-form" novalidate>
+        <label>Имя<input name="name" type="text" autocomplete="name" required></label>
+        <label>Телефон<input name="phone" type="tel" autocomplete="tel" placeholder="+375 …" required></label>
+        <label class="form__full">Электронная почта<input name="email" type="email" autocomplete="email"></label>
+        <label class="form__full">Цель запроса
+          <select name="goal"><option>Сотрудничество (РБ)</option><option>Сотрудничество (экспорт)</option><option>Контрактное производство</option><option>Пожелания и предложения</option></select>
+        </label>
+        <label class="check form__full"><input name="agree" type="checkbox" required> Даю согласие на обработку персональных данных</label>
+        <button class="btn btn--ink btn--lg form__full" type="submit">Отправить заявку</button>
+        <p class="form__msg form__full" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contacts">
+  <div class="container footer__grid">
+    <p class="footer__big">MELTA</p>
+    <div><p>г. Минск, ул. Машинистов, д. 80, каб. 10</p><p>Пн–Пт: 8:30–17:00</p></div>
+    <div><p><a href="tel:+375291041703">+375 (29) 104-17-03</a></p><p><a href="mailto:sales@agnex.by">sales@agnex.by</a></p></div>
+  </div>
+  <div class="container footer__legal">ООО «Агнекс Компани», УНП 193596966. 220014, Республика Беларусь, г. Минск, ул. Машинистов, д. 80, каб. 10. Внесён в Торговый реестр 21.01.2021 за № 501068.</div>
+</footer>
+
+<script src="../script.js"></script>
+<script src="tabs.js"></script>
+</body>
+</html>

@@ -25,9 +25,10 @@ h1, h2, h3 { margin: 0; }
 .skip:focus { left: 16px; top: 16px; z-index: 100; background: #fff; padding: 8px 12px; }
 
 .variants { background: var(--ink); color: #BFD3DA; font-size: 13px; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; padding: 8px 16px; }
-.variants nav { display: flex; gap: 14px; }
+.variants nav { display: flex; gap: 6px; }
+.variants nav a { min-width: 28px; text-align: center; padding: 2px 6px; border-radius: 6px; }
 .variants a { color: #BFD3DA; }
-.variants a[aria-current] { color: #fff; font-weight: 700; text-decoration: none; }
+.variants a[aria-current] { color: #111; background: #fff; font-weight: 700; text-decoration: none; }
 
 /* buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 20px; border-radius: 999px; font: 600 15px/1.2 var(--body); text-decoration: none; border: 1px solid transparent; cursor: pointer; transition: background .2s, color .2s, border-color .2s, transform .2s; white-space: nowrap; }

@@ -23,9 +23,10 @@ em { font-style: italic; color: var(--accent); }
 .center { text-align: center; }
 
 .variants { background: var(--ink); color: #E9DFD2; font-size: 13px; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; padding: 8px 16px; }
-.variants nav { display: flex; gap: 14px; }
+.variants nav { display: flex; gap: 6px; }
+.variants nav a { min-width: 28px; text-align: center; padding: 2px 6px; border-radius: 6px; }
 .variants a { color: #E9DFD2; }
-.variants a[aria-current] { color: #fff; font-weight: 700; text-decoration: none; }
+.variants a[aria-current] { color: #111; background: #fff; font-weight: 700; text-decoration: none; }
 
 .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 22px; border-radius: 6px; font: 600 15px/1.2 var(--sans); text-decoration: none; border: 1px solid transparent; cursor: pointer; transition: background .2s; }
 .btn--lg { min-height: 52px; padding: 14px 28px; font-size: 16px; }
