@@ -118,11 +118,11 @@
     });
   });
 
-  // ---------- появление блоков ----------
-  gsap.set('[data-reveal]', { y: 48, autoAlpha: 0 });
+  // ---------- появление блоков: коротко и мягко ----------
+  gsap.set('[data-reveal]', { y: 18, autoAlpha: 0 });
   ScrollTrigger.batch('[data-reveal]', {
-    start: 'top 88%',
-    onEnter: (els) => gsap.to(els, { y: 0, autoAlpha: 1, duration: 1, ease: 'power3.out', stagger: 0.08, overwrite: true }),
+    start: 'top 92%',
+    onEnter: (els) => gsap.to(els, { y: 0, autoAlpha: 1, duration: 0.6, ease: 'power2.out', stagger: 0.05, overwrite: true }),
   });
 
   // ---------- первый экран ----------
@@ -164,12 +164,9 @@
     }
   }
 
-  // ---------- фото раскрывается на весь экран ----------
+  // ---------- десктоп: горизонтальная прокрутка этапов ----------
   const mm = gsap.matchMedia();
   mm.add('(min-width: 861px)', () => {
-    gsap.to('.expand__media', { clipPath: 'inset(0% 0% round 0px)', ease: 'none', scrollTrigger: { trigger: '.expand', start: 'top top', end: '60% bottom', scrub: true } });
-    gsap.to('.expand__media img', { scale: 1, ease: 'none', scrollTrigger: { trigger: '.expand', start: 'top top', end: 'bottom bottom', scrub: true } });
-
     // этапы контрактного производства — горизонтальная прокрутка с закреплением
     const steps = document.querySelector('.steps__track');
     const distance = () => steps.scrollWidth - document.querySelector('.steps').clientWidth;
@@ -182,7 +179,7 @@
 
   // ---------- параллакс картинок в блоках ----------
   document.querySelectorAll('[data-parallax]').forEach((img) => {
-    gsap.fromTo(img, { yPercent: -8 }, { yPercent: 8, ease: 'none', scrollTrigger: { trigger: img.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } });
+    gsap.fromTo(img, { yPercent: -4 }, { yPercent: 4, ease: 'none', scrollTrigger: { trigger: img.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } });
   });
 
   // ---------- счётчики ----------
@@ -195,15 +192,6 @@
       scrollTrigger: { trigger: el, start: 'top 90%' },
     });
   });
-
-  // ---------- лёгкий наклон картинок от скорости прокрутки ----------
-  if (lenis) {
-    const skewers = gsap.utils.toArray('.dir__img, .block__img').map((el) => gsap.quickTo(el, 'skewY', { duration: 0.5, ease: 'power3' }));
-    lenis.on('scroll', ({ velocity }) => {
-      const s = gsap.utils.clamp(-4, 4, velocity / 6);
-      skewers.forEach((q) => q(s));
-    });
-  }
 
   // ---------- магнитные кнопки и свой курсор ----------
   if (finePointer) {
