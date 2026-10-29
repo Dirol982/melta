@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Melta — производство косметики и бытовой химии</title>
+  <meta name="description" content="Мыльные основы, бытовая химия, косметика, косметика для животных, мыло ручной работы и контрактное производство. Собственное производство в Минске.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span></div>
+
+<div class="variants">
+  <span>Концепт редизайна melta.by · черновик</span>
+  <nav aria-label="Варианты дизайна"><a href="../">1</a><a href="../v2/">2</a><a href="../v3/">3</a><a href="../v4/">4</a><a href="../v5/">5</a><a href="../v6/">6</a><a href="../v7/">7</a><a href="./" aria-current="page">8</a></nav>
+</div>
+
+<header class="header" id="top">
+  <div class="wrap header__row">
+    <a class="logo" href="#top" aria-label="Melta — на главную"><img src="../assets/white-logo-150x50.png" alt="Melta" width="120" height="40"></a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#directions">Направления</a>
+      <a href="#contract">Контрактное производство</a>
+      <a href="#why">Почему мы</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a class="header__phone" href="tel:+375291041703">+375 (29) 104-17-03</a>
+    <a class="pill pill--light" href="#contact" data-magnet><span class="pill__dot"></span>Оставить заявку</a>
+    <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ПЕРВЫЙ ЭКРАН -->
+  <section class="hero" aria-label="Melta">
+    <div class="hero__orbs" aria-hidden="true">
+      <span class="orb orb--cyan"></span><span class="orb orb--violet"></span><span class="orb orb--orange"></span>
+    </div>
+    <div class="hero__float" aria-hidden="true">
+      <img class="fl fl--1" src="../assets/cut/stirka.webp" alt="" data-speed="-0.25">
+      <img class="fl fl--2" src="../assets/cut/mylo.webp" alt="" data-speed="0.18">
+      <img class="fl fl--3" src="../assets/cut/kosmetika.webp" alt="" data-speed="-0.4">
+      <img class="fl fl--4" src="../assets/cut/pets.webp" alt="" data-speed="0.3">
+    </div>
+    <div class="wrap hero__inner">
+      <h1 class="hero__title" data-split>Производим <em>то,&nbsp;чему</em><br><em>доверяют</em> каждый день</h1>
+      <div class="hero__bottom">
+        <p class="hero__lead" data-hero-in>Мыльные основы, бытовая химия, косметика и&nbsp;мыло ручной работы. Собственное производство в&nbsp;Минске с&nbsp;2013 года — для&nbsp;магазинов, мастеров и&nbsp;брендов.</p>
+        <a class="pill pill--light pill--lg" href="#contact" data-magnet data-hero-in><span class="pill__dot"></span>Обсудить сотрудничество</a>
+      </div>
+    </div>
+    <a class="hero__scroll" href="#directions" aria-label="Листать вниз"><span></span></a>
+  </section>
+
+  <!-- ПАНЕЛЬ, НАЕЗЖАЮЩАЯ НА ПЕРВЫЙ ЭКРАН -->
+  <div class="panel">
+
+    <!-- НАПРАВЛЕНИЯ: ПЕРВЫЕ БЛОКИ -->
+    <section class="section" id="directions">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="label" data-reveal>(01) Направления</p>
+          <h2 class="h2" data-split>Шесть направлений <em>собственного</em> производства</h2>
+        </div>
+        <div class="dirs">
+          <a class="dir" href="#soap-base" data-reveal>
+            <span class="dir__n">01</span>
+            <span class="dir__img dir__img--photo"><img src="../assets/mylnaya-osnova.jpg" alt="" loading="lazy"></span>
+            <span class="dir__title">Мыльные основы</span>
+            <span class="dir__text">Готовая база для мыла ручной работы, от 1 до 15 кг</span>
+            <span class="dir__go" aria-hidden="true">→</span>
+          </a>
+          <a class="dir dir--violet" href="#chemistry" data-reveal>
+            <span class="dir__n">02</span>
+            <span class="dir__img"><img src="../assets/cut/himiya.webp" alt="" loading="lazy"></span>
+            <span class="dir__title">Бытовая химия</span>
+            <span class="dir__text">Гели для стирки, средства для посуды, жидкое мыло</span>
+            <span class="dir__go" aria-hidden="true">→</span>
+          </a>
+          <a class="dir dir--peach" href="#cosmetics" data-reveal>
+            <span class="dir__n">03</span>
+            <span class="dir__img"><img src="../assets/cut/kosmetika.webp" alt="" loading="lazy"></span>
+            <span class="dir__title">Косметика</span>
+            <span class="dir__text">Шампуни, бальзамы, гели, скрабы и кремы</span>
+            <span class="dir__go" aria-hidden="true">→</span>
+          </a>
+          <a class="dir dir--sand" href="#pets" data-reveal>
+            <span class="dir__n">04</span>
+            <span class="dir__img"><img src="../assets/cut/pets.webp" alt="" loading="lazy"></span>
+            <span class="dir__title">Косметика для животных</span>
+            <span class="dir__text">Гипоаллергенные шампуни и уход за лапами</span>
+            <span class="dir__go" aria-hidden="true">→</span>
+          </a>
+          <a class="dir dir--dark" href="#contract" data-reveal>
+            <span class="dir__n">05</span>
+            <span class="dir__img dir__img--photo"><img src="../assets/kontrakntoe-proizvodstvo.jpg" alt="" loading="lazy"></span>
+            <span class="dir__title">Контрактное производство</span>
+            <span class="dir__text">Ваш продукт под вашей маркой — от рецептуры до склада</span>
+            <span class="dir__go" aria-hidden="true">→</span>
+          </a>
+          <a class="dir dir--mint" href="#handmade" data-reveal>
+            <span class="dir__n">06</span>
+            <span class="dir__img"><img src="../assets/cut/mylo.webp" alt="" loading="lazy"></span>
+            <span class="dir__title">Мыло ручной работы</span>
+            <span class="dir__text">С эфирными маслами, наборы по 3, 5 и 12 штук</span>
+            <span class="dir__go" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЕГУЩАЯ СТРОКА -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Мыльные основы</span><i>✦</i><span><em>Бытовая химия</em></span><i>✦</i><span>Косметика</span><i>✦</i><span><em>Для животных</em></span><i>✦</i><span>Мыло ручной работы</span><i>✦</i><span><em>Ваша марка</em></span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- РАСКРЫВАЮЩЕЕСЯ ФОТО -->
+    <section class="expand" aria-label="Производство">
+      <div class="expand__media"><img src="../assets/hero-wide.jpg" alt="Продукция Melta собственного производства" loading="lazy"></div>
+      <div class="expand__caption wrap">
+        <p class="label label--light">(02) Производство</p>
+        <p class="expand__text" data-split>Своё производство, своя лаборатория, <em>свои рецептуры</em></p>
+      </div>
+    </section>
+
+    <!-- 01 МЫЛЬНЫЕ ОСНОВЫ -->
+    <section class="block" id="soap-base">
+      <div class="wrap block__grid">
+        <div class="block__media" data-reveal>
+          <div class="block__img block__img--photo"><img src="../assets/mylnaya-osnova.jpg" alt="Мыльная основа Melta" loading="lazy" data-parallax></div>
+        </div>
+        <div class="block__body">
+          <p class="label" data-reveal>Направление 01</p>
+          <h2 class="h2" data-split>Мыльные <em>основы</em></h2>
+          <p class="block__lead" data-reveal>Готовая база для мыла ручной работы. С неё в 2013 году началось наше производство — и от неё бренд получил название: melt &amp; pour, «растопить и залить».</p>
+          <ul class="pros" data-reveal>
+            <li>Не нужны специальные знания и сложное оборудование</li>
+            <li>Подходит и начинающим, и опытным мастерам</li>
+            <li>Прошла контроль в аккредитованных лабораториях РБ, выпускается по ТУ</li>
+            <li>Фасовка от 1 до 15 кг — для мастерских и производств</li>
+          </ul>
+          <ul class="chips" data-reveal aria-label="Ассортимент">
+            <li>Прозрачная</li><li>Белая</li><li>Кремообразная OPC</li><li>Дегтярная</li><li>Карамельная</li><li>Наборы</li>
+          </ul>
+          <div class="block__actions" data-reveal>
+            <a class="pill pill--dark" href="#contact" data-direction="Мыльные основы" data-magnet><span class="pill__dot"></span>Запросить прайс</a>
+            <a class="link" href="https://melta.by/product-category/soap-base/">Каталог →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 БЫТОВАЯ ХИМИЯ -->
+    <section class="block block--rev block--violet" id="chemistry">
+      <div class="wrap block__grid">
+        <div class="block__media" data-reveal>
+          <div class="block__img"><img src="../assets/cut/himiya.webp" alt="Бытовая химия Biolut" loading="lazy" data-parallax></div>
+        </div>
+        <div class="block__body">
+          <p class="label" data-reveal>Направление 02</p>
+          <h2 class="h2" data-split>Бытовая <em>химия</em> Biolut</h2>
+          <p class="block__lead" data-reveal>Собственные производственные линии и технологическое оснащение — продукция, которая отвечает требованиям к качеству, эффективности и безопасности.</p>
+          <ul class="pros" data-reveal>
+            <li>Гели для стирки и ополаскиватели для белья</li>
+            <li>Средства для мытья посуды — от 0,5 до 5 литров</li>
+            <li>Жидкое мыло и антижир для кухни</li>
+            <li>Технические моющие средства для оборудования и рабочих поверхностей</li>
+          </ul>
+          <div class="block__actions" data-reveal>
+            <a class="pill pill--dark" href="#contact" data-direction="Бытовая химия" data-magnet><span class="pill__dot"></span>Запросить прайс</a>
+            <a class="link" href="https://melta.by/product-category/domestic-chemicals/">Каталог →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 КОСМЕТИКА -->
+    <section class="block block--peach" id="cosmetics">
+      <div class="wrap block__grid">
+        <div class="block__media" data-reveal>
+          <div class="block__img block__img--soft"><img src="../assets/ref/cat-hair.webp" alt="Косметика Melta: бальзам для волос Keratin" loading="lazy" data-parallax></div>
+        </div>
+        <div class="block__body">
+          <p class="label" data-reveal>Направление 03</p>
+          <h2 class="h2" data-split><em>Косметика</em> для кожи и волос</h2>
+          <p class="block__lead" data-reveal>В основе каждого продукта — тщательно отобранные компоненты для эффективного ухода и комфорта.</p>
+          <ul class="pros" data-reveal>
+            <li>Шампуни и бальзамы — мягкое очищение и питание волос</li>
+            <li>Гели для душа с увлажняющими компонентами</li>
+            <li>Скрабы, маски, кремы для лица, рук и ног, SPF 50+</li>
+            <li>Нужной рецептуры нет? Технологи разработают её специально для вас</li>
+          </ul>
+          <div class="block__actions" data-reveal>
+            <a class="pill pill--dark" href="#contact" data-direction="Косметика" data-magnet><span class="pill__dot"></span>Запросить прайс</a>
+            <a class="link" href="https://melta.by/product-category/cosmetics/">Каталог →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 ДЛЯ ЖИВОТНЫХ -->
+    <section class="block block--rev block--sand" id="pets">
+      <div class="wrap block__grid">
+        <div class="block__media" data-reveal>
+          <div class="block__img"><img src="../assets/cut/pets.webp" alt="Шампуни для собак Melta" loading="lazy" data-parallax></div>
+        </div>
+        <div class="block__body">
+          <p class="label" data-reveal>Направление 04</p>
+          <h2 class="h2" data-split>Косметика <em>для животных</em></h2>
+          <p class="block__lead" data-reveal>Средства ухода, разработанные с учётом физиологии животных, — для домашнего и профессионального использования.</p>
+          <ul class="pros" data-reveal>
+            <li>Гипоаллергенные формулы, безопасные для животных</li>
+            <li>Без агрессивных ПАВ и вредных добавок</li>
+            <li>Для разных пород и типов шерсти</li>
+            <li>Шампуни, пенка и воск для лап, жидкое мыло</li>
+          </ul>
+          <div class="block__actions" data-reveal>
+            <a class="pill pill--dark" href="#contact" data-direction="Косметика для животных" data-magnet><span class="pill__dot"></span>Запросить прайс</a>
+            <a class="link" href="https://melta.by/product-category/pet-products/">Каталог →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 КОНТРАКТНОЕ ПРОИЗВОДСТВО: ГОРИЗОНТАЛЬНЫЙ СКРОЛЛ ЭТАПОВ -->
+    <section class="contract" id="contract">
+      <div class="contract__pin">
+        <div class="wrap contract__head">
+          <p class="label label--light">Направление 05</p>
+          <h2 class="h2 h2--light" data-split>Контрактное <em>производство</em> под вашей маркой</h2>
+          <p class="contract__lead">Разработаем рецептуру, подберём упаковку, сделаем дизайн, оформим документы и доставим готовый продукт на ваш склад или склад маркетплейса.</p>
+        </div>
+        <div class="steps">
+          <ol class="steps__track">
+            <li class="step"><span class="step__n">01</span><strong>Заявка</strong><span>Вы описываете продукт, который хотите выпустить</span></li>
+            <li class="step"><span class="step__n">02</span><strong>Рецептура</strong><span>Выбираете готовую или заказываете разработку</span></li>
+            <li class="step"><span class="step__n">03</span><strong>Продукт</strong><span>Упаковка, отдушка и цвет вашего продукта</span></li>
+            <li class="step"><span class="step__n">04</span><strong>Дизайн</strong><span>Разрабатываем дизайн и изготавливаем этикетку</span></li>
+            <li class="step"><span class="step__n">05</span><strong>Регистрация</strong><span>Регистрируем продукт и оформляем документы</span></li>
+            <li class="step"><span class="step__n">06</span><strong>Выпуск</strong><span>Запускаем продукт в производство</span></li>
+            <li class="step"><span class="step__n">07</span><strong>Доставка</strong><span>Доставляем на ваш склад или на маркетплейс</span></li>
+            <li class="step step--cta"><strong>Начнём с&nbsp;заявки?</strong><a class="pill pill--light" href="#contact" data-direction="Контрактное производство" data-magnet><span class="pill__dot"></span>Обсудить проект</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="wrap contract__extra">
+        <ul class="pros pros--light" data-reveal>
+          <li>Сертификация продукции нашими силами</li>
+          <li>Работаем с системой «Честный знак», маркируем КИЗами</li>
+          <li>Вывод на маркетплейсы: карточки, фото с инфографикой, SEO, работа с отзывами</li>
+          <li>Конкурентные цены за счёт своего производства и прямых поставок сырья</li>
+        </ul>
+        <a class="link link--light" href="https://agnex.by" target="_blank" rel="noopener">Подробнее на agnex.by →</a>
+      </div>
+    </section>
+
+    <!-- 06 МЫЛО РУЧНОЙ РАБОТЫ -->
+    <section class="block block--mint" id="handmade">
+      <div class="wrap block__grid">
+        <div class="block__media" data-reveal>
+          <div class="block__img"><img src="../assets/cut/mylo.webp" alt="Мыло ручной работы Melta" loading="lazy" data-parallax></div>
+        </div>
+        <div class="block__body">
+          <p class="label" data-reveal>Направление 06</p>
+          <h2 class="h2" data-split>Мыло <em>ручной работы</em></h2>
+          <p class="block__lead" data-reveal>Мыло с эфирными маслами и различными блендами. Наборы — один из хитов продаж Melta на Wildberries.</p>
+          <ul class="pros" data-reveal>
+            <li>Эфирные масла: роза, мята, лаванда, можжевельник, корица и другие</li>
+            <li>Наборы по 3, 5 и 12 штук</li>
+            <li>Крем-мыло твёрдое для рук</li>
+            <li>Возможен выпуск под вашей маркой</li>
+          </ul>
+          <div class="block__actions" data-reveal>
+            <a class="pill pill--dark" href="#contact" data-direction="Мыло ручной работы" data-magnet><span class="pill__dot"></span>Запросить прайс</a>
+            <a class="link" href="https://www.wildberries.ru/catalog/200578459/detail.aspx" target="_blank" rel="noopener">Хит на WB →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ПОЧЕМУ МЫ -->
+    <section class="section why" id="why">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="label" data-reveal>(03) Почему Melta</p>
+          <h2 class="h2" data-split>Почему <em>именно мы</em></h2>
+        </div>
+        <div class="stats">
+          <div class="stat" data-reveal><span class="stat__num" data-count="2011">2011</span><span>на рынке с этого года</span></div>
+          <div class="stat" data-reveal><span class="stat__num" data-count="2013">2013</span><span>запуск собственного производства</span></div>
+          <div class="stat" data-reveal><span class="stat__num" data-count="6">6</span><span>направлений продукции</span></div>
+          <div class="stat" data-reveal><span class="stat__num" data-count="7">7</span><span>этапов СТМ — от заявки до склада</span></div>
+        </div>
+        <ol class="reasons">
+          <li data-reveal><span>01</span><strong>Производим сами</strong><p>Свои цеха: подготовка сырья, варка, фасовка и упаковка. Никаких посредников.</p></li>
+          <li data-reveal><span>02</span><strong>Своя лаборатория</strong><p>Технологи с многолетним опытом разрабатывают рецептуры и контролируют качество.</p></li>
+          <li data-reveal><span>03</span><strong>Документы на всё</strong><p>Сертификаты и протоколы безопасности, сертификация своими силами, «Честный знак».</p></li>
+          <li data-reveal><span>04</span><strong>Конкурентные цены</strong><p>Собственное производство, объёмы и прямые поставки сырья.</p></li>
+          <li data-reveal><span>05</span><strong>Опт и экспорт</strong><p>Беларусь, Россия, Казахстан. Среди заказчиков — компании из Нидерландов и США.</p></li>
+          <li data-reveal><span>06</span><strong>Индивидуальный подход</strong><p>Работаем с физическими и юридическими лицами, гибкие условия, личный менеджер.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ЛОГОТИПЫ -->
+    <div class="logos" aria-label="Где купить нашу продукцию">
+      <div class="logos__track">
+        <img src="../assets/wb-logo.png" alt="Wildberries"><i>/</i><img src="../assets/21vek-logo.png" alt="21vek.by"><i>/</i><img src="../assets/evroopt.png" alt="Евроопт"><i>/</i><img src="../assets/gippo.png" alt="Гиппо"><i>/</i><img src="../assets/grin.png" alt="Green"><i>/</i><img src="../assets/sosedi.png" alt="Соседи"><i>/</i><img src="../assets/tri-czeny.png" alt="Три цены"><i>/</i><img src="../assets/svetofor.png" alt="Светофор"><i>/</i><img src="../assets/prostor.png" alt="ProStore"><i>/</i><img src="../assets/fixprice_logo.svg-1.png" alt="Fix Price"><i>/</i><img src="../assets/ostrov-chistotypng.png" alt="Остров чистоты"><i>/</i><img src="../assets/tc-cum.png" alt="ЦУМ"><i>/</i><img src="../assets/gum-logo.png" alt="ГУМ"><i>/</i>
+      </div>
+    </div>
+
+    <!-- ФОРМА -->
+    <section class="contact" id="contact">
+      <div class="wrap contact__grid">
+        <div class="contact__text">
+          <p class="label label--light">(04) Контакты</p>
+          <h2 class="h2 h2--light" data-split>Расскажите <em>о&nbsp;задаче</em></h2>
+          <p class="contact__lead">Ответим в рабочее время: пн–пт, 8:30–17:00.</p>
+          <a class="contact__big" href="tel:+375291041703">+375 (29) 104-17-03</a>
+          <a class="contact__big" href="mailto:sales@agnex.by">sales@agnex.by</a>
+          <p class="contact__addr">г. Минск, ул. Машинистов, д. 80, каб. 10</p>
+        </div>
+        <form class="form" id="lead-form" novalidate>
+          <fieldset class="form__dirs">
+            <legend>Направление</legend>
+            <label><input type="radio" name="direction" value="Мыльные основы" checked><span>Мыльные основы</span></label>
+            <label><input type="radio" name="direction" value="Бытовая химия"><span>Бытовая химия</span></label>
+            <label><input type="radio" name="direction" value="Косметика"><span>Косметика</span></label>
+            <label><input type="radio" name="direction" value="Косметика для животных"><span>Для животных</span></label>
+            <label><input type="radio" name="direction" value="Контрактное производство"><span>Контрактное производство</span></label>
+            <label><input type="radio" name="direction" value="Мыло ручной работы"><span>Мыло ручной работы</span></label>
+          </fieldset>
+          <label class="field"><input name="name" type="text" autocomplete="name" placeholder=" " required><span>Имя</span></label>
+          <label class="field"><input name="phone" type="tel" autocomplete="tel" placeholder=" " required><span>Телефон</span></label>
+          <label class="field field--full"><input name="email" type="email" autocomplete="email" placeholder=" "><span>Электронная почта</span></label>
+          <label class="field field--full"><textarea name="message" rows="3" placeholder=" "></textarea><span>Коротко о задаче</span></label>
+          <label class="check"><input name="agree" type="checkbox" required> Даю согласие на обработку персональных данных</label>
+          <button class="pill pill--light pill--lg" type="submit" data-magnet><span class="pill__dot"></span>Отправить заявку</button>
+          <p class="form__msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__row">
+    <p class="footer__word" aria-hidden="true">melta</p>
+    <p class="footer__legal">ООО «Агнекс Компани», УНП 193596966. 220014, Республика Беларусь, г. Минск, ул. Машинистов, д. 80, каб. 10. Внесён в Торговый реестр 21.01.2021 за № 501068.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
