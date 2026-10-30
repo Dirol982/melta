@@ -206,5 +206,70 @@
     "web": "assets/library/web/bytovaya-himiya/tirex-granules.webp",
     "original_size": "952×2000",
     "web_kb": 49
+  },
+  {
+    "slug": "melta-keratin-hair-balm-1000ml",
+    "cat": "volosy",
+    "name": "Melta Keratin+ Hair Balm, бальзам для волос «Увлажнение и восстановление», с дозатором",
+    "volume": "1000 мл",
+    "file": "23.png",
+    "added": "2026-10-30",
+    "category": "Уход за волосами",
+    "original": "assets/library/originals/volosy/melta-keratin-hair-balm-1000ml.png",
+    "web": "assets/library/web/volosy/melta-keratin-hair-balm-1000ml.webp",
+    "original_size": "735×1700",
+    "web_kb": 15
+  },
+  {
+    "slug": "melta-keratin-shampoo-1000ml",
+    "cat": "volosy",
+    "name": "Melta Keratin+ Shampoo, шампунь «Увлажнение и восстановление», с дозатором",
+    "volume": "1000 мл",
+    "file": "24.png",
+    "added": "2026-10-30",
+    "category": "Уход за волосами",
+    "original": "assets/library/originals/volosy/melta-keratin-shampoo-1000ml.png",
+    "web": "assets/library/web/volosy/melta-keratin-shampoo-1000ml.webp",
+    "original_size": "735×1700",
+    "web_kb": 16
+  },
+  {
+    "slug": "melta-keratin-hair-mask-400ml",
+    "cat": "volosy",
+    "name": "Melta Keratin+ Hair Mask, маска для волос «Увлажнение и восстановление»",
+    "volume": "400 мл",
+    "file": "25.webp",
+    "added": "2026-10-30",
+    "category": "Уход за волосами",
+    "original": "assets/library/originals/volosy/melta-keratin-hair-mask-400ml.webp",
+    "web": "assets/library/web/volosy/melta-keratin-hair-mask-400ml.webp",
+    "original_size": "1820×1948",
+    "web_kb": 54
+  },
+  {
+    "slug": "melta-keratin-hair-balm-500ml",
+    "cat": "volosy",
+    "name": "Melta Keratin+ Hair Balm, бальзам для волос «Увлажнение и восстановление»",
+    "volume": "500 мл",
+    "file": "26.webp",
+    "added": "2026-10-30",
+    "category": "Уход за волосами",
+    "original": "assets/library/originals/volosy/melta-keratin-hair-balm-500ml.webp",
+    "web": "assets/library/web/volosy/melta-keratin-hair-balm-500ml.webp",
+    "original_size": "692×1785",
+    "web_kb": 10
+  },
+  {
+    "slug": "melta-keratin-shampoo-500ml",
+    "cat": "volosy",
+    "name": "Melta Keratin+ Shampoo, шампунь «Увлажнение и восстановление»",
+    "volume": "500 мл",
+    "file": "27.webp",
+    "added": "2026-10-30",
+    "category": "Уход за волосами",
+    "original": "assets/library/originals/volosy/melta-keratin-shampoo-500ml.webp",
+    "web": "assets/library/web/volosy/melta-keratin-shampoo-500ml.webp",
+    "original_size": "692×1785",
+    "web_kb": 10
   }
 ]

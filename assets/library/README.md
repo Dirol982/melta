@@ -9,6 +9,16 @@
 | Melta, солнцезащитный крем SPF 50+ UVA/UVB | — | `assets/library/originals/kosmetika/melta-sun-cream-spf50.webp` (1011×2000) | `assets/library/web/kosmetika/melta-sun-cream-spf50.webp` (25 КБ) |
 | Melta, охлаждающий гель после загара Aloe Vera & Panthenol | — | `assets/library/originals/kosmetika/melta-aloe-panthenol-gel.webp` (720×1448) | `assets/library/web/kosmetika/melta-aloe-panthenol-gel.webp` (46 КБ) |
 
+## Уход за волосами
+
+| Товар | Объём | Оригинал | Для сайта |
+|---|---|---|---|
+| Melta Keratin+ Hair Balm, бальзам для волос «Увлажнение и восстановление», с дозатором | 1000 мл | `assets/library/originals/volosy/melta-keratin-hair-balm-1000ml.png` (735×1700) | `assets/library/web/volosy/melta-keratin-hair-balm-1000ml.webp` (15 КБ) |
+| Melta Keratin+ Shampoo, шампунь «Увлажнение и восстановление», с дозатором | 1000 мл | `assets/library/originals/volosy/melta-keratin-shampoo-1000ml.png` (735×1700) | `assets/library/web/volosy/melta-keratin-shampoo-1000ml.webp` (16 КБ) |
+| Melta Keratin+ Hair Mask, маска для волос «Увлажнение и восстановление» | 400 мл | `assets/library/originals/volosy/melta-keratin-hair-mask-400ml.webp` (1820×1948) | `assets/library/web/volosy/melta-keratin-hair-mask-400ml.webp` (54 КБ) |
+| Melta Keratin+ Hair Balm, бальзам для волос «Увлажнение и восстановление» | 500 мл | `assets/library/originals/volosy/melta-keratin-hair-balm-500ml.webp` (692×1785) | `assets/library/web/volosy/melta-keratin-hair-balm-500ml.webp` (10 КБ) |
+| Melta Keratin+ Shampoo, шампунь «Увлажнение и восстановление» | 500 мл | `assets/library/originals/volosy/melta-keratin-shampoo-500ml.webp` (692×1785) | `assets/library/web/volosy/melta-keratin-shampoo-500ml.webp` (10 КБ) |
+
 ## Для детей
 
 | Товар | Объём | Оригинал | Для сайта |

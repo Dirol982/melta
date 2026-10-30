@@ -1,6 +1,7 @@
 {
   "categories": {
     "kosmetika": "Косметика и уход",
+    "volosy": "Уход за волосами",
     "detskaya": "Для детей",
     "bytovaya-himiya": "Бытовая химия",
     "zhivotnye": "Для животных",
@@ -135,6 +136,46 @@
       "name": "Tirex Granules, гранулы от засоров",
       "volume": "",
       "file": "22.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-keratin-hair-balm-1000ml",
+      "cat": "volosy",
+      "name": "Melta Keratin+ Hair Balm, бальзам для волос «Увлажнение и восстановление», с дозатором",
+      "volume": "1000 мл",
+      "file": "23.png",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-keratin-shampoo-1000ml",
+      "cat": "volosy",
+      "name": "Melta Keratin+ Shampoo, шампунь «Увлажнение и восстановление», с дозатором",
+      "volume": "1000 мл",
+      "file": "24.png",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-keratin-hair-mask-400ml",
+      "cat": "volosy",
+      "name": "Melta Keratin+ Hair Mask, маска для волос «Увлажнение и восстановление»",
+      "volume": "400 мл",
+      "file": "25.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-keratin-hair-balm-500ml",
+      "cat": "volosy",
+      "name": "Melta Keratin+ Hair Balm, бальзам для волос «Увлажнение и восстановление»",
+      "volume": "500 мл",
+      "file": "26.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-keratin-shampoo-500ml",
+      "cat": "volosy",
+      "name": "Melta Keratin+ Shampoo, шампунь «Увлажнение и восстановление»",
+      "volume": "500 мл",
+      "file": "27.webp",
       "added": "2026-10-30"
     }
   ]
