@@ -492,6 +492,46 @@ window.MELTA_CATALOG = {
    "img": "../assets/library/web/aromaty/melta-aromasashe-pure-cotton.webp"
   },
   {
+   "slug": "melta-air-freshener-black-passion-7ml",
+   "cat": "aromaty",
+   "brand": "Melta",
+   "title": "Ароматизатор воздуха Black Passion",
+   "volume": "7 мл",
+   "img": "../assets/library/web/aromaty/melta-air-freshener-black-passion-7ml.webp"
+  },
+  {
+   "slug": "melta-air-freshener-jasmine-orange-7ml",
+   "cat": "aromaty",
+   "brand": "Melta",
+   "title": "Ароматизатор воздуха Jasmine Orange",
+   "volume": "7 мл",
+   "img": "../assets/library/web/aromaty/melta-air-freshener-jasmine-orange-7ml.webp"
+  },
+  {
+   "slug": "melta-air-freshener-red-amber-7ml",
+   "cat": "aromaty",
+   "brand": "Melta",
+   "title": "Ароматизатор воздуха Red Amber",
+   "volume": "7 мл",
+   "img": "../assets/library/web/aromaty/melta-air-freshener-red-amber-7ml.webp"
+  },
+  {
+   "slug": "melta-air-freshener-tobacco-vanilla-7ml",
+   "cat": "aromaty",
+   "brand": "Melta",
+   "title": "Ароматизатор воздуха Tobacco Vanilla",
+   "volume": "7 мл",
+   "img": "../assets/library/web/aromaty/melta-air-freshener-tobacco-vanilla-7ml.webp"
+  },
+  {
+   "slug": "melta-air-freshener-vetiver-7ml",
+   "cat": "aromaty",
+   "brand": "Melta",
+   "title": "Ароматизатор воздуха Vetiver",
+   "volume": "7 мл",
+   "img": "../assets/library/web/aromaty/melta-air-freshener-vetiver-7ml.webp"
+  },
+  {
    "slug": "melta-premium-autoparfume-set-4",
    "cat": "aromaty",
    "brand": "Melta Premium Autoparfume",

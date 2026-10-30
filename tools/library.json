@@ -545,6 +545,46 @@
       "volume": "100 мл",
       "file": "76.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-air-freshener-tobacco-vanilla-7ml",
+      "cat": "aromaty",
+      "name": "Melta, ароматизатор воздуха Tobacco Vanilla",
+      "volume": "7 мл",
+      "file": "77.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-air-freshener-red-amber-7ml",
+      "cat": "aromaty",
+      "name": "Melta, ароматизатор воздуха Red Amber",
+      "volume": "7 мл",
+      "file": "78.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-air-freshener-jasmine-orange-7ml",
+      "cat": "aromaty",
+      "name": "Melta, ароматизатор воздуха Jasmine Orange",
+      "volume": "7 мл",
+      "file": "79.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-air-freshener-vetiver-7ml",
+      "cat": "aromaty",
+      "name": "Melta, ароматизатор воздуха Vetiver",
+      "volume": "7 мл",
+      "file": "80.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-air-freshener-black-passion-7ml",
+      "cat": "aromaty",
+      "name": "Melta, ароматизатор воздуха Black Passion",
+      "volume": "7 мл",
+      "file": "81.webp",
+      "added": "2026-10-30"
     }
   ]
 }
