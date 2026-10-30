@@ -401,3 +401,18 @@ h1, h2, h3 { margin: 0; }
 .cat--lube .cat__img { height: 58%; max-width: 46%; }
 .cat--biolut .cat__img { height: 56%; max-width: 46%; }
 .cat--biolut .cat__sub, .cat--lube .cat__sub { max-width: 52% !important; }
+
+/* ===== первый слайд: фон с подиумами и товарами Melta ===== */
+.hero--slide { height: clamp(460px, 50.8vw, 780px); background: #F6F1EA; }
+.hero--slide .hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; z-index: -1; }
+.hero--slide .hero__content .container { padding-left: clamp(24px, 4.4vw, 72px); }
+.hero--slide .hero__text { max-width: min(31vw, 460px); padding-bottom: 6%; }
+.hero--slide h1 { font-size: clamp(36px, 3.9vw, 62px); }
+.hero--slide .hero__lead { font-size: clamp(14px, 1.15vw, 18px); max-width: 300px; margin: 18px 0 26px; }
+.hero--slide .btn { font-size: 15px; min-height: 50px; padding: 12px 28px; }
+@media (max-width: 900px) {
+  .hero--slide { height: auto; display: flex; flex-direction: column; }
+  .hero--slide .hero__bg { position: relative; order: 2; height: auto; aspect-ratio: 4 / 3; object-position: 66% 50%; }
+  .hero--slide .hero__content { order: 1; background: var(--orange); border-radius: 0 0 60px 0; }
+  .hero--slide .hero__text { max-width: none; padding: 36px 0 40px; }
+}

@@ -8,7 +8,7 @@
 
   // пока панель наезжает, первый экран слегка уменьшается и тускнеет
   gsap.matchMedia().add('(min-width: 901px)', () => {
-    gsap.to('.hero__content, .hero__stage, .hero .note, .hero__blob, .hero .leafimg', {
+    gsap.to('.hero__content, .hero__bg', {
       scale: 0.94,
       autoAlpha: 0.35,
       transformOrigin: '50% 30%',
