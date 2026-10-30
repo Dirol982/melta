@@ -27,16 +27,18 @@ def main(upload_dir):
         orig.parent.mkdir(parents=True, exist_ok=True)
         if not orig.exists():
             shutil.copy2(src, orig)
+        elif not src.exists():
+            src = orig
         assert md5(orig) == md5(src), f'оригинал {orig} отличается от загрузки'
 
-        im = Image.open(orig).convert('RGBA')
-        alpha = im.getchannel('A').point(lambda v: 255 if v > 8 else 0)
-        im = im.crop(alpha.getbbox())
-        if im.height > WEB_HEIGHT:
-            im = im.resize((round(im.width * WEB_HEIGHT / im.height), WEB_HEIGHT), Image.LANCZOS)
         web = LIB / 'web' / p['cat'] / f"{p['slug']}.webp"
-        web.parent.mkdir(parents=True, exist_ok=True)
-        im.save(web, 'WEBP', quality=86, method=6, alpha_quality=92)
+        if not web.exists():  # готовые файлы для сайта не пересоздаём — меняется только новое
+            im = Image.open(orig).convert('RGBA')
+            im = im.crop(im.getchannel('A').point(lambda v: 255 if v > 8 else 0).getbbox())
+            if im.height > WEB_HEIGHT:
+                im = im.resize((round(im.width * WEB_HEIGHT / im.height), WEB_HEIGHT), Image.LANCZOS)
+            web.parent.mkdir(parents=True, exist_ok=True)
+            im.save(web, 'WEBP', quality=86, method=6, alpha_quality=92)
 
         w, h = Image.open(orig).size
         rows.append({**p, 'category': manifest['categories'][p['cat']],
