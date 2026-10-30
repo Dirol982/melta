@@ -20,6 +20,30 @@ window.MELTA_CATALOG = {
    "img": "../assets/library/web/kosmetika/melta-aloe-panthenol-gel.webp"
   },
   {
+   "slug": "melta-bath-foam-raspberry-500",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Пена для ванн «Сладкая малина»",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-bath-foam-raspberry-500.webp"
+  },
+  {
+   "slug": "melta-bath-foam-kiwi-500",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Пена для ванн «Сочный киви»",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-bath-foam-kiwi-500.webp"
+  },
+  {
+   "slug": "melta-bath-foam-mango-berries-500",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Пена для ванн «Спелое манго с ягодами»",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-bath-foam-mango-berries-500.webp"
+  },
+  {
    "slug": "melta-sun-cream-spf50",
    "cat": "kosmetika",
    "brand": "Melta",

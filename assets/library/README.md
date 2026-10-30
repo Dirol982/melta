@@ -8,6 +8,9 @@
 |---|---|---|---|
 | Melta, солнцезащитный крем SPF 50+ UVA/UVB | — | `assets/library/originals/kosmetika/melta-sun-cream-spf50.webp` (1011×2000) | `assets/library/web/kosmetika/melta-sun-cream-spf50.webp` (25 КБ) |
 | Melta, охлаждающий гель после загара Aloe Vera & Panthenol | — | `assets/library/originals/kosmetika/melta-aloe-panthenol-gel.webp` (720×1448) | `assets/library/web/kosmetika/melta-aloe-panthenol-gel.webp` (46 КБ) |
+| Melta, пена для ванн «Спелое манго с ягодами» | 500 мл | `assets/library/originals/kosmetika/melta-bath-foam-mango-berries-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-bath-foam-mango-berries-500.webp` (47 КБ) |
+| Melta, пена для ванн «Сладкая малина» | 500 мл | `assets/library/originals/kosmetika/melta-bath-foam-raspberry-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-bath-foam-raspberry-500.webp` (55 КБ) |
+| Melta, пена для ванн «Сочный киви» | 500 мл | `assets/library/originals/kosmetika/melta-bath-foam-kiwi-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-bath-foam-kiwi-500.webp` (48 КБ) |
 
 ## Уход за волосами
 

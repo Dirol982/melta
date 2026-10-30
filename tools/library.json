@@ -433,6 +433,30 @@
       "volume": "0,5 л",
       "file": "61.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-bath-foam-mango-berries-500",
+      "cat": "kosmetika",
+      "name": "Melta, пена для ванн «Спелое манго с ягодами»",
+      "volume": "500 мл",
+      "file": "62.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-bath-foam-raspberry-500",
+      "cat": "kosmetika",
+      "name": "Melta, пена для ванн «Сладкая малина»",
+      "volume": "500 мл",
+      "file": "63.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-bath-foam-kiwi-500",
+      "cat": "kosmetika",
+      "name": "Melta, пена для ванн «Сочный киви»",
+      "volume": "500 мл",
+      "file": "64.webp",
+      "added": "2026-10-30"
     }
   ]
 }

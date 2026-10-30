@@ -687,5 +687,44 @@
     "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp",
     "original_size": "1439×1820",
     "web_kb": 45
+  },
+  {
+    "slug": "melta-bath-foam-mango-berries-500",
+    "cat": "kosmetika",
+    "name": "Melta, пена для ванн «Спелое манго с ягодами»",
+    "volume": "500 мл",
+    "file": "62.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-bath-foam-mango-berries-500.webp",
+    "web": "assets/library/web/kosmetika/melta-bath-foam-mango-berries-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 47
+  },
+  {
+    "slug": "melta-bath-foam-raspberry-500",
+    "cat": "kosmetika",
+    "name": "Melta, пена для ванн «Сладкая малина»",
+    "volume": "500 мл",
+    "file": "63.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-bath-foam-raspberry-500.webp",
+    "web": "assets/library/web/kosmetika/melta-bath-foam-raspberry-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 55
+  },
+  {
+    "slug": "melta-bath-foam-kiwi-500",
+    "cat": "kosmetika",
+    "name": "Melta, пена для ванн «Сочный киви»",
+    "volume": "500 мл",
+    "file": "64.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-bath-foam-kiwi-500.webp",
+    "web": "assets/library/web/kosmetika/melta-bath-foam-kiwi-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 48
   }
 ]
