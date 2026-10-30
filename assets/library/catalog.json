@@ -583,5 +583,57 @@
     "web": "assets/library/web/mylo/melta-handmade-soap-mint-tea-tree.webp",
     "original_size": "2000×1507",
     "web_kb": 267
+  },
+  {
+    "slug": "biolut-dish-gel-raspberry-mint-5l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Малина и мята»",
+    "volume": "5 л",
+    "file": "54.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-raspberry-mint-5l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-raspberry-mint-5l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 66
+  },
+  {
+    "slug": "biolut-dish-gel-lemon-5l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Сочный лимон»",
+    "volume": "5 л",
+    "file": "55.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-lemon-5l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-5l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 51
+  },
+  {
+    "slug": "biolut-dish-gel-aloe-sensitive-5l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Алоэ вера» Sensitive",
+    "volume": "5 л",
+    "file": "56.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-5l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-5l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 51
+  },
+  {
+    "slug": "biolut-dish-gel-watermelon-5l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Сочный арбуз»",
+    "volume": "5 л",
+    "file": "57.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-watermelon-5l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-watermelon-5l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 63
   }
 ]

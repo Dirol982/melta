@@ -369,6 +369,38 @@
       "volume": "",
       "file": "53.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-raspberry-mint-5l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Малина и мята»",
+      "volume": "5 л",
+      "file": "54.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-lemon-5l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Сочный лимон»",
+      "volume": "5 л",
+      "file": "55.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-aloe-sensitive-5l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Алоэ вера» Sensitive",
+      "volume": "5 л",
+      "file": "56.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-watermelon-5l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Сочный арбуз»",
+      "volume": "5 л",
+      "file": "57.webp",
+      "added": "2026-10-30"
     }
   ]
 }
