@@ -1,0 +1,20 @@
+{
+  "categories": {
+    "kosmetika": "Косметика и уход",
+    "detskaya": "Для детей",
+    "bytovaya-himiya": "Бытовая химия",
+    "zhivotnye": "Для животных",
+    "mylo": "Мыло ручной работы",
+    "lubrikanty": "Лубриканты и вазелин"
+  },
+  "products": [
+    {"slug": "biolut-oxygen-1kg",        "cat": "bytovaya-himiya", "name": "Biolut Oxygen, пятновыводитель-очиститель с активным кислородом", "volume": "1 кг",   "file": "3.webp",  "added": "2026-10-30"},
+    {"slug": "biolut-professional-gel-5l","cat": "bytovaya-himiya", "name": "Biolut Professional, гель для стирки (165 стирок)",            "volume": "5 л",    "file": "6.png",   "added": "2026-10-30"},
+    {"slug": "melta-pets-shampoo-dogs",  "cat": "zhivotnye",       "name": "Melta for pets, шампунь для собак с Д-пантенолом",              "volume": "500 мл", "file": "4.webp",  "added": "2026-10-30"},
+    {"slug": "melta-soap-lavender-lufa", "cat": "mylo",            "name": "Melta, мыло массажное с люфой Lavender, ручная работа",        "volume": "",       "file": "5.webp",  "added": "2026-10-30"},
+    {"slug": "zayushka-shower-gel",      "cat": "detskaya",        "name": "Заюшка, гель для душа детский 0+",                             "volume": "500 мл", "file": "7.webp",  "added": "2026-10-30"},
+    {"slug": "zayushka-bath-foam",       "cat": "detskaya",        "name": "Заюшка, детская пена для ванн 0+",                             "volume": "500 мл", "file": "12.webp", "added": "2026-10-30"},
+    {"slug": "melta-sun-cream-spf50",    "cat": "kosmetika",       "name": "Melta, солнцезащитный крем SPF 50+ UVA/UVB",                    "volume": "",       "file": "13.webp", "added": "2026-10-30"},
+    {"slug": "melta-aloe-panthenol-gel", "cat": "kosmetika",       "name": "Melta, охлаждающий гель после загара Aloe Vera & Panthenol",    "volume": "",       "file": "14.webp", "added": "2026-10-30"}
+  ]
+}
