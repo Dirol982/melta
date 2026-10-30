@@ -22,6 +22,10 @@
 |---|---|---|---|
 | Biolut Oxygen, пятновыводитель-очиститель с активным кислородом | 1 кг | `assets/library/originals/bytovaya-himiya/biolut-oxygen-1kg.webp` (1789×2000) | `assets/library/web/bytovaya-himiya/biolut-oxygen-1kg.webp` (51 КБ) |
 | Biolut Professional, гель для стирки (165 стирок) | 5 л | `assets/library/originals/bytovaya-himiya/biolut-professional-gel-5l.png` (900×1200) | `assets/library/web/bytovaya-himiya/biolut-professional-gel-5l.webp` (50 КБ) |
+| Biolut Антижир, профессиональная бытовая химия: для плит, духовок, грилей и мультиварок | 500 мл | `assets/library/originals/bytovaya-himiya/biolut-antizhir-500ml.png` (657×1133) | `assets/library/web/bytovaya-himiya/biolut-antizhir-500ml.webp` (32 КБ) |
+| Melta, пятновыводитель-отбеливатель с активным кислородом «№1 средство для всего», 100+ применений | 1 кг | `assets/library/originals/bytovaya-himiya/melta-oxygen-1kg.webp` (1789×2000) | `assets/library/web/bytovaya-himiya/melta-oxygen-1kg.webp` (74 КБ) |
+| Melta Чудо-паста, универсальная чистящая паста, 100+ применений | 1 кг | `assets/library/originals/bytovaya-himiya/melta-chudo-pasta-1kg.webp` (1535×1581) | `assets/library/web/bytovaya-himiya/melta-chudo-pasta-1kg.webp` (101 КБ) |
+| Tirex Granules, гранулы от засоров | — | `assets/library/originals/bytovaya-himiya/tirex-granules.webp` (952×2000) | `assets/library/web/bytovaya-himiya/tirex-granules.webp` (49 КБ) |
 
 ## Для животных
 

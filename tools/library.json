@@ -104,6 +104,38 @@
       "volume": "4 флакона",
       "file": "18.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-antizhir-500ml",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut Антижир, профессиональная бытовая химия: для плит, духовок, грилей и мультиварок",
+      "volume": "500 мл",
+      "file": "19.png",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-oxygen-1kg",
+      "cat": "bytovaya-himiya",
+      "name": "Melta, пятновыводитель-отбеливатель с активным кислородом «№1 средство для всего», 100+ применений",
+      "volume": "1 кг",
+      "file": "20.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-chudo-pasta-1kg",
+      "cat": "bytovaya-himiya",
+      "name": "Melta Чудо-паста, универсальная чистящая паста, 100+ применений",
+      "volume": "1 кг",
+      "file": "21.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "tirex-granules",
+      "cat": "bytovaya-himiya",
+      "name": "Tirex Granules, гранулы от засоров",
+      "volume": "",
+      "file": "22.webp",
+      "added": "2026-10-30"
     }
   ]
 }
