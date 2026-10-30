@@ -375,5 +375,57 @@
     "web": "assets/library/web/mylo/melta-cream-soap-flower-bouquet.webp",
     "original_size": "2000×1244",
     "web_kb": 89
+  },
+  {
+    "slug": "sliki-oil-massage-250ml",
+    "cat": "lubrikanty",
+    "name": "SLIKI Oil, массажное масло для тела, парфюмированное «с ароматом нежности и любви», с коробкой",
+    "volume": "250 мл",
+    "file": "37.webp",
+    "added": "2026-10-30",
+    "category": "Лубриканты и вазелин",
+    "original": "assets/library/originals/lubrikanty/sliki-oil-massage-250ml.webp",
+    "web": "assets/library/web/lubrikanty/sliki-oil-massage-250ml.webp",
+    "original_size": "900×1153",
+    "web_kb": 49
+  },
+  {
+    "slug": "sliki-h2o-cherry-250ml",
+    "cat": "lubrikanty",
+    "name": "SLIKI H2O Cherry, интимный гель на водной основе с ароматом вишни, с коробкой",
+    "volume": "250 мл",
+    "file": "38.webp",
+    "added": "2026-10-30",
+    "category": "Лубриканты и вазелин",
+    "original": "assets/library/originals/lubrikanty/sliki-h2o-cherry-250ml.webp",
+    "web": "assets/library/web/lubrikanty/sliki-h2o-cherry-250ml.webp",
+    "original_size": "900×1153",
+    "web_kb": 40
+  },
+  {
+    "slug": "sliki-h2o-sweet-strawberry-250ml",
+    "cat": "lubrikanty",
+    "name": "SLIKI H2O Sweet Strawberry, интимный гель на водной основе с ароматом сладкой клубники, с коробкой",
+    "volume": "250 мл",
+    "file": "39.webp",
+    "added": "2026-10-30",
+    "category": "Лубриканты и вазелин",
+    "original": "assets/library/originals/lubrikanty/sliki-h2o-sweet-strawberry-250ml.webp",
+    "web": "assets/library/web/lubrikanty/sliki-h2o-sweet-strawberry-250ml.webp",
+    "original_size": "900×1200",
+    "web_kb": 57
+  },
+  {
+    "slug": "sliki-h2o-neutral-250ml",
+    "cat": "lubrikanty",
+    "name": "SLIKI H2O Neutral, интимный гель на водной основе без отдушки, с коробкой",
+    "volume": "250 мл",
+    "file": "40.webp",
+    "added": "2026-10-30",
+    "category": "Лубриканты и вазелин",
+    "original": "assets/library/originals/lubrikanty/sliki-h2o-neutral-250ml.webp",
+    "web": "assets/library/web/lubrikanty/sliki-h2o-neutral-250ml.webp",
+    "original_size": "900×1200",
+    "web_kb": 50
   }
 ]

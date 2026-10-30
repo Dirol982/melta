@@ -241,6 +241,38 @@
       "volume": "",
       "file": "36.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "sliki-oil-massage-250ml",
+      "cat": "lubrikanty",
+      "name": "SLIKI Oil, массажное масло для тела, парфюмированное «с ароматом нежности и любви», с коробкой",
+      "volume": "250 мл",
+      "file": "37.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "sliki-h2o-cherry-250ml",
+      "cat": "lubrikanty",
+      "name": "SLIKI H2O Cherry, интимный гель на водной основе с ароматом вишни, с коробкой",
+      "volume": "250 мл",
+      "file": "38.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "sliki-h2o-sweet-strawberry-250ml",
+      "cat": "lubrikanty",
+      "name": "SLIKI H2O Sweet Strawberry, интимный гель на водной основе с ароматом сладкой клубники, с коробкой",
+      "volume": "250 мл",
+      "file": "39.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "sliki-h2o-neutral-250ml",
+      "cat": "lubrikanty",
+      "name": "SLIKI H2O Neutral, интимный гель на водной основе без отдушки, с коробкой",
+      "volume": "250 мл",
+      "file": "40.webp",
+      "added": "2026-10-30"
     }
   ]
 }
