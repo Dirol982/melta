@@ -5,3 +5,8 @@ document.querySelectorAll('[data-direction]').forEach((btn) => {
     if (select) select.value = btn.dataset.direction;
   });
 });
+
+// Переход со страницы товара: index.html?goal=Косметика#price
+const goal = new URLSearchParams(location.search).get('goal');
+const goalSelect = document.querySelector('#price-form select[name="goal"]');
+if (goal && goalSelect) goalSelect.value = goal;

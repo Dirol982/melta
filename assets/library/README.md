@@ -80,18 +80,23 @@
 
 | Товар | Объём | Оригинал | Для сайта |
 |---|---|---|---|
-| Melta, мыло массажное с люфой Lavender, ручная работа | — | `assets/library/originals/mylo/melta-soap-lavender-lufa.webp` (919×1183) | `assets/library/web/mylo/melta-soap-lavender-lufa.webp` (39 КБ) |
 | Melta Avocado Splash Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-avocado-splash.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-avocado-splash.webp` (78 КБ) |
 | Melta Lavender Field Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-lavender-field.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-lavender-field.webp` (97 КБ) |
 | Melta Original Cream Soap, увлажняющее крем-мыло «Интенсивное питание» | — | `assets/library/originals/mylo/melta-cream-soap-original.webp` (2000×1494) | `assets/library/web/mylo/melta-cream-soap-original.webp` (75 КБ) |
 | Melta Flower Bouquet Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-flower-bouquet.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-flower-bouquet.webp` (89 КБ) |
-| Melta handmade soap glycerinate, мыло ручной работы «Имбирь и апельсин»: масла горького померанца, эвкалипта, гвоздики, петигрена, мандарина, сладкого апельсина, имбиря | — | `assets/library/originals/mylo/melta-handmade-soap-ginger-orange.webp` (2000×1400) | `assets/library/web/mylo/melta-handmade-soap-ginger-orange.webp` (254 КБ) |
-| Melta handmade soap glycerinate, мыло ручной работы «Корица»: масла корицы, кумина, благородного базилика | — | `assets/library/originals/mylo/melta-handmade-soap-cinnamon.webp` (2000×1507) | `assets/library/web/mylo/melta-handmade-soap-cinnamon.webp` (273 КБ) |
-| Melta handmade soap glycerinate, мыло ручной работы «Лавандовое»: масла лаванды, лавандина, эвкалипта, кориандра, бергамота | — | `assets/library/originals/mylo/melta-handmade-soap-lavender.webp` (2000×1507) | `assets/library/web/mylo/melta-handmade-soap-lavender.webp` (324 КБ) |
-| Melta handmade soap glycerinate, мыло ручной работы «Можжевеловое»: можжевеловые масла из ягод и лапок, масло лавра благородного, сосновое масло | — | `assets/library/originals/mylo/melta-handmade-soap-juniper.webp` (2000×1507) | `assets/library/web/mylo/melta-handmade-soap-juniper.webp` (225 КБ) |
-| Melta handmade soap glycerinate, мыло ручной работы «Мята и чайное дерево»: масла перечной мяты, мяты кудрявой, мелиссы, чайного дерева | — | `assets/library/originals/mylo/melta-handmade-soap-mint-tea-tree.webp` (2000×1507) | `assets/library/web/mylo/melta-handmade-soap-mint-tea-tree.webp` (267 КБ) |
 | Biolut Antibacterial, жидкое мыло Aloe Vera | 5 л | `assets/library/originals/mylo/biolut-liquid-soap-aloe-5l.webp` (1439×1820) | `assets/library/web/mylo/biolut-liquid-soap-aloe-5l.webp` (53 КБ) |
 | Biolut Antibacterial, жидкое мыло Aloe Vera | 0,5 л | `assets/library/originals/mylo/biolut-liquid-soap-aloe-05l.webp` (1439×1820) | `assets/library/web/mylo/biolut-liquid-soap-aloe-05l.webp` (50 КБ) |
+
+## Мыло ручной работы
+
+| Товар | Объём | Оригинал | Для сайта |
+|---|---|---|---|
+| Melta, мыло массажное с люфой Lavender, ручная работа | — | `assets/library/originals/mylo-ruchnoe/melta-soap-lavender-lufa.webp` (919×1183) | `assets/library/web/mylo-ruchnoe/melta-soap-lavender-lufa.webp` (39 КБ) |
+| Melta handmade soap glycerinate, мыло ручной работы «Имбирь и апельсин»: масла горького померанца, эвкалипта, гвоздики, петигрена, мандарина, сладкого апельсина, имбиря | — | `assets/library/originals/mylo-ruchnoe/melta-handmade-soap-ginger-orange.webp` (2000×1400) | `assets/library/web/mylo-ruchnoe/melta-handmade-soap-ginger-orange.webp` (254 КБ) |
+| Melta handmade soap glycerinate, мыло ручной работы «Корица»: масла корицы, кумина, благородного базилика | — | `assets/library/originals/mylo-ruchnoe/melta-handmade-soap-cinnamon.webp` (2000×1507) | `assets/library/web/mylo-ruchnoe/melta-handmade-soap-cinnamon.webp` (273 КБ) |
+| Melta handmade soap glycerinate, мыло ручной работы «Лавандовое»: масла лаванды, лавандина, эвкалипта, кориандра, бергамота | — | `assets/library/originals/mylo-ruchnoe/melta-handmade-soap-lavender.webp` (2000×1507) | `assets/library/web/mylo-ruchnoe/melta-handmade-soap-lavender.webp` (324 КБ) |
+| Melta handmade soap glycerinate, мыло ручной работы «Можжевеловое»: можжевеловые масла из ягод и лапок, масло лавра благородного, сосновое масло | — | `assets/library/originals/mylo-ruchnoe/melta-handmade-soap-juniper.webp` (2000×1507) | `assets/library/web/mylo-ruchnoe/melta-handmade-soap-juniper.webp` (225 КБ) |
+| Melta handmade soap glycerinate, мыло ручной работы «Мята и чайное дерево»: масла перечной мяты, мяты кудрявой, мелиссы, чайного дерева | — | `assets/library/originals/mylo-ruchnoe/melta-handmade-soap-mint-tea-tree.webp` (2000×1507) | `assets/library/web/mylo-ruchnoe/melta-handmade-soap-mint-tea-tree.webp` (267 КБ) |
 
 ## Лубриканты и вазелин
 

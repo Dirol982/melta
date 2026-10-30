@@ -53,9 +53,9 @@ row('b2b-brand', [('volosy/melta-keratin-shampoo-1000ml.webp', 640), ('kosmetika
                   ('kosmetika/melta-cream-shower-gel-cherry-smoothie-500.webp', 470), ('kosmetika/melta-hand-cream-100.webp', 250)], overlap=0.06)
 
 # мыло ручной работы: сетка 2×2 без перекрытий + массажное мыло с люфой
-bars = [load(r, 300) for r in ['mylo/melta-handmade-soap-lavender.webp', 'mylo/melta-handmade-soap-juniper.webp',
-                               'mylo/melta-handmade-soap-ginger-orange.webp', 'mylo/melta-handmade-soap-mint-tea-tree.webp']]
-lufa = load('mylo/melta-soap-lavender-lufa.webp', 420)
+bars = [load(r, 300) for r in ['mylo-ruchnoe/melta-handmade-soap-lavender.webp', 'mylo-ruchnoe/melta-handmade-soap-juniper.webp',
+                               'mylo-ruchnoe/melta-handmade-soap-ginger-orange.webp', 'mylo-ruchnoe/melta-handmade-soap-mint-tea-tree.webp']]
+lufa = load('mylo-ruchnoe/melta-soap-lavender-lufa.webp', 420)
 bw = max(b.width for b in bars); gap = 24
 c = Image.new('RGBA', (bw * 2 + gap * 3 + lufa.width, 300 * 2 + gap), (0, 0, 0, 0))
 for i, b in enumerate(bars):

@@ -15,8 +15,8 @@
 
   // направление в форме заявки для каждой категории
   const DIRECTION = {
-    kosmetika: 'Косметика', volosy: 'Косметика', detskaya: 'Косметика', aromaty: 'Косметика', lubrikanty: 'Косметика',
-    'bytovaya-himiya': 'Бытовая химия', zhivotnye: 'Косметика для животных', mylo: 'Мыло ручной работы',
+    kosmetika: 'Косметика', volosy: 'Косметика', detskaya: 'Косметика', aromaty: 'Косметика', lubrikanty: 'Косметика', mylo: 'Косметика',
+    'bytovaya-himiya': 'Бытовая химия', zhivotnye: 'Косметика для животных', 'mylo-ruchnoe': 'Мыло ручной работы',
   };
 
   let filter = 'all';
@@ -37,10 +37,10 @@
       && (!q || `${i.brand} ${i.title} ${i.volume}`.toLowerCase().includes(q)));
     grid.innerHTML = list.slice(0, shown).map((i, n) => `
       <article class="pcard pcard--${i.cat}" style="animation-delay:${(n % PAGE) * 35}ms">
-        <div class="pcard__stage"><img src="${i.img}" alt="${esc(i.brand)} — ${esc(i.title)}" loading="lazy"></div>
+        <a class="pcard__stage" href="product.html?p=${i.slug}" tabindex="-1" aria-hidden="true"><img src="${i.img}" alt="" loading="lazy"></a>
         <div class="pcard__body">
           <span class="pcard__cat">${esc(data.cats[i.cat])}</span>
-          <h3 class="pcard__title"><span>${esc(i.brand)}</span> ${esc(i.title)}</h3>
+          <h3 class="pcard__title"><a href="product.html?p=${i.slug}"><span>${esc(i.brand)}</span> ${esc(i.title)}</a></h3>
           <div class="pcard__foot">
             ${i.volume ? `<span class="pcard__vol">${esc(i.volume)}</span>` : '<span></span>'}
             <a class="pcard__btn" href="#price" data-direction="${DIRECTION[i.cat]}">Прайс</a>

@@ -6,6 +6,7 @@
     "bytovaya-himiya": "Бытовая химия",
     "zhivotnye": "Для животных",
     "mylo": "Мыло",
+    "mylo-ruchnoe": "Мыло ручной работы",
     "lubrikanty": "Лубриканты и вазелин",
     "aromaty": "Ароматы для дома и авто"
   },
@@ -36,7 +37,7 @@
     },
     {
       "slug": "melta-soap-lavender-lufa",
-      "cat": "mylo",
+      "cat": "mylo-ruchnoe",
       "name": "Melta, мыло массажное с люфой Lavender, ручная работа",
       "volume": "",
       "file": "5.webp",
@@ -332,7 +333,7 @@
     },
     {
       "slug": "melta-handmade-soap-ginger-orange",
-      "cat": "mylo",
+      "cat": "mylo-ruchnoe",
       "name": "Melta handmade soap glycerinate, мыло ручной работы «Имбирь и апельсин»: масла горького померанца, эвкалипта, гвоздики, петигрена, мандарина, сладкого апельсина, имбиря",
       "volume": "",
       "file": "49.webp",
@@ -340,7 +341,7 @@
     },
     {
       "slug": "melta-handmade-soap-cinnamon",
-      "cat": "mylo",
+      "cat": "mylo-ruchnoe",
       "name": "Melta handmade soap glycerinate, мыло ручной работы «Корица»: масла корицы, кумина, благородного базилика",
       "volume": "",
       "file": "50.webp",
@@ -348,7 +349,7 @@
     },
     {
       "slug": "melta-handmade-soap-lavender",
-      "cat": "mylo",
+      "cat": "mylo-ruchnoe",
       "name": "Melta handmade soap glycerinate, мыло ручной работы «Лавандовое»: масла лаванды, лавандина, эвкалипта, кориандра, бергамота",
       "volume": "",
       "file": "51.webp",
@@ -356,7 +357,7 @@
     },
     {
       "slug": "melta-handmade-soap-juniper",
-      "cat": "mylo",
+      "cat": "mylo-ruchnoe",
       "name": "Melta handmade soap glycerinate, мыло ручной работы «Можжевеловое»: можжевеловые масла из ягод и лапок, масло лавра благородного, сосновое масло",
       "volume": "",
       "file": "52.webp",
@@ -364,7 +365,7 @@
     },
     {
       "slug": "melta-handmade-soap-mint-tea-tree",
-      "cat": "mylo",
+      "cat": "mylo-ruchnoe",
       "name": "Melta handmade soap glycerinate, мыло ручной работы «Мята и чайное дерево»: масла перечной мяты, мяты кудрявой, мелиссы, чайного дерева",
       "volume": "",
       "file": "53.webp",

@@ -18,9 +18,9 @@ nav.addEventListener('click', (e) => {
 // Price request: the site is static, so the form opens the visitor's mail client
 // with a ready letter to the sales department.
 const form = document.getElementById('price-form');
-const msg = form.querySelector('.form__msg');
+const msg = form ? form.querySelector('.form__msg') : null;
 
-form.addEventListener('submit', (e) => {
+if (form) form.addEventListener('submit', (e) => {
   e.preventDefault();
   const data = new FormData(form);
   const name = (data.get('name') || '').trim();
