@@ -427,5 +427,44 @@
     "web": "assets/library/web/lubrikanty/sliki-h2o-neutral-250ml.webp",
     "original_size": "900×1200",
     "web_kb": 50
+  },
+  {
+    "slug": "biolut-professional-gel-color-5l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut Professional Color, гель для стирки цветного белья (165 стирок)",
+    "volume": "5 л",
+    "file": "42.png",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-professional-gel-color-5l.png",
+    "web": "assets/library/web/bytovaya-himiya/biolut-professional-gel-color-5l.webp",
+    "original_size": "900×1200",
+    "web_kb": 49
+  },
+  {
+    "slug": "melta-laundry-gel-universal-6l",
+    "cat": "bytovaya-himiya",
+    "name": "Melta, гель для стирки универсальный, концентрированная формула, 190 стирок",
+    "volume": "6 л",
+    "file": "43.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/melta-laundry-gel-universal-6l.webp",
+    "web": "assets/library/web/bytovaya-himiya/melta-laundry-gel-universal-6l.webp",
+    "original_size": "1652×2000",
+    "web_kb": 80
+  },
+  {
+    "slug": "melta-laundry-gel-color-6l",
+    "cat": "bytovaya-himiya",
+    "name": "Melta, гель для стирки для цветного, концентрированная формула, 190 стирок",
+    "volume": "6 л",
+    "file": "44.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/melta-laundry-gel-color-6l.webp",
+    "web": "assets/library/web/bytovaya-himiya/melta-laundry-gel-color-6l.webp",
+    "original_size": "1652×2000",
+    "web_kb": 81
   }
 ]

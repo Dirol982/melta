@@ -36,6 +36,9 @@
 | Melta, пятновыводитель-отбеливатель с активным кислородом «№1 средство для всего», 100+ применений | 1 кг | `assets/library/originals/bytovaya-himiya/melta-oxygen-1kg.webp` (1789×2000) | `assets/library/web/bytovaya-himiya/melta-oxygen-1kg.webp` (74 КБ) |
 | Melta Чудо-паста, универсальная чистящая паста, 100+ применений | 1 кг | `assets/library/originals/bytovaya-himiya/melta-chudo-pasta-1kg.webp` (1535×1581) | `assets/library/web/bytovaya-himiya/melta-chudo-pasta-1kg.webp` (101 КБ) |
 | Tirex Granules, гранулы от засоров | — | `assets/library/originals/bytovaya-himiya/tirex-granules.webp` (952×2000) | `assets/library/web/bytovaya-himiya/tirex-granules.webp` (49 КБ) |
+| Biolut Professional Color, гель для стирки цветного белья (165 стирок) | 5 л | `assets/library/originals/bytovaya-himiya/biolut-professional-gel-color-5l.png` (900×1200) | `assets/library/web/bytovaya-himiya/biolut-professional-gel-color-5l.webp` (49 КБ) |
+| Melta, гель для стирки универсальный, концентрированная формула, 190 стирок | 6 л | `assets/library/originals/bytovaya-himiya/melta-laundry-gel-universal-6l.webp` (1652×2000) | `assets/library/web/bytovaya-himiya/melta-laundry-gel-universal-6l.webp` (80 КБ) |
+| Melta, гель для стирки для цветного, концентрированная формула, 190 стирок | 6 л | `assets/library/originals/bytovaya-himiya/melta-laundry-gel-color-6l.webp` (1652×2000) | `assets/library/web/bytovaya-himiya/melta-laundry-gel-color-6l.webp` (81 КБ) |
 
 ## Для животных
 
