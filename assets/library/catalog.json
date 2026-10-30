@@ -102,5 +102,57 @@
     "web": "assets/library/web/kosmetika/melta-aloe-panthenol-gel.webp",
     "original_size": "720×1448",
     "web_kb": 46
+  },
+  {
+    "slug": "melta-aromasashe-orange-jasmine-vanilla",
+    "cat": "aromaty",
+    "name": "Melta, аромасаше orange, jasmine, vanilla — стойкость до 100 дней",
+    "volume": "8 кубиков",
+    "file": "15.webp",
+    "added": "2026-10-30",
+    "category": "Ароматы для дома и авто",
+    "original": "assets/library/originals/aromaty/melta-aromasashe-orange-jasmine-vanilla.webp",
+    "web": "assets/library/web/aromaty/melta-aromasashe-orange-jasmine-vanilla.webp",
+    "original_size": "1439×1820",
+    "web_kb": 51
+  },
+  {
+    "slug": "melta-aromasashe-pure-cotton",
+    "cat": "aromaty",
+    "name": "Melta, аромасаше pure cotton — стойкость до 100 дней",
+    "volume": "8 кубиков",
+    "file": "16.webp",
+    "added": "2026-10-30",
+    "category": "Ароматы для дома и авто",
+    "original": "assets/library/originals/aromaty/melta-aromasashe-pure-cotton.webp",
+    "web": "assets/library/web/aromaty/melta-aromasashe-pure-cotton.webp",
+    "original_size": "1439×1820",
+    "web_kb": 48
+  },
+  {
+    "slug": "melta-premium-autoparfume-box",
+    "cat": "aromaty",
+    "name": "Melta Premium Autoparfume, подарочная коробка (закрытая)",
+    "volume": "",
+    "file": "17.png",
+    "added": "2026-10-30",
+    "category": "Ароматы для дома и авто",
+    "original": "assets/library/originals/aromaty/melta-premium-autoparfume-box.png",
+    "web": "assets/library/web/aromaty/melta-premium-autoparfume-box.webp",
+    "original_size": "580×437",
+    "web_kb": 20
+  },
+  {
+    "slug": "melta-premium-autoparfume-set-4",
+    "cat": "aromaty",
+    "name": "Melta Premium Autoparfume, набор из 4 ароматов: Urban Drive, Red Tobacco, Dark Cherry, Imperial (открытая коробка)",
+    "volume": "4 флакона",
+    "file": "18.webp",
+    "added": "2026-10-30",
+    "category": "Ароматы для дома и авто",
+    "original": "assets/library/originals/aromaty/melta-premium-autoparfume-set-4.webp",
+    "web": "assets/library/web/aromaty/melta-premium-autoparfume-set-4.webp",
+    "original_size": "900×879",
+    "web_kb": 58
   }
 ]

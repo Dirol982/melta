@@ -38,3 +38,12 @@
 ## Лубриканты и вазелин
 
 _Пока нет файлов._
+
+## Ароматы для дома и авто
+
+| Товар | Объём | Оригинал | Для сайта |
+|---|---|---|---|
+| Melta, аромасаше orange, jasmine, vanilla — стойкость до 100 дней | 8 кубиков | `assets/library/originals/aromaty/melta-aromasashe-orange-jasmine-vanilla.webp` (1439×1820) | `assets/library/web/aromaty/melta-aromasashe-orange-jasmine-vanilla.webp` (51 КБ) |
+| Melta, аромасаше pure cotton — стойкость до 100 дней | 8 кубиков | `assets/library/originals/aromaty/melta-aromasashe-pure-cotton.webp` (1439×1820) | `assets/library/web/aromaty/melta-aromasashe-pure-cotton.webp` (48 КБ) |
+| Melta Premium Autoparfume, подарочная коробка (закрытая) | — | `assets/library/originals/aromaty/melta-premium-autoparfume-box.png` (580×437) | `assets/library/web/aromaty/melta-premium-autoparfume-box.webp` (20 КБ) |
+| Melta Premium Autoparfume, набор из 4 ароматов: Urban Drive, Red Tobacco, Dark Cherry, Imperial (открытая коробка) | 4 флакона | `assets/library/originals/aromaty/melta-premium-autoparfume-set-4.webp` (900×879) | `assets/library/web/aromaty/melta-premium-autoparfume-set-4.webp` (58 КБ) |

@@ -5,16 +5,105 @@
     "bytovaya-himiya": "Бытовая химия",
     "zhivotnye": "Для животных",
     "mylo": "Мыло ручной работы",
-    "lubrikanty": "Лубриканты и вазелин"
+    "lubrikanty": "Лубриканты и вазелин",
+    "aromaty": "Ароматы для дома и авто"
   },
   "products": [
-    {"slug": "biolut-oxygen-1kg",        "cat": "bytovaya-himiya", "name": "Biolut Oxygen, пятновыводитель-очиститель с активным кислородом", "volume": "1 кг",   "file": "3.webp",  "added": "2026-10-30"},
-    {"slug": "biolut-professional-gel-5l","cat": "bytovaya-himiya", "name": "Biolut Professional, гель для стирки (165 стирок)",            "volume": "5 л",    "file": "6.png",   "added": "2026-10-30"},
-    {"slug": "melta-pets-shampoo-dogs",  "cat": "zhivotnye",       "name": "Melta for pets, шампунь для собак с Д-пантенолом",              "volume": "500 мл", "file": "4.webp",  "added": "2026-10-30"},
-    {"slug": "melta-soap-lavender-lufa", "cat": "mylo",            "name": "Melta, мыло массажное с люфой Lavender, ручная работа",        "volume": "",       "file": "5.webp",  "added": "2026-10-30"},
-    {"slug": "zayushka-shower-gel",      "cat": "detskaya",        "name": "Заюшка, гель для душа детский 0+",                             "volume": "500 мл", "file": "7.webp",  "added": "2026-10-30"},
-    {"slug": "zayushka-bath-foam",       "cat": "detskaya",        "name": "Заюшка, детская пена для ванн 0+",                             "volume": "500 мл", "file": "12.webp", "added": "2026-10-30"},
-    {"slug": "melta-sun-cream-spf50",    "cat": "kosmetika",       "name": "Melta, солнцезащитный крем SPF 50+ UVA/UVB",                    "volume": "",       "file": "13.webp", "added": "2026-10-30"},
-    {"slug": "melta-aloe-panthenol-gel", "cat": "kosmetika",       "name": "Melta, охлаждающий гель после загара Aloe Vera & Panthenol",    "volume": "",       "file": "14.webp", "added": "2026-10-30"}
+    {
+      "slug": "biolut-oxygen-1kg",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut Oxygen, пятновыводитель-очиститель с активным кислородом",
+      "volume": "1 кг",
+      "file": "3.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-professional-gel-5l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut Professional, гель для стирки (165 стирок)",
+      "volume": "5 л",
+      "file": "6.png",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-pets-shampoo-dogs",
+      "cat": "zhivotnye",
+      "name": "Melta for pets, шампунь для собак с Д-пантенолом",
+      "volume": "500 мл",
+      "file": "4.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-soap-lavender-lufa",
+      "cat": "mylo",
+      "name": "Melta, мыло массажное с люфой Lavender, ручная работа",
+      "volume": "",
+      "file": "5.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "zayushka-shower-gel",
+      "cat": "detskaya",
+      "name": "Заюшка, гель для душа детский 0+",
+      "volume": "500 мл",
+      "file": "7.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "zayushka-bath-foam",
+      "cat": "detskaya",
+      "name": "Заюшка, детская пена для ванн 0+",
+      "volume": "500 мл",
+      "file": "12.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-sun-cream-spf50",
+      "cat": "kosmetika",
+      "name": "Melta, солнцезащитный крем SPF 50+ UVA/UVB",
+      "volume": "",
+      "file": "13.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-aloe-panthenol-gel",
+      "cat": "kosmetika",
+      "name": "Melta, охлаждающий гель после загара Aloe Vera & Panthenol",
+      "volume": "",
+      "file": "14.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-aromasashe-orange-jasmine-vanilla",
+      "cat": "aromaty",
+      "name": "Melta, аромасаше orange, jasmine, vanilla — стойкость до 100 дней",
+      "volume": "8 кубиков",
+      "file": "15.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-aromasashe-pure-cotton",
+      "cat": "aromaty",
+      "name": "Melta, аромасаше pure cotton — стойкость до 100 дней",
+      "volume": "8 кубиков",
+      "file": "16.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-premium-autoparfume-box",
+      "cat": "aromaty",
+      "name": "Melta Premium Autoparfume, подарочная коробка (закрытая)",
+      "volume": "",
+      "file": "17.png",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-premium-autoparfume-set-4",
+      "cat": "aromaty",
+      "name": "Melta Premium Autoparfume, набор из 4 ароматов: Urban Drive, Red Tobacco, Dark Cherry, Imperial (открытая коробка)",
+      "volume": "4 флакона",
+      "file": "18.webp",
+      "added": "2026-10-30"
+    }
   ]
 }
