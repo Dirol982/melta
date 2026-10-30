@@ -500,6 +500,14 @@ window.MELTA_CATALOG = {
    "img": "../assets/library/web/aromaty/melta-premium-autoparfume-set-4.webp"
   },
   {
+   "slug": "melta-vaseline-perfumed-100",
+   "cat": "lubrikanty",
+   "brand": "Melta Vaseline",
+   "title": "Вазелин косметический парфюмированный «С ароматом нежности и любви»",
+   "volume": "100 мл",
+   "img": "../assets/library/web/lubrikanty/melta-vaseline-perfumed-100.webp"
+  },
+  {
    "slug": "sliki-h2o-cherry-250ml",
    "cat": "lubrikanty",
    "brand": "SLIKI H2O Cherry",

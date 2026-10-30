@@ -98,6 +98,7 @@
 | SLIKI H2O Cherry, интимный гель на водной основе с ароматом вишни, с коробкой | 250 мл | `assets/library/originals/lubrikanty/sliki-h2o-cherry-250ml.webp` (900×1153) | `assets/library/web/lubrikanty/sliki-h2o-cherry-250ml.webp` (40 КБ) |
 | SLIKI H2O Sweet Strawberry, интимный гель на водной основе с ароматом сладкой клубники, с коробкой | 250 мл | `assets/library/originals/lubrikanty/sliki-h2o-sweet-strawberry-250ml.webp` (900×1200) | `assets/library/web/lubrikanty/sliki-h2o-sweet-strawberry-250ml.webp` (57 КБ) |
 | SLIKI H2O Neutral, интимный гель на водной основе без отдушки, с коробкой | 250 мл | `assets/library/originals/lubrikanty/sliki-h2o-neutral-250ml.webp` (900×1200) | `assets/library/web/lubrikanty/sliki-h2o-neutral-250ml.webp` (50 КБ) |
+| Melta Vaseline, вазелин косметический парфюмированный «С ароматом нежности и любви» | 100 мл | `assets/library/originals/lubrikanty/melta-vaseline-perfumed-100.webp` (1439×1820) | `assets/library/web/lubrikanty/melta-vaseline-perfumed-100.webp` (70 КБ) |
 
 ## Ароматы для дома и авто
 

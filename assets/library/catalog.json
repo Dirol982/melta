@@ -856,5 +856,18 @@
     "web": "assets/library/web/kosmetika/melta-shower-gel-vanilla-500.webp",
     "original_size": "1439×1820",
     "web_kb": 38
+  },
+  {
+    "slug": "melta-vaseline-perfumed-100",
+    "cat": "lubrikanty",
+    "name": "Melta Vaseline, вазелин косметический парфюмированный «С ароматом нежности и любви»",
+    "volume": "100 мл",
+    "file": "76.webp",
+    "added": "2026-10-30",
+    "category": "Лубриканты и вазелин",
+    "original": "assets/library/originals/lubrikanty/melta-vaseline-perfumed-100.webp",
+    "web": "assets/library/web/lubrikanty/melta-vaseline-perfumed-100.webp",
+    "original_size": "1439×1820",
+    "web_kb": 70
   }
 ]

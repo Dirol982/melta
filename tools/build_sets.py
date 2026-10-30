@@ -41,7 +41,7 @@ row('chemistry', [('bytovaya-himiya/melta-laundry-gel-universal-6l.webp', 720), 
                   ('bytovaya-himiya/biolut-antizhir-500ml.png', 470), ('bytovaya-himiya/melta-oxygen-1kg.webp', 440)], overlap=0.06)
 row('pets', [('zhivotnye/melta-pets-shampoo-dogs.webp', 700), ('zhivotnye/melta-pets-shampoo-dogs-fleas.webp', 700),
              ('zhivotnye/melta-pets-paw-foam-brush.webp', 560), ('zhivotnye/melta-pets-paw-nose-wax-120ml.webp', 230)], overlap=0.06)
-row('lube', [('lubrikanty/sliki-h2o-neutral-250ml.webp', 640), ('lubrikanty/sliki-h2o-sweet-strawberry-250ml.webp', 640)], overlap=0.0)
+row('lube', [('lubrikanty/sliki-h2o-neutral-250ml.webp', 640), ('lubrikanty/sliki-h2o-sweet-strawberry-250ml.webp', 640), ('lubrikanty/melta-vaseline-perfumed-100.webp', 400)], overlap=0.0)
 
 # мыло ручной работы: сетка 2×2 без перекрытий + массажное мыло с люфой
 bars = [load(r, 300) for r in ['mylo/melta-handmade-soap-lavender.webp', 'mylo/melta-handmade-soap-juniper.webp',
