@@ -48,7 +48,24 @@
 <main id="main">
 
   <section class="hero">
-    <img class="hero__scene" src="../assets/ref/hero-scene.webp" alt="Продукция Melta: бальзам Keratin, шампунь для собак, Biolut Oxygen, гель для стирки Biolut, детский гель для душа и мыло с люфой" width="1656" height="936">
+    <div class="hero__stage">
+      <span class="stage__rays" aria-hidden="true"></span>
+      <span class="stage__floor" aria-hidden="true"></span>
+      <span class="pod pod--orange" aria-hidden="true"></span>
+      <span class="pod pod--lav" aria-hidden="true"></span>
+      <span class="pod pod--white" aria-hidden="true"></span>
+      <span class="pod pod--sky" aria-hidden="true"></span>
+      <img class="prod prod--dog" src="../assets/products/shampoo-dogs.webp" alt="Шампунь для собак Melta for pets с Д-пантенолом, 500 мл" width="294" height="900">
+      <img class="prod prod--oxygen" src="../assets/products/biolut-oxygen.webp" alt="Пятновыводитель Biolut Oxygen с активным кислородом, 1 кг" width="570" height="900">
+      <img class="prod prod--gel" src="../assets/products/biolut-gel-5l.webp" alt="Гель для стирки Biolut Professional, 5 л" width="542" height="862">
+      <img class="prod prod--kids" src="../assets/products/kids-gel.webp" alt="Детский гель для душа «Заюшка» 0+, 500 мл" width="310" height="900">
+      <img class="prod prod--soap" src="../assets/products/soap-lavender.webp" alt="Массажное мыло с люфой Melta Lavender ручной работы" width="523" height="700">
+      <span class="bubble bubble--1" aria-hidden="true"></span><span class="bubble bubble--2" aria-hidden="true"></span><span class="bubble bubble--3" aria-hidden="true"></span><span class="bubble bubble--4" aria-hidden="true"></span><span class="bubble bubble--5" aria-hidden="true"></span>
+      <img class="stage__leaf stage__leaf--tr" src="../assets/ref/leaf-tr.webp" alt="" aria-hidden="true">
+      <img class="stage__leaf stage__leaf--r" src="../assets/ref/leaf-l.webp" alt="" aria-hidden="true">
+      <img class="stage__leaf stage__leaf--soap" src="../assets/ref/leaf-tl.webp" alt="" aria-hidden="true">
+      <span class="note note--kids hand" aria-hidden="true">Для<br>детей ♡</span>
+    </div>
     <svg class="hero__blob hero__blob--orange" viewBox="0 0 520 470" preserveAspectRatio="none" aria-hidden="true"><path fill="#F7931E" d="M0 18C70 4 170 0 260 14c95 15 170 55 205 120 40 75 25 170-20 235-35 50-70 80-110 101H0Z"/></svg>
     <svg class="hero__blob hero__blob--purple-l" viewBox="0 0 160 100" preserveAspectRatio="none" aria-hidden="true"><path fill="#6A3FD6" d="M0 22C40 6 90 4 125 26c25 16 35 45 35 74H0Z"/></svg>
     <svg class="hero__blob hero__blob--purple" viewBox="0 0 200 110" preserveAspectRatio="none" aria-hidden="true"><path fill="#6A3FD6" d="M0 110C4 70 20 30 60 12c45-20 100-10 130 22 10 12 10 40 10 76Z"/></svg>
@@ -69,6 +86,8 @@
     <span class="note note--home hand" aria-hidden="true">Чистый<br>дом <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 4l9 7M5 10v10h14V10M10 20v-5h4v5"/></svg></span>
     <a class="scroll-hint" href="#catalog">Листай<br>вниз<svg class="arrow" style="transform: rotate(90deg)" aria-hidden="true"><use href="#arrow"/></svg></a>
   </section>
+
+  <div class="panel">
 
   <section class="cats" id="catalog" aria-label="Категории продукции">
     <div class="container cats__grid">
@@ -364,6 +383,7 @@
     </div>
   </section>
 
+  </div>
 </main>
 
 <footer class="footer" id="contacts">
@@ -375,7 +395,11 @@
   <div class="container footer__legal">ООО «Агнекс Компани», УНП 193596966. 220014, Республика Беларусь, г. Минск, ул. Машинистов, д. 80, каб. 10. Внесён в Торговый реестр 21.01.2021 за № 501068.</div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="../script.js"></script>
 <script src="directions.js"></script>
+<script src="motion.js"></script>
 </body>
 </html>

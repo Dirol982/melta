@@ -14,7 +14,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 80px; }
 html, body { overflow-x: clip; }
-body { margin: 0; font-family: var(--font); color: var(--ink); background: var(--bg); line-height: 1.5; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+body { margin: 0; font-family: var(--font); color: var(--ink); background: var(--bg); line-height: 1.5; -webkit-font-smoothing: antialiased; }
 img { max-width: 100%; display: block; }
 a { color: var(--orange-btn); }
 h1, h2, h3 { margin: 0; }
@@ -53,7 +53,46 @@ h1, h2, h3 { margin: 0; }
 
 /* ===== первый экран: на всю ширину, пропорции референса ===== */
 .hero { position: relative; height: clamp(420px, 36.6vw, 640px); overflow: hidden; isolation: isolate; background: linear-gradient(180deg, #F7F2EC 0%, #F1ECE6 100%); }
-.hero__scene { position: absolute; right: 0; top: 0; height: 100%; width: 64.7%; object-fit: cover; object-position: left center; z-index: -3; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 7%); mask-image: linear-gradient(90deg, transparent 0, #000 7%); }
+/* сцена с товарами (исходники Melta) */
+.hero__stage { position: absolute; right: 0; top: 0; height: 100%; width: 64.7%; z-index: -3; overflow: hidden; background: radial-gradient(ellipse 70% 60% at 55% 35%, #FFFFFF 0%, rgba(255,255,255,0) 70%), linear-gradient(160deg, #F4F1FA 0%, #EEF4FA 45%, #F6F0E8 100%); -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 7%); mask-image: linear-gradient(90deg, transparent 0, #000 7%); }
+.stage__rays { position: absolute; inset: -20% -10%; background: repeating-linear-gradient(115deg, rgba(255,255,255,0) 0 60px, rgba(255,255,255,.55) 60px 120px, rgba(255,255,255,0) 120px 220px); filter: blur(18px); opacity: .8; }
+.stage__floor { position: absolute; left: 0; right: 0; bottom: 0; height: 17%; background: linear-gradient(180deg, #FFFFFF 0%, #F1EEF5 100%); box-shadow: 0 -1px 0 rgba(255,255,255,.9), 0 -14px 30px -18px rgba(60,40,90,.18); }
+.pod { position: absolute; border-radius: 10px; box-shadow: 0 18px 30px -18px rgba(60,40,90,.35); }
+.pod::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 28%; border-radius: inherit; background: rgba(255,255,255,.45); }
+.pod--orange { left: 10%; bottom: 8%; width: 21%; height: 14%; background: linear-gradient(180deg, #FFC164 0%, #F7931E 60%, #E9820C 100%); }
+.pod--lav { left: 32%; bottom: 5%; width: 26%; height: 19%; border-radius: 14px; background: linear-gradient(180deg, #D6C8FF 0%, #A98FF5 70%, #9479EA 100%); }
+.pod--white { left: 57%; bottom: 11%; width: 28%; height: 14%; background: linear-gradient(180deg, #FFFFFF 0%, #EDEAF3 100%); }
+.pod--sky { left: 82%; bottom: 15%; width: 16%; height: 12%; background: linear-gradient(180deg, #F2FAFF 0%, #CFE9F7 100%); }
+.prod { position: absolute; height: auto; width: auto; filter: drop-shadow(0 16px 16px rgba(50,35,80,.25)); }
+.prod--dog { left: 14.5%; bottom: 21%; height: 64%; }
+.prod--oxygen { left: 32.5%; bottom: 23%; height: 70%; }
+.prod--gel { left: 59%; bottom: 24%; height: 60%; }
+.prod--kids { left: 84.6%; bottom: 26%; height: 52%; }
+.prod--soap { left: 66%; bottom: 3%; height: 30%; transform: rotate(-12deg); }
+.bubble { position: absolute; border-radius: 50%; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.95) 0 8%, rgba(255,255,255,.15) 30%, rgba(200,190,255,.25) 70%, rgba(255,255,255,.6) 100%); box-shadow: inset 0 0 0 1px rgba(255,255,255,.7); }
+.bubble--1 { left: 50%; bottom: 7%; width: 6.5%; aspect-ratio: 1; }
+.bubble--2 { left: 57%; bottom: 20%; width: 3%; aspect-ratio: 1; }
+.bubble--3 { left: 28%; bottom: 30%; width: 2.6%; aspect-ratio: 1; }
+.bubble--4 { left: 80%; bottom: 46%; width: 3.6%; aspect-ratio: 1; }
+.bubble--5 { left: 92%; bottom: 6%; width: 4.4%; aspect-ratio: 1; }
+.stage__leaf { position: absolute; height: auto; }
+.stage__leaf--tr { right: -1%; top: -2%; width: 7%; }
+.stage__leaf--r { right: 0; top: 34%; width: 3.6%; }
+.stage__leaf--soap { left: 54%; bottom: 3%; width: 7%; transform: rotate(60deg); }
+.note--kids { right: 4.5%; top: 9%; color: var(--purple); font-size: clamp(22px, 2vw, 30px); transform: rotate(-10deg); text-align: center; z-index: 2; }
+@keyframes prodIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: none; } }
+@keyframes bob { 50% { transform: translateY(-8px); } }
+.prod--dog, .prod--oxygen, .prod--gel, .prod--kids { animation: prodIn .9s cubic-bezier(.2,.8,.2,1) both; }
+.prod--oxygen { animation-delay: .1s; }
+.prod--gel { animation-delay: .2s; }
+.prod--kids { animation-delay: .3s; }
+.bubble { animation: bob 4s ease-in-out infinite; }
+.bubble--2 { animation-delay: -1s; } .bubble--3 { animation-delay: -2s; } .bubble--4 { animation-delay: -3s; }
+
+/* первый экран закреплён, следующие блоки наезжают на него панелью */
+.hero { position: sticky; top: 64px; z-index: 1; }
+.panel { position: relative; z-index: 2; background: var(--bg); border-radius: 32px 32px 0 0; margin-top: -32px; box-shadow: 0 -24px 60px -24px rgba(40,30,60,.22); }
+.footer { position: relative; z-index: 2; }
 .hero__blob { position: absolute; z-index: -1; pointer-events: none; }
 .hero__blob--orange { left: 0; top: 2.5%; width: 37.5%; height: 97.5%; }
 .hero__blob--purple-l { left: 0; bottom: 0; width: 12%; height: 19%; }
@@ -208,7 +247,9 @@ h1, h2, h3 { margin: 0; }
 }
 @media (max-width: 900px) {
   .hero { height: auto; display: flex; flex-direction: column; background: #F4EFE8; }
-  .hero__scene { position: relative; order: 2; width: 100%; height: auto; aspect-ratio: 1656 / 936; -webkit-mask-image: none; mask-image: none; }
+  .hero { position: relative; top: auto; }
+  .panel { margin-top: 0; border-radius: 28px 28px 0 0; }
+  .hero__stage { position: relative; order: 2; width: 100%; height: auto; aspect-ratio: 932 / 527; -webkit-mask-image: none; mask-image: none; }
   .hero__content { order: 1; height: auto; background: var(--orange); border-radius: 0 0 60px 0; }
   .hero__text { padding: 40px 0 44px; }
   .hero__blob, .note, .scroll-hint, .leafimg--l { display: none; }
@@ -246,7 +287,7 @@ h1, h2, h3 { margin: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  * { transition: none !important; }
+  * { transition: none !important; animation: none !important; }
 }
 
 /* ===== направления: отдельные блоки ===== */
