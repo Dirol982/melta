@@ -843,6 +843,66 @@ window.MELTA_CATALOG = {
    }
   },
   {
+   "slug": "biolut-liquid-soap-aloe-5l",
+   "cat": "bytovaya-himiya",
+   "brand": "Biolut Antibacterial",
+   "title": "Жидкое мыло Aloe Vera",
+   "volume": "5 л",
+   "img": "../assets/library/web/bytovaya-himiya/biolut-liquid-soap-aloe-5l.webp",
+   "d": {
+    "lead": "",
+    "label": [
+     "Деликатное очищение",
+     "100% смывается с кожи",
+     "Эффективная защита от бактерий"
+    ],
+    "benefits": [],
+    "composition": "",
+    "oils": "",
+    "usage": [],
+    "audience": "",
+    "specs": {
+     "weight": "",
+     "shelf": "",
+     "storage": "",
+     "barcode": "",
+     "box": "",
+     "doc": ""
+    },
+    "wb": ""
+   }
+  },
+  {
+   "slug": "biolut-liquid-soap-aloe-05l",
+   "cat": "bytovaya-himiya",
+   "brand": "Biolut Antibacterial",
+   "title": "Жидкое мыло Aloe Vera",
+   "volume": "0,5 л",
+   "img": "../assets/library/web/bytovaya-himiya/biolut-liquid-soap-aloe-05l.webp",
+   "d": {
+    "lead": "",
+    "label": [
+     "Деликатное очищение",
+     "100% смывается с кожи",
+     "Эффективная защита от бактерий"
+    ],
+    "benefits": [],
+    "composition": "",
+    "oils": "",
+    "usage": [],
+    "audience": "",
+    "specs": {
+     "weight": "",
+     "shelf": "",
+     "storage": "",
+     "barcode": "",
+     "box": "",
+     "doc": ""
+    },
+    "wb": ""
+   }
+  },
+  {
    "slug": "biolut-condi-fresh-1l",
    "cat": "bytovaya-himiya",
    "brand": "Biolut Condi Fresh",
@@ -1363,66 +1423,6 @@ window.MELTA_CATALOG = {
    "d": {
     "lead": "",
     "label": [],
-    "benefits": [],
-    "composition": "",
-    "oils": "",
-    "usage": [],
-    "audience": "",
-    "specs": {
-     "weight": "",
-     "shelf": "",
-     "storage": "",
-     "barcode": "",
-     "box": "",
-     "doc": ""
-    },
-    "wb": ""
-   }
-  },
-  {
-   "slug": "biolut-liquid-soap-aloe-5l",
-   "cat": "mylo",
-   "brand": "Biolut Antibacterial",
-   "title": "Жидкое мыло Aloe Vera",
-   "volume": "5 л",
-   "img": "../assets/library/web/mylo/biolut-liquid-soap-aloe-5l.webp",
-   "d": {
-    "lead": "",
-    "label": [
-     "Деликатное очищение",
-     "100% смывается с кожи",
-     "Эффективная защита от бактерий"
-    ],
-    "benefits": [],
-    "composition": "",
-    "oils": "",
-    "usage": [],
-    "audience": "",
-    "specs": {
-     "weight": "",
-     "shelf": "",
-     "storage": "",
-     "barcode": "",
-     "box": "",
-     "doc": ""
-    },
-    "wb": ""
-   }
-  },
-  {
-   "slug": "biolut-liquid-soap-aloe-05l",
-   "cat": "mylo",
-   "brand": "Biolut Antibacterial",
-   "title": "Жидкое мыло Aloe Vera",
-   "volume": "0,5 л",
-   "img": "../assets/library/web/mylo/biolut-liquid-soap-aloe-05l.webp",
-   "d": {
-    "lead": "",
-    "label": [
-     "Деликатное очищение",
-     "100% смывается с кожи",
-     "Эффективная защита от бактерий"
-    ],
     "benefits": [],
     "composition": "",
     "oils": "",

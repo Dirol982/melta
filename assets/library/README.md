@@ -63,6 +63,8 @@
 | Biolut, гель для посуды «Алоэ вера» Sensitive | 1 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-1l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-1l.webp` (40 КБ) |
 | Biolut, гель для посуды «Алоэ вера» Sensitive | 0,5 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-05l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-05l.webp` (45 КБ) |
 | Biolut, гель для посуды «Сочный лимон» | 0,5 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp` (45 КБ) |
+| Biolut Antibacterial, жидкое мыло Aloe Vera | 5 л | `assets/library/originals/bytovaya-himiya/biolut-liquid-soap-aloe-5l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-liquid-soap-aloe-5l.webp` (53 КБ) |
+| Biolut Antibacterial, жидкое мыло Aloe Vera | 0,5 л | `assets/library/originals/bytovaya-himiya/biolut-liquid-soap-aloe-05l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-liquid-soap-aloe-05l.webp` (50 КБ) |
 | Biolut gel wash Color, гель для стирки цветного белья, 160 стирок | 5 л | `assets/library/originals/bytovaya-himiya/biolut-gel-wash-color-5l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-gel-wash-color-5l.webp` (65 КБ) |
 
 ## Для животных
@@ -84,8 +86,6 @@
 | Melta Lavender Field Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-lavender-field.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-lavender-field.webp` (97 КБ) |
 | Melta Original Cream Soap, увлажняющее крем-мыло «Интенсивное питание» | — | `assets/library/originals/mylo/melta-cream-soap-original.webp` (2000×1494) | `assets/library/web/mylo/melta-cream-soap-original.webp` (75 КБ) |
 | Melta Flower Bouquet Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-flower-bouquet.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-flower-bouquet.webp` (89 КБ) |
-| Biolut Antibacterial, жидкое мыло Aloe Vera | 5 л | `assets/library/originals/mylo/biolut-liquid-soap-aloe-5l.webp` (1439×1820) | `assets/library/web/mylo/biolut-liquid-soap-aloe-5l.webp` (53 КБ) |
-| Biolut Antibacterial, жидкое мыло Aloe Vera | 0,5 л | `assets/library/originals/mylo/biolut-liquid-soap-aloe-05l.webp` (1439×1820) | `assets/library/web/mylo/biolut-liquid-soap-aloe-05l.webp` (50 КБ) |
 
 ## Мыло ручной работы
 
