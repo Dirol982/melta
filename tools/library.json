@@ -401,6 +401,38 @@
       "volume": "5 л",
       "file": "57.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-lemon-1l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Сочный лимон»",
+      "volume": "1 л",
+      "file": "58.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-aloe-sensitive-1l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Алоэ вера» Sensitive",
+      "volume": "1 л",
+      "file": "59.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-aloe-sensitive-05l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Алоэ вера» Sensitive",
+      "volume": "0,5 л",
+      "file": "60.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-dish-gel-lemon-05l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut, гель для посуды «Сочный лимон»",
+      "volume": "0,5 л",
+      "file": "61.webp",
+      "added": "2026-10-30"
     }
   ]
 }

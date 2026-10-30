@@ -47,6 +47,10 @@
 | Biolut, гель для посуды «Сочный лимон» | 5 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-lemon-5l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-5l.webp` (51 КБ) |
 | Biolut, гель для посуды «Алоэ вера» Sensitive | 5 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-5l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-5l.webp` (51 КБ) |
 | Biolut, гель для посуды «Сочный арбуз» | 5 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-watermelon-5l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-watermelon-5l.webp` (63 КБ) |
+| Biolut, гель для посуды «Сочный лимон» | 1 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-lemon-1l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-1l.webp` (40 КБ) |
+| Biolut, гель для посуды «Алоэ вера» Sensitive | 1 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-1l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-1l.webp` (40 КБ) |
+| Biolut, гель для посуды «Алоэ вера» Sensitive | 0,5 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-05l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-05l.webp` (45 КБ) |
+| Biolut, гель для посуды «Сочный лимон» | 0,5 л | `assets/library/originals/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp` (1439×1820) | `assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp` (45 КБ) |
 
 ## Для животных
 

@@ -100,6 +100,22 @@ window.MELTA_CATALOG = {
    "img": "../assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-5l.webp"
   },
   {
+   "slug": "biolut-dish-gel-aloe-sensitive-1l",
+   "cat": "bytovaya-himiya",
+   "brand": "Biolut",
+   "title": "Гель для посуды «Алоэ вера» Sensitive",
+   "volume": "1 л",
+   "img": "../assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-1l.webp"
+  },
+  {
+   "slug": "biolut-dish-gel-aloe-sensitive-05l",
+   "cat": "bytovaya-himiya",
+   "brand": "Biolut",
+   "title": "Гель для посуды «Алоэ вера» Sensitive",
+   "volume": "0,5 л",
+   "img": "../assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-05l.webp"
+  },
+  {
    "slug": "biolut-dish-gel-raspberry-mint-5l",
    "cat": "bytovaya-himiya",
    "brand": "Biolut",
@@ -122,6 +138,22 @@ window.MELTA_CATALOG = {
    "title": "Гель для посуды «Сочный лимон»",
    "volume": "5 л",
    "img": "../assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-5l.webp"
+  },
+  {
+   "slug": "biolut-dish-gel-lemon-1l",
+   "cat": "bytovaya-himiya",
+   "brand": "Biolut",
+   "title": "Гель для посуды «Сочный лимон»",
+   "volume": "1 л",
+   "img": "../assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-1l.webp"
+  },
+  {
+   "slug": "biolut-dish-gel-lemon-05l",
+   "cat": "bytovaya-himiya",
+   "brand": "Biolut",
+   "title": "Гель для посуды «Сочный лимон»",
+   "volume": "0,5 л",
+   "img": "../assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp"
   },
   {
    "slug": "biolut-condi-fresh-1l",

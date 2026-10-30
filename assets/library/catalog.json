@@ -635,5 +635,57 @@
     "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-watermelon-5l.webp",
     "original_size": "1439×1820",
     "web_kb": 63
+  },
+  {
+    "slug": "biolut-dish-gel-lemon-1l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Сочный лимон»",
+    "volume": "1 л",
+    "file": "58.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-lemon-1l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-1l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 40
+  },
+  {
+    "slug": "biolut-dish-gel-aloe-sensitive-1l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Алоэ вера» Sensitive",
+    "volume": "1 л",
+    "file": "59.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-1l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-1l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 40
+  },
+  {
+    "slug": "biolut-dish-gel-aloe-sensitive-05l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Алоэ вера» Sensitive",
+    "volume": "0,5 л",
+    "file": "60.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-05l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-aloe-sensitive-05l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 45
+  },
+  {
+    "slug": "biolut-dish-gel-lemon-05l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut, гель для посуды «Сочный лимон»",
+    "volume": "0,5 л",
+    "file": "61.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-dish-gel-lemon-05l.webp",
+    "original_size": "1439×1820",
+    "web_kb": 45
   }
 ]
