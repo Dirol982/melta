@@ -18,6 +18,7 @@
 | Melta Shower Gel, гель для душа Mango | 500 мл | `assets/library/originals/kosmetika/melta-shower-gel-mango-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-shower-gel-mango-500.webp` (47 КБ) |
 | Melta Shower Gel, гель для душа Cherry | 500 мл | `assets/library/originals/kosmetika/melta-shower-gel-cherry-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-shower-gel-cherry-500.webp` (45 КБ) |
 | Melta Shower Gel, гель для душа Vanilla | 500 мл | `assets/library/originals/kosmetika/melta-shower-gel-vanilla-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-shower-gel-vanilla-500.webp` (38 КБ) |
+| Melta, воск-крем для ног «Защита и регенерация» с витамином E | 120 мл | `assets/library/originals/kosmetika/melta-foot-wax-cream-120ml.webp` (1439×1820) | `assets/library/web/kosmetika/melta-foot-wax-cream-120ml.webp` (100 КБ) |
 
 ## Уход за волосами
 
@@ -35,6 +36,7 @@
 |---|---|---|---|
 | Заюшка, гель для душа детский 0+ | 500 мл | `assets/library/originals/detskaya/zayushka-shower-gel.webp` (832×2000) | `assets/library/web/detskaya/zayushka-shower-gel.webp` (32 КБ) |
 | Заюшка, детская пена для ванн 0+ | 500 мл | `assets/library/originals/detskaya/zayushka-bath-foam.webp` (832×2000) | `assets/library/web/detskaya/zayushka-bath-foam.webp` (40 КБ) |
+| Melta, мыльные пузыри Bubble | — | `assets/library/originals/detskaya/melta-kids-soap-bubbles-bubble.webp` (1439×1820) | `assets/library/web/detskaya/melta-kids-soap-bubbles-bubble.webp` (29 КБ) |
 
 ## Бытовая химия
 
@@ -72,6 +74,7 @@
 | Melta for pets, пенка для лапок D-пантенол + хлоргексидин, не требует смывания | — | `assets/library/originals/zhivotnye/melta-pets-paw-foam.webp` (710×2000) | `assets/library/web/zhivotnye/melta-pets-paw-foam.webp` (43 КБ) |
 | Melta for pets, пенка для лапок с массажной щёткой, D-пантенол + хлоргексидин, не требует смывания | — | `assets/library/originals/zhivotnye/melta-pets-paw-foam-brush.webp` (740×2000) | `assets/library/web/zhivotnye/melta-pets-paw-foam-brush.webp` (35 КБ) |
 | Melta for pets, шампунь для собак от блох и клещей | 500 мл | `assets/library/originals/zhivotnye/melta-pets-shampoo-dogs-fleas.webp` (775×2000) | `assets/library/web/zhivotnye/melta-pets-shampoo-dogs-fleas.webp` (29 КБ) |
+| Melta for pets, шампунь для собак и кошек от блох и клещей | 500 мл | `assets/library/originals/zhivotnye/melta-pets-shampoo-dogs-cats-fleas.webp` (1439×1820) | `assets/library/web/zhivotnye/melta-pets-shampoo-dogs-cats-fleas.webp` (33 КБ) |
 
 ## Мыло
 

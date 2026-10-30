@@ -12,6 +12,14 @@ window.MELTA_CATALOG = {
  },
  "items": [
   {
+   "slug": "melta-foot-wax-cream-120ml",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Воск-крем для ног «Защита и регенерация» с витамином E",
+   "volume": "120 мл",
+   "img": "../assets/library/web/kosmetika/melta-foot-wax-cream-120ml.webp"
+  },
+  {
    "slug": "melta-foot-cream-100",
    "cat": "kosmetika",
    "brand": "Melta",
@@ -146,6 +154,14 @@ window.MELTA_CATALOG = {
    "title": "Шампунь «Увлажнение и восстановление»",
    "volume": "500 мл",
    "img": "../assets/library/web/volosy/melta-keratin-shampoo-500ml.webp"
+  },
+  {
+   "slug": "melta-kids-soap-bubbles-bubble",
+   "cat": "detskaya",
+   "brand": "Melta",
+   "title": "Мыльные пузыри Bubble",
+   "volume": "",
+   "img": "../assets/library/web/detskaya/melta-kids-soap-bubbles-bubble.webp"
   },
   {
    "slug": "zayushka-shower-gel",
@@ -362,6 +378,14 @@ window.MELTA_CATALOG = {
    "title": "Пенка для лапок с массажной щёткой, D-пантенол + хлоргексидин",
    "volume": "",
    "img": "../assets/library/web/zhivotnye/melta-pets-paw-foam-brush.webp"
+  },
+  {
+   "slug": "melta-pets-shampoo-dogs-cats-fleas",
+   "cat": "zhivotnye",
+   "brand": "Melta for pets",
+   "title": "Шампунь для собак и кошек от блох и клещей",
+   "volume": "500 мл",
+   "img": "../assets/library/web/zhivotnye/melta-pets-shampoo-dogs-cats-fleas.webp"
   },
   {
    "slug": "melta-pets-shampoo-dogs-fleas",

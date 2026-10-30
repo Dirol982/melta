@@ -585,6 +585,30 @@
       "volume": "7 мл",
       "file": "81.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-kids-soap-bubbles-bubble",
+      "cat": "detskaya",
+      "name": "Melta, мыльные пузыри Bubble",
+      "volume": "",
+      "file": "82.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-foot-wax-cream-120ml",
+      "cat": "kosmetika",
+      "name": "Melta, воск-крем для ног «Защита и регенерация» с витамином E",
+      "volume": "120 мл",
+      "file": "83.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-pets-shampoo-dogs-cats-fleas",
+      "cat": "zhivotnye",
+      "name": "Melta for pets, шампунь для собак и кошек от блох и клещей",
+      "volume": "500 мл",
+      "file": "84.webp",
+      "added": "2026-10-30"
     }
   ]
 }

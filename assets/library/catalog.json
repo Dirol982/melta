@@ -934,5 +934,44 @@
     "web": "assets/library/web/aromaty/melta-air-freshener-black-passion-7ml.webp",
     "original_size": "1439×1820",
     "web_kb": 90
+  },
+  {
+    "slug": "melta-kids-soap-bubbles-bubble",
+    "cat": "detskaya",
+    "name": "Melta, мыльные пузыри Bubble",
+    "volume": "",
+    "file": "82.webp",
+    "added": "2026-10-30",
+    "category": "Для детей",
+    "original": "assets/library/originals/detskaya/melta-kids-soap-bubbles-bubble.webp",
+    "web": "assets/library/web/detskaya/melta-kids-soap-bubbles-bubble.webp",
+    "original_size": "1439×1820",
+    "web_kb": 29
+  },
+  {
+    "slug": "melta-foot-wax-cream-120ml",
+    "cat": "kosmetika",
+    "name": "Melta, воск-крем для ног «Защита и регенерация» с витамином E",
+    "volume": "120 мл",
+    "file": "83.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-foot-wax-cream-120ml.webp",
+    "web": "assets/library/web/kosmetika/melta-foot-wax-cream-120ml.webp",
+    "original_size": "1439×1820",
+    "web_kb": 100
+  },
+  {
+    "slug": "melta-pets-shampoo-dogs-cats-fleas",
+    "cat": "zhivotnye",
+    "name": "Melta for pets, шампунь для собак и кошек от блох и клещей",
+    "volume": "500 мл",
+    "file": "84.webp",
+    "added": "2026-10-30",
+    "category": "Для животных",
+    "original": "assets/library/originals/zhivotnye/melta-pets-shampoo-dogs-cats-fleas.webp",
+    "web": "assets/library/web/zhivotnye/melta-pets-shampoo-dogs-cats-fleas.webp",
+    "original_size": "1439×1820",
+    "web_kb": 33
   }
 ]
