@@ -190,9 +190,12 @@ h1, h2, h3 { margin: 0; }
 .b2b { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .b2b__card { border-radius: 24px; padding: 48px; display: flex; flex-direction: column; align-items: flex-start; gap: 16px; position: relative; overflow: hidden; isolation: isolate; min-height: 300px; }
 .b2b__card h3 { font-weight: 900; font-size: clamp(30px, 3.2vw, 44px); text-transform: uppercase; letter-spacing: -0.02em; line-height: 1; }
-.b2b__card p { margin: 0; font-size: 16px; max-width: 54%; font-weight: 500; }
+.b2b__card p { margin: 0; font-size: 16px; max-width: 50%; font-weight: 500; }
 .b2b__card .hand { font-size: 32px; }
-.b2b__card img { position: absolute; right: 24px; bottom: 16px; height: 70%; max-width: 38%; object-fit: contain; z-index: -1; filter: drop-shadow(0 14px 18px rgba(20,16,25,.3)); }
+.b2b__card { padding-right: 46%; }
+.b2b__card p { max-width: none; }
+.b2b__card::after { content: ""; position: absolute; right: -60px; bottom: -80px; width: 62%; aspect-ratio: 1; border-radius: 50%; background: rgba(255,255,255,.22); z-index: -2; }
+.b2b__img { position: absolute; right: 32px; bottom: 32px; width: 42%; max-height: 78%; object-fit: contain; object-position: right bottom; z-index: -1; }
 .b2b__card--orange { background: linear-gradient(135deg, #FFB04A, var(--orange)); }
 .b2b__card--purple { background: linear-gradient(135deg, #7E57E6, var(--purple)); color: #fff; }
 
@@ -257,7 +260,8 @@ h1, h2, h3 { margin: 0; }
   .story__box, .b2b, .request { grid-template-columns: 1fr; }
   .story__box, .request { padding: 36px 24px; }
   .products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .b2b__card img { opacity: .35; }
+  .b2b__card { padding-right: 48px; }
+  .b2b__img { position: static; width: 100%; max-width: 440px; max-height: 240px; margin-top: 12px; align-self: center; object-position: center bottom; }
   .cats__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 640px) {
@@ -278,8 +282,7 @@ h1, h2, h3 { margin: 0; }
   .product h3 { font-size: 13px; }
   .steps { grid-template-columns: 1fr; }
   .b2b__card { padding: 32px 24px; min-height: 0; }
-  .b2b__card img { display: none; }
-  .b2b__card p { max-width: none; }
+  .b2b__img { max-height: 200px; }
   .stores { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .form { grid-template-columns: 1fr; padding: 20px; }
   .form .btn { justify-self: stretch; }

@@ -7,7 +7,10 @@ OUT = ROOT / 'assets' / 'library' / 'sets'
 OUT.mkdir(parents=True, exist_ok=True)
 
 def load(rel, h):
-    im = Image.open(O / rel).convert('RGBA')
+    path = O / rel
+    if not path.exists():  # расширение оригинала может отличаться (png/webp)
+        path = next(path.parent.glob(path.stem + '.*'))
+    im = Image.open(path).convert('RGBA')
     im = im.crop(im.getchannel('A').point(lambda v: 255 if v > 8 else 0).getbbox())
     return im.resize((round(im.width * h / im.height), h), Image.LANCZOS)
 
@@ -42,6 +45,12 @@ row('chemistry', [('bytovaya-himiya/melta-laundry-gel-universal-6l.webp', 720), 
 row('pets', [('zhivotnye/melta-pets-shampoo-dogs.webp', 700), ('zhivotnye/melta-pets-shampoo-dogs-fleas.webp', 700),
              ('zhivotnye/melta-pets-paw-foam-brush.webp', 560), ('zhivotnye/melta-pets-paw-nose-wax-120ml.webp', 230)], overlap=0.06)
 row('lube', [('lubrikanty/sliki-h2o-neutral-250ml.webp', 640), ('lubrikanty/sliki-h2o-sweet-strawberry-250ml.webp', 640), ('lubrikanty/melta-vaseline-perfumed-100.webp', 400)], overlap=0.0)
+
+# карточки «Опт» и «Под вашей маркой»
+row('b2b-opt', [('bytovaya-himiya/biolut-professional-gel-5l.webp', 640), ('bytovaya-himiya/biolut-oxygen-1kg.webp', 470),
+                ('bytovaya-himiya/biolut-dish-gel-lemon-1l.webp', 520), ('bytovaya-himiya/biolut-antizhir-500ml.webp', 440)], overlap=0.06)
+row('b2b-brand', [('volosy/melta-keratin-shampoo-1000ml.webp', 640), ('kosmetika/melta-bath-foam-raspberry-500.webp', 520),
+                  ('kosmetika/melta-cream-shower-gel-cherry-smoothie-500.webp', 470), ('kosmetika/melta-hand-cream-100.webp', 250)], overlap=0.06)
 
 # мыло ручной работы: сетка 2×2 без перекрытий + массажное мыло с люфой
 bars = [load(r, 300) for r in ['mylo/melta-handmade-soap-lavender.webp', 'mylo/melta-handmade-soap-juniper.webp',
