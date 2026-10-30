@@ -79,7 +79,7 @@ h1, h2, h3 { margin: 0; }
 .stage__leaf--tr { right: -1%; top: -2%; width: 7%; }
 .stage__leaf--r { right: 0; top: 34%; width: 3.6%; }
 .stage__leaf--soap { left: 54%; bottom: 3%; width: 7%; transform: rotate(60deg); }
-.note--kids { right: 4.5%; top: 9%; color: var(--purple); font-size: clamp(22px, 2vw, 30px); transform: rotate(-10deg); text-align: center; z-index: 2; }
+.note--kids { right: 4.5%; top: 9%; color: var(--purple); font-size: clamp(22px, 2vw, 30px); text-align: center; z-index: 2; }
 @keyframes prodIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: none; } }
 @keyframes bob { 50% { transform: translateY(-8px); } }
 .prod--dog, .prod--oxygen, .prod--gel, .prod--kids { animation: prodIn .9s cubic-bezier(.2,.8,.2,1) both; }
@@ -105,9 +105,9 @@ h1, h2, h3 { margin: 0; }
 .hero__lead strong { font-weight: 800; }
 .hero .btn { min-height: 44px; padding: 10px 26px; font-size: 13px; font-weight: 500; }
 .note { position: absolute; z-index: 2; }
-.note--family { left: 31.5%; top: 3%; color: var(--orange-hand); font-size: clamp(24px, 2.1vw, 32px); transform: rotate(-14deg); }
-.note__heart { display: inline-block; transform: translate(14px, -38px) scale(1.3); }
-.note--home { left: 26.5%; bottom: 6%; color: #fff; font-size: clamp(22px, 2vw, 30px); transform: rotate(-14deg); display: flex; align-items: flex-end; gap: 6px; }
+.note--family { left: 31.5%; top: 3%; color: var(--orange-hand); font-size: clamp(24px, 2.1vw, 32px); }
+.note__heart { display: inline-block; }
+.note--home { left: 26.5%; bottom: 6%; color: #fff; font-size: clamp(22px, 2vw, 30px); display: flex; align-items: flex-end; gap: 6px; }
 .note svg { width: 30px; height: 30px; }
 .scroll-hint { position: absolute; right: 2.4%; bottom: 4%; z-index: 2; width: 58px; height: 92px; border-radius: 999px; background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; font-size: 10.5px; color: var(--grey); text-decoration: none; text-align: center; line-height: 1.25; box-shadow: 0 8px 24px rgba(20,16,25,.12); }
 .leafimg { position: absolute; pointer-events: none; z-index: 3; height: auto; }
@@ -153,14 +153,14 @@ h1, h2, h3 { margin: 0; }
 .perk svg { grid-row: span 2; width: 28px; height: 28px; color: var(--ink); }
 .perk strong { font-weight: 500; font-size: 11.5px; line-height: 1.3; }
 .perk span { color: var(--grey); font-size: 10.5px; line-height: 1.45; }
-.perks__note { position: absolute; right: 7%; top: 10%; color: var(--orange-hand); font-size: clamp(22px, 1.9vw, 28px); transform: rotate(-12deg); z-index: 1; }
+.perks__note { position: absolute; right: 7%; top: 10%; color: var(--orange-hand); font-size: clamp(22px, 1.9vw, 28px); z-index: 1; }
 .perks__blob { position: absolute; right: -2%; bottom: -30%; width: 8%; aspect-ratio: 1 / 1.1; background: var(--orange); border-radius: 60% 0 0 0 / 70% 0 0 0; }
 
 /* ===== секции ===== */
 .section { padding: 80px 0; }
 .section h2 { font-weight: 900; font-size: clamp(32px, 4vw, 52px); text-transform: uppercase; letter-spacing: -0.02em; line-height: 1; }
 .head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 36px; }
-.head .hand { display: block; font-size: 32px; color: var(--orange-hand); transform: rotate(-3deg); margin-bottom: 4px; }
+.head .hand { display: block; font-size: 32px; color: var(--orange-hand); margin-bottom: 4px; }
 
 .products { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
 .product { background: #fff; border-radius: 18px; padding: 14px 14px 20px; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 14px 30px -22px rgba(20,16,25,.35); }
@@ -315,7 +315,7 @@ h1, h2, h3 { margin: 0; }
 .dirb__photo, .dirb__cut { transition: transform .5s cubic-bezier(.2,.8,.2,1); }
 
 .dirb__body { display: flex; flex-direction: column; gap: 16px; }
-.dirb__note { font-size: 30px; color: var(--orange-hand); transform: rotate(-3deg); transform-origin: left; }
+.dirb__note { font-size: 30px; color: var(--orange-hand); }
 .dirb__title { font-weight: 900; font-size: clamp(30px, 3.4vw, 48px); line-height: 1; text-transform: uppercase; letter-spacing: -0.02em; }
 .dirb__lead { margin: 0; font-size: 17px; line-height: 1.55; color: #3A3450; max-width: 560px; }
 .dirb__pros { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 10px; }
@@ -369,3 +369,29 @@ h1, h2, h3 { margin: 0; }
 }
 
 .dirb__photo--right { object-position: right center; }
+
+/* первый экран: фотография с товарами Melta */
+.hero__photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: left center; }
+.hero__stage .note--kids { right: 4%; top: 12%; }
+
+/* карточки категорий: 6 штук, товары-исходники */
+.cats__grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.cat { aspect-ratio: 1 / 1.08; padding: 22px 0 20px 20px; }
+.cat__title { font-size: clamp(13px, 1.1vw, 16px) !important; max-width: 70%; }
+.cat__sub { max-width: 58% !important; }
+.cat__go { margin-top: auto; }
+.cat__img { top: auto !important; right: 6%; bottom: 7%; width: auto !important; height: 66%; max-width: 50%; object-fit: contain; object-position: right bottom; -webkit-mask-image: none !important; mask-image: none !important; filter: drop-shadow(0 12px 12px rgba(40,25,60,.22)); }
+.cat--melta .cat__img { height: 46%; max-width: 54%; }
+.cat--biolut .cat__img { height: 64%; max-width: 54%; }
+.cat--hair .cat__img { height: 100%; bottom: 0; right: 0; filter: none; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 22%) !important; mask-image: linear-gradient(90deg, transparent 0, #000 22%) !important; }
+.cat--contract { background: linear-gradient(160deg, #7E57E6 0%, #6A3FD6 60%, #5631B8 100%); color: #fff; }
+.cat--contract .cat__sub { color: #E8E0FF; }
+.cat--contract .cat__img { height: 52%; max-width: 62%; }
+.cat--contract:hover .cat__go { color: #FFD08A; }
+.cat__paw { transform: none; }
+@media (max-width: 1100px) { .cats__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .cat { aspect-ratio: 1 / .8; } }
+@media (max-width: 640px) { .cats__grid { grid-template-columns: 1fr 1fr; } .cat { aspect-ratio: 1 / 1.15; padding: 16px 0 14px 14px; } .cat__sub { display: none; } }
+.cat--kids .cat__img, .cat--pets .cat__img { height: 76%; }
+.cat--melta .cat__img { height: 52%; }
+.cat--contract .cat__img { height: 44%; max-width: 58%; bottom: 22%; }
+.cat--contract .cat__img { height: 38%; bottom: 20%; max-width: 56%; } .cat--contract .cat__sub { max-width: 46% !important; }
