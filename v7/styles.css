@@ -416,3 +416,6 @@ h1, h2, h3 { margin: 0; }
   .hero--slide .hero__content { order: 1; background: var(--orange); border-radius: 0 0 60px 0; }
   .hero--slide .hero__text { max-width: none; padding: 36px 0 40px; }
 }
+.dirb__cut--slim { width: auto; height: 380px; max-width: 60%; object-fit: contain; }
+.dirb__cut--wide { width: 82%; height: auto; }
+@media (max-width: 900px) { .dirb__cut--slim { height: 300px; } }
