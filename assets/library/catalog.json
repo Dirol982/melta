@@ -765,5 +765,31 @@
     "web": "assets/library/web/bytovaya-himiya/biolut-gel-wash-color-5l.webp",
     "original_size": "1439×1820",
     "web_kb": 65
+  },
+  {
+    "slug": "melta-foot-cream-100",
+    "cat": "kosmetika",
+    "name": "Melta, крем для ног «Глубокое увлажнение и восстановление»",
+    "volume": "100 мл",
+    "file": "68.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-foot-cream-100.webp",
+    "web": "assets/library/web/kosmetika/melta-foot-cream-100.webp",
+    "original_size": "1439×1820",
+    "web_kb": 55
+  },
+  {
+    "slug": "melta-hand-cream-100",
+    "cat": "kosmetika",
+    "name": "Melta, крем для рук «Двойная забота о коже»",
+    "volume": "100 мл",
+    "file": "70.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-hand-cream-100.webp",
+    "web": "assets/library/web/kosmetika/melta-hand-cream-100.webp",
+    "original_size": "1439×1820",
+    "web_kb": 47
   }
 ]

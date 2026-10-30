@@ -481,6 +481,22 @@
       "volume": "5 л",
       "file": "67.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-foot-cream-100",
+      "cat": "kosmetika",
+      "name": "Melta, крем для ног «Глубокое увлажнение и восстановление»",
+      "volume": "100 мл",
+      "file": "68.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-hand-cream-100",
+      "cat": "kosmetika",
+      "name": "Melta, крем для рук «Двойная забота о коже»",
+      "volume": "100 мл",
+      "file": "70.webp",
+      "added": "2026-10-30"
     }
   ]
 }

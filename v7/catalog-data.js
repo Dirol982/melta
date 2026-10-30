@@ -12,6 +12,22 @@ window.MELTA_CATALOG = {
  },
  "items": [
   {
+   "slug": "melta-foot-cream-100",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Крем для ног «Глубокое увлажнение и восстановление»",
+   "volume": "100 мл",
+   "img": "../assets/library/web/kosmetika/melta-foot-cream-100.webp"
+  },
+  {
+   "slug": "melta-hand-cream-100",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Крем для рук «Двойная забота о коже»",
+   "volume": "100 мл",
+   "img": "../assets/library/web/kosmetika/melta-hand-cream-100.webp"
+  },
+  {
    "slug": "melta-aloe-panthenol-gel",
    "cat": "kosmetika",
    "brand": "Melta",

@@ -11,6 +11,8 @@
 | Melta, пена для ванн «Спелое манго с ягодами» | 500 мл | `assets/library/originals/kosmetika/melta-bath-foam-mango-berries-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-bath-foam-mango-berries-500.webp` (47 КБ) |
 | Melta, пена для ванн «Сладкая малина» | 500 мл | `assets/library/originals/kosmetika/melta-bath-foam-raspberry-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-bath-foam-raspberry-500.webp` (55 КБ) |
 | Melta, пена для ванн «Сочный киви» | 500 мл | `assets/library/originals/kosmetika/melta-bath-foam-kiwi-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-bath-foam-kiwi-500.webp` (48 КБ) |
+| Melta, крем для ног «Глубокое увлажнение и восстановление» | 100 мл | `assets/library/originals/kosmetika/melta-foot-cream-100.webp` (1439×1820) | `assets/library/web/kosmetika/melta-foot-cream-100.webp` (55 КБ) |
+| Melta, крем для рук «Двойная забота о коже» | 100 мл | `assets/library/originals/kosmetika/melta-hand-cream-100.webp` (1439×1820) | `assets/library/web/kosmetika/melta-hand-cream-100.webp` (47 КБ) |
 
 ## Уход за волосами
 
