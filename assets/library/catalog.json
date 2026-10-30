@@ -466,5 +466,57 @@
     "web": "assets/library/web/bytovaya-himiya/melta-laundry-gel-color-6l.webp",
     "original_size": "1652×2000",
     "web_kb": 81
+  },
+  {
+    "slug": "melta-laundry-gel-color-2l",
+    "cat": "bytovaya-himiya",
+    "name": "Melta, гель для стирки для цветного, концентрированная формула, 40 стирок",
+    "volume": "2 л",
+    "file": "45.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/melta-laundry-gel-color-2l.webp",
+    "web": "assets/library/web/bytovaya-himiya/melta-laundry-gel-color-2l.webp",
+    "original_size": "1333×2000",
+    "web_kb": 50
+  },
+  {
+    "slug": "melta-laundry-gel-universal-2l",
+    "cat": "bytovaya-himiya",
+    "name": "Melta, гель для стирки универсальный, концентрированная формула, 40 стирок",
+    "volume": "2 л",
+    "file": "46.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/melta-laundry-gel-universal-2l.webp",
+    "web": "assets/library/web/bytovaya-himiya/melta-laundry-gel-universal-2l.webp",
+    "original_size": "1333×2000",
+    "web_kb": 50
+  },
+  {
+    "slug": "biolut-condi-fresh-1l",
+    "cat": "bytovaya-himiya",
+    "name": "Biolut Condi Fresh, кондиционер для белья (этикетка PL/RU), Vegan",
+    "volume": "1 л",
+    "file": "47.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/biolut-condi-fresh-1l.webp",
+    "web": "assets/library/web/bytovaya-himiya/biolut-condi-fresh-1l.webp",
+    "original_size": "806×1802",
+    "web_kb": 72
+  },
+  {
+    "slug": "mitti-laundry-gel-universal-6l",
+    "cat": "bytovaya-himiya",
+    "name": "Mitti, гель для стирки универсальный (этикетка PL/RU), 195 стирок",
+    "volume": "6 л",
+    "file": "48.webp",
+    "added": "2026-10-30",
+    "category": "Бытовая химия",
+    "original": "assets/library/originals/bytovaya-himiya/mitti-laundry-gel-universal-6l.webp",
+    "web": "assets/library/web/bytovaya-himiya/mitti-laundry-gel-universal-6l.webp",
+    "original_size": "1045×2000",
+    "web_kb": 52
   }
 ]

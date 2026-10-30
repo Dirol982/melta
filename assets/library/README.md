@@ -39,6 +39,10 @@
 | Biolut Professional Color, гель для стирки цветного белья (165 стирок) | 5 л | `assets/library/originals/bytovaya-himiya/biolut-professional-gel-color-5l.png` (900×1200) | `assets/library/web/bytovaya-himiya/biolut-professional-gel-color-5l.webp` (49 КБ) |
 | Melta, гель для стирки универсальный, концентрированная формула, 190 стирок | 6 л | `assets/library/originals/bytovaya-himiya/melta-laundry-gel-universal-6l.webp` (1652×2000) | `assets/library/web/bytovaya-himiya/melta-laundry-gel-universal-6l.webp` (80 КБ) |
 | Melta, гель для стирки для цветного, концентрированная формула, 190 стирок | 6 л | `assets/library/originals/bytovaya-himiya/melta-laundry-gel-color-6l.webp` (1652×2000) | `assets/library/web/bytovaya-himiya/melta-laundry-gel-color-6l.webp` (81 КБ) |
+| Melta, гель для стирки для цветного, концентрированная формула, 40 стирок | 2 л | `assets/library/originals/bytovaya-himiya/melta-laundry-gel-color-2l.webp` (1333×2000) | `assets/library/web/bytovaya-himiya/melta-laundry-gel-color-2l.webp` (50 КБ) |
+| Melta, гель для стирки универсальный, концентрированная формула, 40 стирок | 2 л | `assets/library/originals/bytovaya-himiya/melta-laundry-gel-universal-2l.webp` (1333×2000) | `assets/library/web/bytovaya-himiya/melta-laundry-gel-universal-2l.webp` (50 КБ) |
+| Biolut Condi Fresh, кондиционер для белья (этикетка PL/RU), Vegan | 1 л | `assets/library/originals/bytovaya-himiya/biolut-condi-fresh-1l.webp` (806×1802) | `assets/library/web/bytovaya-himiya/biolut-condi-fresh-1l.webp` (72 КБ) |
+| Mitti, гель для стирки универсальный (этикетка PL/RU), 195 стирок | 6 л | `assets/library/originals/bytovaya-himiya/mitti-laundry-gel-universal-6l.webp` (1045×2000) | `assets/library/web/bytovaya-himiya/mitti-laundry-gel-universal-6l.webp` (52 КБ) |
 
 ## Для животных
 

@@ -297,6 +297,38 @@
       "volume": "6 л",
       "file": "44.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-laundry-gel-color-2l",
+      "cat": "bytovaya-himiya",
+      "name": "Melta, гель для стирки для цветного, концентрированная формула, 40 стирок",
+      "volume": "2 л",
+      "file": "45.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-laundry-gel-universal-2l",
+      "cat": "bytovaya-himiya",
+      "name": "Melta, гель для стирки универсальный, концентрированная формула, 40 стирок",
+      "volume": "2 л",
+      "file": "46.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-condi-fresh-1l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut Condi Fresh, кондиционер для белья (этикетка PL/RU), Vegan",
+      "volume": "1 л",
+      "file": "47.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "mitti-laundry-gel-universal-6l",
+      "cat": "bytovaya-himiya",
+      "name": "Mitti, гель для стирки универсальный (этикетка PL/RU), 195 стирок",
+      "volume": "6 л",
+      "file": "48.webp",
+      "added": "2026-10-30"
     }
   ]
 }
