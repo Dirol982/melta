@@ -457,6 +457,30 @@
       "volume": "500 мл",
       "file": "64.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-liquid-soap-aloe-5l",
+      "cat": "mylo",
+      "name": "Biolut Antibacterial, жидкое мыло Aloe Vera",
+      "volume": "5 л",
+      "file": "65.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-liquid-soap-aloe-05l",
+      "cat": "mylo",
+      "name": "Biolut Antibacterial, жидкое мыло Aloe Vera",
+      "volume": "0,5 л",
+      "file": "66.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "biolut-gel-wash-color-5l",
+      "cat": "bytovaya-himiya",
+      "name": "Biolut gel wash Color, гель для стирки цветного белья, 160 стирок",
+      "volume": "5 л",
+      "file": "67.webp",
+      "added": "2026-10-30"
     }
   ]
 }

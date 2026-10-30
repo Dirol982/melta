@@ -212,6 +212,14 @@ window.MELTA_CATALOG = {
    "img": "../assets/library/web/bytovaya-himiya/biolut-professional-gel-color-5l.webp"
   },
   {
+   "slug": "biolut-gel-wash-color-5l",
+   "cat": "bytovaya-himiya",
+   "brand": "Biolut gel wash Color",
+   "title": "Гель для стирки цветного белья, 160 стирок",
+   "volume": "5 л",
+   "img": "../assets/library/web/bytovaya-himiya/biolut-gel-wash-color-5l.webp"
+  },
+  {
    "slug": "melta-laundry-gel-color-6l",
    "cat": "bytovaya-himiya",
    "brand": "Melta",
@@ -314,6 +322,22 @@ window.MELTA_CATALOG = {
    "title": "Шампунь для собак с Д-пантенолом",
    "volume": "500 мл",
    "img": "../assets/library/web/zhivotnye/melta-pets-shampoo-dogs.webp"
+  },
+  {
+   "slug": "biolut-liquid-soap-aloe-5l",
+   "cat": "mylo",
+   "brand": "Biolut Antibacterial",
+   "title": "Жидкое мыло Aloe Vera",
+   "volume": "5 л",
+   "img": "../assets/library/web/mylo/biolut-liquid-soap-aloe-5l.webp"
+  },
+  {
+   "slug": "biolut-liquid-soap-aloe-05l",
+   "cat": "mylo",
+   "brand": "Biolut Antibacterial",
+   "title": "Жидкое мыло Aloe Vera",
+   "volume": "0,5 л",
+   "img": "../assets/library/web/mylo/biolut-liquid-soap-aloe-05l.webp"
   },
   {
    "slug": "melta-soap-lavender-lufa",
