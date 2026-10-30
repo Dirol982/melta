@@ -28,7 +28,7 @@
     <a class="logo" href="#top" aria-label="Melta — на главную"><img src="../assets/melta-logo-header.png" alt="Melta" width="118" height="42"></a>
     <nav class="nav" id="nav" aria-label="Основное меню">
       <a href="#about">О бренде</a>
-      <a href="#shop">Каталог</a>
+      <a href="catalog.html">Каталог</a>
       <a href="https://melta.by/product-category/domestic-chemicals/">Для дома</a>
       <a href="https://melta.by/product-category/cosmetics/">Лубриканты</a>
       <a href="https://melta.by/product-category/cosmetics/">Для детей</a>
@@ -65,28 +65,28 @@
 
   <section class="cats" id="catalog" aria-label="Категории продукции">
     <div class="container cats__grid">
-      <a class="cat cat--melta bubbles" href="#shop" data-shop-filter="kosmetika">
+      <a class="cat cat--melta bubbles" href="catalog.html?cat=kosmetika">
         <span class="cat__title">Косметика<br>и уход</span>
         <span class="cat__sub">Кремы, гели<br>и мыло</span>
         <span class="cat__go">Перейти <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></span>
         <span class="cat__stage" aria-hidden="true"><span class="cat__glow"></span><span class="cat__pod"></span><i class="cb cb--1"></i><i class="cb cb--2"></i><i class="cb cb--3"></i></span>
         <img class="cat__img" src="../assets/library/web/kosmetika/melta-sun-cream-spf50.webp" alt="" loading="lazy">
       </a>
-      <a class="cat cat--biolut bubbles" href="#shop" data-shop-filter="bytovaya-himiya">
+      <a class="cat cat--biolut bubbles" href="catalog.html?cat=bytovaya-himiya">
         <span class="cat__title">Бытовая<br>химия</span>
         <span class="cat__sub">Стирка, посуда<br>и уборка</span>
         <span class="cat__go">Перейти <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></span>
         <span class="cat__stage" aria-hidden="true"><span class="cat__glow"></span><span class="cat__pod"></span><i class="cb cb--1"></i><i class="cb cb--2"></i><i class="cb cb--3"></i></span>
         <img class="cat__img" src="../assets/products/biolut-oxygen.webp" alt="" loading="lazy">
       </a>
-      <a class="cat cat--kids bubbles" href="#shop" data-shop-filter="detskaya">
+      <a class="cat cat--kids bubbles" href="catalog.html?cat=detskaya">
         <span class="cat__title">Для детей</span>
         <span class="cat__sub">Нежный уход<br>и чистота</span>
         <span class="cat__go">Перейти <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></span>
         <span class="cat__stage" aria-hidden="true"><span class="cat__glow"></span><span class="cat__pod"></span><i class="cb cb--1"></i><i class="cb cb--2"></i><i class="cb cb--3"></i></span>
         <img class="cat__img" src="../assets/products/kids-gel.webp" alt="" loading="lazy">
       </a>
-      <a class="cat cat--pets bubbles" href="#shop" data-shop-filter="zhivotnye">
+      <a class="cat cat--pets bubbles" href="catalog.html?cat=zhivotnye">
         <svg class="cat__paw" aria-hidden="true"><use href="#paw"/></svg>
         <span class="cat__title">Для животных</span>
         <span class="cat__sub">Забота<br>и комфорт</span>
@@ -94,7 +94,7 @@
         <span class="cat__stage" aria-hidden="true"><span class="cat__glow"></span><span class="cat__pod"></span><i class="cb cb--1"></i><i class="cb cb--2"></i><i class="cb cb--3"></i></span>
         <img class="cat__img" src="../assets/products/shampoo-dogs.webp" alt="" loading="lazy">
       </a>
-      <a class="cat cat--lube bubbles" href="#shop" data-shop-filter="lubrikanty">
+      <a class="cat cat--lube bubbles" href="catalog.html?cat=lubrikanty">
         <span class="cat__title">Лубриканты<br>и вазелин</span>
         <span class="cat__sub">Гели SLIKI<br>на водной основе</span>
         <span class="cat__go">Перейти <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></span>
@@ -268,7 +268,7 @@
       <p class="shop__count" aria-live="polite"></p>
       <div class="shop__grid"></div>
       <p class="shop__empty" hidden>Ничего не нашлось. Попробуйте другое слово или выберите категорию.</p>
-      <div class="shop__actions"><button type="button" class="btn btn--orange shop__more" hidden>Показать ещё</button></div>
+      <div class="shop__actions"><button type="button" class="btn btn--ghost shop__more" hidden>Показать ещё</button><a class="btn btn--orange" href="catalog.html">Открыть весь каталог <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></a></div>
     </div>
   </section>
 
@@ -403,8 +403,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="../script.js"></script>
 <script src="directions.js?v=2"></script>
-<script src="catalog-data.js?v=11"></script>
-<script src="catalog.js?v=2"></script>
+<script src="catalog-data.js?v=12"></script>
+<script src="catalog.js?v=3"></script>
 <script src="motion.js"></script>
 </body>
 </html>

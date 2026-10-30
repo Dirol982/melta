@@ -36,7 +36,7 @@
 
   document.title = `${item.brand} — ${item.title}${item.volume ? `, ${item.volume}` : ''} | Melta`;
   const crumb = document.querySelector('.crumbs__cat');
-  if (crumb) crumb.textContent = catName;
+  if (crumb) { crumb.textContent = catName; crumb.href = `catalog.html?cat=${item.cat}`; }
 
   const specRows = [
     ['Бренд', item.brand],
