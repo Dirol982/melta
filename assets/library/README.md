@@ -47,11 +47,15 @@
 | Melta for pets, пенка для лапок с массажной щёткой, D-пантенол + хлоргексидин, не требует смывания | — | `assets/library/originals/zhivotnye/melta-pets-paw-foam-brush.webp` (740×2000) | `assets/library/web/zhivotnye/melta-pets-paw-foam-brush.webp` (35 КБ) |
 | Melta for pets, шампунь для собак от блох и клещей | 500 мл | `assets/library/originals/zhivotnye/melta-pets-shampoo-dogs-fleas.webp` (775×2000) | `assets/library/web/zhivotnye/melta-pets-shampoo-dogs-fleas.webp` (29 КБ) |
 
-## Мыло ручной работы
+## Мыло
 
 | Товар | Объём | Оригинал | Для сайта |
 |---|---|---|---|
 | Melta, мыло массажное с люфой Lavender, ручная работа | — | `assets/library/originals/mylo/melta-soap-lavender-lufa.webp` (919×1183) | `assets/library/web/mylo/melta-soap-lavender-lufa.webp` (39 КБ) |
+| Melta Avocado Splash Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-avocado-splash.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-avocado-splash.webp` (78 КБ) |
+| Melta Lavender Field Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-lavender-field.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-lavender-field.webp` (97 КБ) |
+| Melta Original Cream Soap, увлажняющее крем-мыло «Интенсивное питание» | — | `assets/library/originals/mylo/melta-cream-soap-original.webp` (2000×1494) | `assets/library/web/mylo/melta-cream-soap-original.webp` (75 КБ) |
+| Melta Flower Bouquet Cream Soap, крем-мыло «Питание и увлажнение» | — | `assets/library/originals/mylo/melta-cream-soap-flower-bouquet.webp` (2000×1244) | `assets/library/web/mylo/melta-cream-soap-flower-bouquet.webp` (89 КБ) |
 
 ## Лубриканты и вазелин
 

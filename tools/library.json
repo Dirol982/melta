@@ -5,7 +5,7 @@
     "detskaya": "Для детей",
     "bytovaya-himiya": "Бытовая химия",
     "zhivotnye": "Для животных",
-    "mylo": "Мыло ручной работы",
+    "mylo": "Мыло",
     "lubrikanty": "Лубриканты и вазелин",
     "aromaty": "Ароматы для дома и авто"
   },
@@ -208,6 +208,38 @@
       "name": "Melta for pets, шампунь для собак от блох и клещей",
       "volume": "500 мл",
       "file": "32.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-cream-soap-avocado-splash",
+      "cat": "mylo",
+      "name": "Melta Avocado Splash Cream Soap, крем-мыло «Питание и увлажнение»",
+      "volume": "",
+      "file": "33.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-cream-soap-lavender-field",
+      "cat": "mylo",
+      "name": "Melta Lavender Field Cream Soap, крем-мыло «Питание и увлажнение»",
+      "volume": "",
+      "file": "34.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-cream-soap-original",
+      "cat": "mylo",
+      "name": "Melta Original Cream Soap, увлажняющее крем-мыло «Интенсивное питание»",
+      "volume": "",
+      "file": "35.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-cream-soap-flower-bouquet",
+      "cat": "mylo",
+      "name": "Melta Flower Bouquet Cream Soap, крем-мыло «Питание и увлажнение»",
+      "volume": "",
+      "file": "36.webp",
       "added": "2026-10-30"
     }
   ]

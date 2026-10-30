@@ -45,7 +45,7 @@
     "volume": "",
     "file": "5.webp",
     "added": "2026-10-30",
-    "category": "Мыло ручной работы",
+    "category": "Мыло",
     "original": "assets/library/originals/mylo/melta-soap-lavender-lufa.webp",
     "web": "assets/library/web/mylo/melta-soap-lavender-lufa.webp",
     "original_size": "919×1183",
@@ -323,5 +323,57 @@
     "web": "assets/library/web/zhivotnye/melta-pets-shampoo-dogs-fleas.webp",
     "original_size": "775×2000",
     "web_kb": 29
+  },
+  {
+    "slug": "melta-cream-soap-avocado-splash",
+    "cat": "mylo",
+    "name": "Melta Avocado Splash Cream Soap, крем-мыло «Питание и увлажнение»",
+    "volume": "",
+    "file": "33.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-cream-soap-avocado-splash.webp",
+    "web": "assets/library/web/mylo/melta-cream-soap-avocado-splash.webp",
+    "original_size": "2000×1244",
+    "web_kb": 78
+  },
+  {
+    "slug": "melta-cream-soap-lavender-field",
+    "cat": "mylo",
+    "name": "Melta Lavender Field Cream Soap, крем-мыло «Питание и увлажнение»",
+    "volume": "",
+    "file": "34.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-cream-soap-lavender-field.webp",
+    "web": "assets/library/web/mylo/melta-cream-soap-lavender-field.webp",
+    "original_size": "2000×1244",
+    "web_kb": 97
+  },
+  {
+    "slug": "melta-cream-soap-original",
+    "cat": "mylo",
+    "name": "Melta Original Cream Soap, увлажняющее крем-мыло «Интенсивное питание»",
+    "volume": "",
+    "file": "35.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-cream-soap-original.webp",
+    "web": "assets/library/web/mylo/melta-cream-soap-original.webp",
+    "original_size": "2000×1494",
+    "web_kb": 75
+  },
+  {
+    "slug": "melta-cream-soap-flower-bouquet",
+    "cat": "mylo",
+    "name": "Melta Flower Bouquet Cream Soap, крем-мыло «Питание и увлажнение»",
+    "volume": "",
+    "file": "36.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-cream-soap-flower-bouquet.webp",
+    "web": "assets/library/web/mylo/melta-cream-soap-flower-bouquet.webp",
+    "original_size": "2000×1244",
+    "web_kb": 89
   }
 ]
