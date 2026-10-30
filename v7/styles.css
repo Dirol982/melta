@@ -467,3 +467,62 @@ h1, h2, h3 { margin: 0; }
 .cb--1 { bottom: 34%; } .cb--2 { bottom: 86%; } .cb--3 { bottom: 12%; }
 @media (max-width: 1100px) { .cat__img { height: 46% !important; } }
 .cat .cat__sub, .cat--biolut .cat__sub, .cat--lube .cat__sub, .cat--contract .cat__sub { max-width: 100% !important; }
+
+/* ===== блоки направлений: композиции из линейки ===== */
+.dirb__cut--set { width: 100%; max-width: 520px; height: auto; max-height: 380px; object-fit: contain; position: relative; }
+
+/* ===== весь каталог ===== */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.shop { padding-top: 40px; }
+.shop__bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; margin-bottom: 14px; }
+.shop__chips { display: flex; flex-wrap: wrap; gap: 8px; flex: 1 1 600px; }
+.shop__chip { font: 600 14px var(--font); color: var(--ink); background: #fff; border: 1px solid #EDE4DA; border-radius: 999px; min-height: 44px; padding: 8px 16px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: background .2s, color .2s, border-color .2s; }
+.shop__chip span { font-size: 12px; color: var(--grey); background: #F6F0EA; border-radius: 999px; padding: 2px 8px; }
+.shop__chip:hover { border-color: var(--orange); }
+.shop__chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.shop__chip[aria-pressed="true"] span { background: rgba(255,255,255,.18); color: #fff; }
+.shop__search { display: flex; align-items: center; gap: 10px; background: #fff; border: 1px solid #EDE4DA; border-radius: 999px; padding: 0 18px; min-height: 48px; flex: 0 1 340px; }
+.shop__search svg { width: 20px; height: 20px; color: var(--grey); flex: none; }
+.shop__search input { border: 0; outline: 0; font: 400 15px var(--font); width: 100%; background: transparent; color: var(--ink); }
+.shop__search:focus-within { border-color: var(--orange-btn); box-shadow: 0 0 0 3px rgba(194,65,12,.15); }
+.shop__count { margin: 0 0 18px; font-size: 14px; color: var(--grey); }
+.shop__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+.shop__empty { text-align: center; color: var(--grey); padding: 40px 0; }
+.shop__actions { display: flex; justify-content: center; margin-top: 32px; }
+
+.pcard { background: #fff; border-radius: 22px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 14px 30px -24px rgba(40,25,60,.4); transition: transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s; animation: pcardIn .5s cubic-bezier(.2,.8,.2,1) both; }
+.pcard:hover { transform: translateY(-6px); box-shadow: 0 26px 44px -26px rgba(40,25,60,.5); }
+@keyframes pcardIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+.pcard__stage { position: relative; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; padding: 22px; isolation: isolate; }
+.pcard__stage::before { content: ""; position: absolute; inset: 14% 14% 10%; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.95), rgba(255,255,255,0) 70%); z-index: -1; }
+.pcard__stage img { position: absolute; inset: 8%; width: 84%; height: 84%; object-fit: contain; transition: transform .4s cubic-bezier(.2,.8,.2,1); }
+.pcard:hover .pcard__stage img { transform: scale(1.05); }
+.pcard--kosmetika .pcard__stage { background: linear-gradient(160deg, #FFF3E4, #FED6A2); }
+.pcard--volosy .pcard__stage { background: linear-gradient(160deg, #F7F4EE, #E9E2D3); }
+.pcard--detskaya .pcard__stage { background: linear-gradient(160deg, #EEF9EC, #CDEFD0); }
+.pcard--bytovaya-himiya .pcard__stage { background: linear-gradient(160deg, #F4F1FF, #DED4FA); }
+.pcard--zhivotnye .pcard__stage { background: linear-gradient(160deg, #FFF6EA, #F4DCBE); }
+.pcard--mylo .pcard__stage { background: linear-gradient(160deg, #F1FBF6, #D2EFE1); }
+.pcard--aromaty .pcard__stage { background: linear-gradient(160deg, #FFF8EE, #F6E3C6); }
+.pcard--lubrikanty .pcard__stage { background: linear-gradient(160deg, #FFF0F5, #F6D2E2); }
+.pcard__body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.pcard__cat { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--grey); }
+.pcard__title { margin: 0; font-size: 15px; font-weight: 500; line-height: 1.35; flex: 1; }
+.pcard__title span { display: block; font-weight: 800; font-size: 14px; margin-bottom: 2px; }
+.pcard__foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 4px; }
+.pcard__vol { font-size: 13px; font-weight: 600; background: #F6F0EA; border-radius: 999px; padding: 5px 10px; }
+.pcard__btn { font-weight: 600; font-size: 14px; color: #fff; background: var(--orange-btn); border-radius: 999px; padding: 10px 18px; min-height: 40px; display: inline-flex; align-items: center; text-decoration: none; transition: background .2s; }
+.pcard__btn:hover { background: #A63609; color: #fff; }
+
+@media (max-width: 1100px) { .shop__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+  .shop__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .shop__chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 2px 16px 8px; flex-basis: 100%; }
+  .shop__chip { flex: none; }
+  .shop__search { flex-basis: 100%; }
+  .pcard__body { padding: 12px; }
+  .pcard__title { font-size: 13px; }
+  .pcard__foot { flex-wrap: wrap; }
+  .pcard__btn { padding: 8px 14px; font-size: 13px; }
+}
+@media (prefers-reduced-motion: reduce) { .pcard { animation: none; } }
