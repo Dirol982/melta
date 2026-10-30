@@ -518,5 +518,70 @@
     "web": "assets/library/web/bytovaya-himiya/mitti-laundry-gel-universal-6l.webp",
     "original_size": "1045×2000",
     "web_kb": 52
+  },
+  {
+    "slug": "melta-handmade-soap-ginger-orange",
+    "cat": "mylo",
+    "name": "Melta handmade soap glycerinate, мыло ручной работы «Имбирь и апельсин»: масла горького померанца, эвкалипта, гвоздики, петигрена, мандарина, сладкого апельсина, имбиря",
+    "volume": "",
+    "file": "49.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-handmade-soap-ginger-orange.webp",
+    "web": "assets/library/web/mylo/melta-handmade-soap-ginger-orange.webp",
+    "original_size": "2000×1400",
+    "web_kb": 254
+  },
+  {
+    "slug": "melta-handmade-soap-cinnamon",
+    "cat": "mylo",
+    "name": "Melta handmade soap glycerinate, мыло ручной работы «Корица»: масла корицы, кумина, благородного базилика",
+    "volume": "",
+    "file": "50.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-handmade-soap-cinnamon.webp",
+    "web": "assets/library/web/mylo/melta-handmade-soap-cinnamon.webp",
+    "original_size": "2000×1507",
+    "web_kb": 273
+  },
+  {
+    "slug": "melta-handmade-soap-lavender",
+    "cat": "mylo",
+    "name": "Melta handmade soap glycerinate, мыло ручной работы «Лавандовое»: масла лаванды, лавандина, эвкалипта, кориандра, бергамота",
+    "volume": "",
+    "file": "51.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-handmade-soap-lavender.webp",
+    "web": "assets/library/web/mylo/melta-handmade-soap-lavender.webp",
+    "original_size": "2000×1507",
+    "web_kb": 324
+  },
+  {
+    "slug": "melta-handmade-soap-juniper",
+    "cat": "mylo",
+    "name": "Melta handmade soap glycerinate, мыло ручной работы «Можжевеловое»: можжевеловые масла из ягод и лапок, масло лавра благородного, сосновое масло",
+    "volume": "",
+    "file": "52.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-handmade-soap-juniper.webp",
+    "web": "assets/library/web/mylo/melta-handmade-soap-juniper.webp",
+    "original_size": "2000×1507",
+    "web_kb": 225
+  },
+  {
+    "slug": "melta-handmade-soap-mint-tea-tree",
+    "cat": "mylo",
+    "name": "Melta handmade soap glycerinate, мыло ручной работы «Мята и чайное дерево»: масла перечной мяты, мяты кудрявой, мелиссы, чайного дерева",
+    "volume": "",
+    "file": "53.webp",
+    "added": "2026-10-30",
+    "category": "Мыло",
+    "original": "assets/library/originals/mylo/melta-handmade-soap-mint-tea-tree.webp",
+    "web": "assets/library/web/mylo/melta-handmade-soap-mint-tea-tree.webp",
+    "original_size": "2000×1507",
+    "web_kb": 267
   }
 ]
