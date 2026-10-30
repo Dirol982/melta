@@ -177,6 +177,38 @@
       "volume": "500 мл",
       "file": "27.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-pets-paw-nose-wax-120ml",
+      "cat": "zhivotnye",
+      "name": "Melta for pets, воск для лап и носа «Защита и регенерация», с витамином E",
+      "volume": "120 мл",
+      "file": "28.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-pets-paw-foam",
+      "cat": "zhivotnye",
+      "name": "Melta for pets, пенка для лапок D-пантенол + хлоргексидин, не требует смывания",
+      "volume": "",
+      "file": "29.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-pets-paw-foam-brush",
+      "cat": "zhivotnye",
+      "name": "Melta for pets, пенка для лапок с массажной щёткой, D-пантенол + хлоргексидин, не требует смывания",
+      "volume": "",
+      "file": "30.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-pets-shampoo-dogs-fleas",
+      "cat": "zhivotnye",
+      "name": "Melta for pets, шампунь для собак от блох и клещей",
+      "volume": "500 мл",
+      "file": "32.webp",
+      "added": "2026-10-30"
     }
   ]
 }

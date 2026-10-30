@@ -271,5 +271,57 @@
     "web": "assets/library/web/volosy/melta-keratin-shampoo-500ml.webp",
     "original_size": "692×1785",
     "web_kb": 10
+  },
+  {
+    "slug": "melta-pets-paw-nose-wax-120ml",
+    "cat": "zhivotnye",
+    "name": "Melta for pets, воск для лап и носа «Защита и регенерация», с витамином E",
+    "volume": "120 мл",
+    "file": "28.webp",
+    "added": "2026-10-30",
+    "category": "Для животных",
+    "original": "assets/library/originals/zhivotnye/melta-pets-paw-nose-wax-120ml.webp",
+    "web": "assets/library/web/zhivotnye/melta-pets-paw-nose-wax-120ml.webp",
+    "original_size": "1250×1010",
+    "web_kb": 95
+  },
+  {
+    "slug": "melta-pets-paw-foam",
+    "cat": "zhivotnye",
+    "name": "Melta for pets, пенка для лапок D-пантенол + хлоргексидин, не требует смывания",
+    "volume": "",
+    "file": "29.webp",
+    "added": "2026-10-30",
+    "category": "Для животных",
+    "original": "assets/library/originals/zhivotnye/melta-pets-paw-foam.webp",
+    "web": "assets/library/web/zhivotnye/melta-pets-paw-foam.webp",
+    "original_size": "710×2000",
+    "web_kb": 43
+  },
+  {
+    "slug": "melta-pets-paw-foam-brush",
+    "cat": "zhivotnye",
+    "name": "Melta for pets, пенка для лапок с массажной щёткой, D-пантенол + хлоргексидин, не требует смывания",
+    "volume": "",
+    "file": "30.webp",
+    "added": "2026-10-30",
+    "category": "Для животных",
+    "original": "assets/library/originals/zhivotnye/melta-pets-paw-foam-brush.webp",
+    "web": "assets/library/web/zhivotnye/melta-pets-paw-foam-brush.webp",
+    "original_size": "740×2000",
+    "web_kb": 35
+  },
+  {
+    "slug": "melta-pets-shampoo-dogs-fleas",
+    "cat": "zhivotnye",
+    "name": "Melta for pets, шампунь для собак от блох и клещей",
+    "volume": "500 мл",
+    "file": "32.webp",
+    "added": "2026-10-30",
+    "category": "Для животных",
+    "original": "assets/library/originals/zhivotnye/melta-pets-shampoo-dogs-fleas.webp",
+    "web": "assets/library/web/zhivotnye/melta-pets-shampoo-dogs-fleas.webp",
+    "original_size": "775×2000",
+    "web_kb": 29
   }
 ]

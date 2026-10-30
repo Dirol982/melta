@@ -42,6 +42,10 @@
 | Товар | Объём | Оригинал | Для сайта |
 |---|---|---|---|
 | Melta for pets, шампунь для собак с Д-пантенолом | 500 мл | `assets/library/originals/zhivotnye/melta-pets-shampoo-dogs.webp` (775×2000) | `assets/library/web/zhivotnye/melta-pets-shampoo-dogs.webp` (30 КБ) |
+| Melta for pets, воск для лап и носа «Защита и регенерация», с витамином E | 120 мл | `assets/library/originals/zhivotnye/melta-pets-paw-nose-wax-120ml.webp` (1250×1010) | `assets/library/web/zhivotnye/melta-pets-paw-nose-wax-120ml.webp` (95 КБ) |
+| Melta for pets, пенка для лапок D-пантенол + хлоргексидин, не требует смывания | — | `assets/library/originals/zhivotnye/melta-pets-paw-foam.webp` (710×2000) | `assets/library/web/zhivotnye/melta-pets-paw-foam.webp` (43 КБ) |
+| Melta for pets, пенка для лапок с массажной щёткой, D-пантенол + хлоргексидин, не требует смывания | — | `assets/library/originals/zhivotnye/melta-pets-paw-foam-brush.webp` (740×2000) | `assets/library/web/zhivotnye/melta-pets-paw-foam-brush.webp` (35 КБ) |
+| Melta for pets, шампунь для собак от блох и клещей | 500 мл | `assets/library/originals/zhivotnye/melta-pets-shampoo-dogs-fleas.webp` (775×2000) | `assets/library/web/zhivotnye/melta-pets-shampoo-dogs-fleas.webp` (29 КБ) |
 
 ## Мыло ручной работы
 
