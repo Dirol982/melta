@@ -497,6 +497,46 @@
       "volume": "100 мл",
       "file": "70.webp",
       "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-cream-shower-gel-cherry-smoothie-500",
+      "cat": "kosmetika",
+      "name": "Melta, крем-гель для душа «Вишнёвый смузи»",
+      "volume": "500 мл",
+      "file": "71.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-cream-shower-gel-vanilla-milkshake-500",
+      "cat": "kosmetika",
+      "name": "Melta, крем-гель для душа «Ванильный милкшейк»",
+      "volume": "500 мл",
+      "file": "72.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-shower-gel-mango-500",
+      "cat": "kosmetika",
+      "name": "Melta Shower Gel, гель для душа Mango",
+      "volume": "500 мл",
+      "file": "73.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-shower-gel-cherry-500",
+      "cat": "kosmetika",
+      "name": "Melta Shower Gel, гель для душа Cherry",
+      "volume": "500 мл",
+      "file": "74.webp",
+      "added": "2026-10-30"
+    },
+    {
+      "slug": "melta-shower-gel-vanilla-500",
+      "cat": "kosmetika",
+      "name": "Melta Shower Gel, гель для душа Vanilla",
+      "volume": "500 мл",
+      "file": "75.webp",
+      "added": "2026-10-30"
     }
   ]
 }

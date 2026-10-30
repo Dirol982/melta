@@ -28,6 +28,22 @@ window.MELTA_CATALOG = {
    "img": "../assets/library/web/kosmetika/melta-hand-cream-100.webp"
   },
   {
+   "slug": "melta-cream-shower-gel-vanilla-milkshake-500",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Крем-гель для душа «Ванильный милкшейк»",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-cream-shower-gel-vanilla-milkshake-500.webp"
+  },
+  {
+   "slug": "melta-cream-shower-gel-cherry-smoothie-500",
+   "cat": "kosmetika",
+   "brand": "Melta",
+   "title": "Крем-гель для душа «Вишнёвый смузи»",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-cream-shower-gel-cherry-smoothie-500.webp"
+  },
+  {
    "slug": "melta-aloe-panthenol-gel",
    "cat": "kosmetika",
    "brand": "Melta",
@@ -66,6 +82,30 @@ window.MELTA_CATALOG = {
    "title": "Солнцезащитный крем SPF 50+ UVA/UVB",
    "volume": "",
    "img": "../assets/library/web/kosmetika/melta-sun-cream-spf50.webp"
+  },
+  {
+   "slug": "melta-shower-gel-cherry-500",
+   "cat": "kosmetika",
+   "brand": "Melta Shower Gel",
+   "title": "Гель для душа Cherry",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-shower-gel-cherry-500.webp"
+  },
+  {
+   "slug": "melta-shower-gel-mango-500",
+   "cat": "kosmetika",
+   "brand": "Melta Shower Gel",
+   "title": "Гель для душа Mango",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-shower-gel-mango-500.webp"
+  },
+  {
+   "slug": "melta-shower-gel-vanilla-500",
+   "cat": "kosmetika",
+   "brand": "Melta Shower Gel",
+   "title": "Гель для душа Vanilla",
+   "volume": "500 мл",
+   "img": "../assets/library/web/kosmetika/melta-shower-gel-vanilla-500.webp"
   },
   {
    "slug": "melta-keratin-hair-balm-1000ml",

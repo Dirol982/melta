@@ -13,6 +13,11 @@
 | Melta, пена для ванн «Сочный киви» | 500 мл | `assets/library/originals/kosmetika/melta-bath-foam-kiwi-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-bath-foam-kiwi-500.webp` (48 КБ) |
 | Melta, крем для ног «Глубокое увлажнение и восстановление» | 100 мл | `assets/library/originals/kosmetika/melta-foot-cream-100.webp` (1439×1820) | `assets/library/web/kosmetika/melta-foot-cream-100.webp` (55 КБ) |
 | Melta, крем для рук «Двойная забота о коже» | 100 мл | `assets/library/originals/kosmetika/melta-hand-cream-100.webp` (1439×1820) | `assets/library/web/kosmetika/melta-hand-cream-100.webp` (47 КБ) |
+| Melta, крем-гель для душа «Вишнёвый смузи» | 500 мл | `assets/library/originals/kosmetika/melta-cream-shower-gel-cherry-smoothie-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-cream-shower-gel-cherry-smoothie-500.webp` (73 КБ) |
+| Melta, крем-гель для душа «Ванильный милкшейк» | 500 мл | `assets/library/originals/kosmetika/melta-cream-shower-gel-vanilla-milkshake-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-cream-shower-gel-vanilla-milkshake-500.webp` (61 КБ) |
+| Melta Shower Gel, гель для душа Mango | 500 мл | `assets/library/originals/kosmetika/melta-shower-gel-mango-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-shower-gel-mango-500.webp` (47 КБ) |
+| Melta Shower Gel, гель для душа Cherry | 500 мл | `assets/library/originals/kosmetika/melta-shower-gel-cherry-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-shower-gel-cherry-500.webp` (45 КБ) |
+| Melta Shower Gel, гель для душа Vanilla | 500 мл | `assets/library/originals/kosmetika/melta-shower-gel-vanilla-500.webp` (1439×1820) | `assets/library/web/kosmetika/melta-shower-gel-vanilla-500.webp` (38 КБ) |
 
 ## Уход за волосами
 

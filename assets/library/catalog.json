@@ -791,5 +791,70 @@
     "web": "assets/library/web/kosmetika/melta-hand-cream-100.webp",
     "original_size": "1439×1820",
     "web_kb": 47
+  },
+  {
+    "slug": "melta-cream-shower-gel-cherry-smoothie-500",
+    "cat": "kosmetika",
+    "name": "Melta, крем-гель для душа «Вишнёвый смузи»",
+    "volume": "500 мл",
+    "file": "71.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-cream-shower-gel-cherry-smoothie-500.webp",
+    "web": "assets/library/web/kosmetika/melta-cream-shower-gel-cherry-smoothie-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 73
+  },
+  {
+    "slug": "melta-cream-shower-gel-vanilla-milkshake-500",
+    "cat": "kosmetika",
+    "name": "Melta, крем-гель для душа «Ванильный милкшейк»",
+    "volume": "500 мл",
+    "file": "72.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-cream-shower-gel-vanilla-milkshake-500.webp",
+    "web": "assets/library/web/kosmetika/melta-cream-shower-gel-vanilla-milkshake-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 61
+  },
+  {
+    "slug": "melta-shower-gel-mango-500",
+    "cat": "kosmetika",
+    "name": "Melta Shower Gel, гель для душа Mango",
+    "volume": "500 мл",
+    "file": "73.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-shower-gel-mango-500.webp",
+    "web": "assets/library/web/kosmetika/melta-shower-gel-mango-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 47
+  },
+  {
+    "slug": "melta-shower-gel-cherry-500",
+    "cat": "kosmetika",
+    "name": "Melta Shower Gel, гель для душа Cherry",
+    "volume": "500 мл",
+    "file": "74.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-shower-gel-cherry-500.webp",
+    "web": "assets/library/web/kosmetika/melta-shower-gel-cherry-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 45
+  },
+  {
+    "slug": "melta-shower-gel-vanilla-500",
+    "cat": "kosmetika",
+    "name": "Melta Shower Gel, гель для душа Vanilla",
+    "volume": "500 мл",
+    "file": "75.webp",
+    "added": "2026-10-30",
+    "category": "Косметика и уход",
+    "original": "assets/library/originals/kosmetika/melta-shower-gel-vanilla-500.webp",
+    "web": "assets/library/web/kosmetika/melta-shower-gel-vanilla-500.webp",
+    "original_size": "1439×1820",
+    "web_kb": 38
   }
 ]
