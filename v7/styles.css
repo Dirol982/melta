@@ -675,10 +675,10 @@ h1, h2, h3 { margin: 0; }
 .cat--photo .cat__sub { max-width: 48% !important; }
 .cat--biolut.cat--photo { background-color: #D9CBF6; }
 .cat--biolut.cat--photo .cat__sub { max-width: 60% !important; }
-.cat--biolut.cat--photo { background-position: 60% bottom; }
+.cat--biolut.cat--photo { background-position: 34% bottom; }
 .cat--kids.cat--photo { background-color: #BFE3F5; }
 .cat--kids.cat--photo .cat__sub { max-width: 60% !important; }
 .cat--pets.cat--photo { background-color: #F6DDBF; } .cat--pets.cat--photo .cat__sub { max-width: 60% !important; }
 .cat--lube.cat--photo { background-color: #F3B9D6; }
 .cat--lube.cat--photo .cat__sub { max-width: 64% !important; }
-.cat--kids.cat--photo { background-position: 56% bottom; }
+.cat--kids.cat--photo { background-position: 30% bottom; }
