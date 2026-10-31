@@ -713,3 +713,6 @@ h1, h2, h3 { margin: 0; }
 @media (max-width: 640px) { .modal { padding: 28px 18px 20px; border-radius: 22px; } .modal__form { grid-template-columns: 1fr; padding: 16px; } }
 @media (prefers-reduced-motion: reduce) { .modal[open] { animation: none; } }
 .modal .form__msg:empty { display: none; }
+
+/* товары без теней на всех блоках */
+.prod, .product__img img, .story__visual img, .dirb__cut, .cat__img, .b2b__img, .pcard__stage img { filter: none !important; }
