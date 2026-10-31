@@ -683,3 +683,8 @@ h1, h2, h3 { margin: 0; }
 .cat--lube.cat--photo .cat__sub { max-width: 64% !important; }
 .cat--kids.cat--photo { background-position: 30% bottom; }
 .cat--pets.cat--photo { background-position: 22% bottom; }
+
+/* первый экран: плашка над заголовком */
+.hero__since { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 18px; padding: 8px 16px 8px 12px; border-radius: 999px; background: rgba(255,255,255,.88); color: var(--ink); font-size: clamp(12px, .95vw, 14px); font-weight: 600; letter-spacing: .01em; box-shadow: 0 8px 20px -14px rgba(40,25,60,.45); }
+.hero__since span { width: 8px; height: 8px; border-radius: 50%; background: var(--orange-btn); flex: none; }
+.hero--slide h1 { font-size: clamp(32px, 3.4vw, 54px); }
