@@ -677,3 +677,4 @@ h1, h2, h3 { margin: 0; }
 .cat--biolut.cat--photo .cat__sub { max-width: 60% !important; }
 .cat--kids.cat--photo { background-color: #BFE3F5; }
 .cat--kids.cat--photo .cat__sub { max-width: 60% !important; }
+.cat--pets.cat--photo { background-color: #F6DDBF; } .cat--pets.cat--photo .cat__sub { max-width: 60% !important; }
