@@ -682,3 +682,4 @@ h1, h2, h3 { margin: 0; }
 .cat--lube.cat--photo { background-color: #F3B9D6; }
 .cat--lube.cat--photo .cat__sub { max-width: 64% !important; }
 .cat--kids.cat--photo { background-position: 30% bottom; }
+.cat--pets.cat--photo { background-position: 22% bottom; }
