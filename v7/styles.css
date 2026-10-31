@@ -669,3 +669,7 @@ h1, h2, h3 { margin: 0; }
 @media (prefers-reduced-motion: reduce) { .cp__filters { transition: none; } }
 .cp__badge[hidden] { display: none; }
 @media (max-width: 640px) { .cp__sort select { padding: 0 30px 0 14px; background-position: right 10px center; font-size: 13px; } }
+
+/* карточка категории с фотосценой (сцена — фон, товар — оригинал) */
+.cat--photo { background: #FBD3A2 var(--photo) center bottom / cover no-repeat; transition: transform .25s, box-shadow .25s, background-size .5s; }
+.cat--photo .cat__sub { max-width: 48% !important; }
