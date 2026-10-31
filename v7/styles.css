@@ -716,3 +716,8 @@ h1, h2, h3 { margin: 0; }
 
 /* товары без теней на всех блоках */
 .prod, .product__img img, .story__visual img, .dirb__cut, .cat__img, .b2b__img, .pcard__stage img { filter: none !important; }
+
+/* карточки со сценой: одна геометрия (товар 48% высоты, низ на 74,5%) — одинаковое положение для всех */
+.cats__grid .cat--photo { background-size: auto 100%; background-position: 40% bottom; }
+.cats__grid .cat--photo .cat__sub { max-width: 52% !important; }
+@media (min-width: 641px) and (max-width: 1100px) { .cats__grid .cat--photo { background-size: cover; background-position: 60% bottom; } }
