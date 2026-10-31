@@ -688,3 +688,28 @@ h1, h2, h3 { margin: 0; }
 .hero__since { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 18px; padding: 8px 16px 8px 12px; border-radius: 999px; background: rgba(255,255,255,.88); color: var(--ink); font-size: clamp(12px, .95vw, 14px); font-weight: 600; letter-spacing: .01em; box-shadow: 0 8px 20px -14px rgba(40,25,60,.45); }
 .hero__since span { width: 8px; height: 8px; border-radius: 50%; background: var(--orange-btn); flex: none; }
 .hero--slide h1 { font-size: clamp(32px, 3.4vw, 54px); }
+
+/* кнопки без теней */
+.btn, .btn--orange, .cat__go { box-shadow: none !important; }
+
+/* всплывающая форма заявки */
+.modal { width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow-y: auto; border: 0; border-radius: 28px; padding: 36px 32px 28px; background: linear-gradient(160deg, #FFF6EC, #FFE3C7); color: var(--ink); }
+.modal::backdrop { background: rgba(20,16,25,.55); backdrop-filter: blur(4px); }
+.modal[open] { animation: modalIn .28s cubic-bezier(.2,.8,.2,1); }
+@keyframes modalIn { from { opacity: 0; transform: translateY(16px) scale(.98); } to { opacity: 1; transform: none; } }
+.modal__close { position: absolute; top: 14px; right: 14px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: #fff; font-size: 26px; line-height: 1; cursor: pointer; color: var(--ink); }
+.modal__close:hover { background: var(--ink); color: #fff; }
+.modal__hand { display: block; font-size: 26px; color: var(--orange-hand); }
+.modal__title { margin: 4px 0 8px; font-weight: 900; font-size: clamp(26px, 4vw, 34px); text-transform: uppercase; letter-spacing: -0.02em; line-height: 1; }
+.modal__lead { margin: 0 0 14px; color: #3A3450; font-size: 15px; }
+.modal__product { margin: 0 0 14px; padding: 10px 14px; border-radius: 14px; background: rgba(255,255,255,.7); font-size: 14px; font-weight: 600; }
+.modal__form { padding: 20px; }
+.modal__form textarea { font: 400 16px var(--font); color: var(--ink); padding: 13px 16px; border: 1px solid #E8DCCF; border-radius: 14px; background: var(--bg); resize: vertical; }
+.modal__form textarea:focus { outline: 2px solid var(--orange-btn); outline-offset: 1px; }
+.modal__form .btn { justify-self: stretch; }
+.modal__contacts { margin: 14px 0 0; text-align: center; font-size: 14px; }
+.modal__contacts a { color: var(--ink); font-weight: 600; text-decoration: none; }
+.modal-open { overflow: hidden; }
+@media (max-width: 640px) { .modal { padding: 28px 18px 20px; border-radius: 22px; } .modal__form { grid-template-columns: 1fr; padding: 16px; } }
+@media (prefers-reduced-motion: reduce) { .modal[open] { animation: none; } }
+.modal .form__msg:empty { display: none; }

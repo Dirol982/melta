@@ -79,7 +79,7 @@ CATALOG = f'''
 '''
 
 (V7 / 'product.html').write_text(shell('Товар — Melta', 'Карточка товара Melta: описание, состав, применение и характеристики.',
-                                       PRODUCT, ['product.js?v=2']), encoding='utf-8')
+                                       PRODUCT, ['product.js?v=3', 'modal.js?v=2']), encoding='utf-8')
 (V7 / 'catalog.html').write_text(shell('Каталог — Melta', 'Каталог Melta: косметика, бытовая химия Biolut, мыло, товары для детей и животных собственного производства.',
-                                       CATALOG, ['catalog-page.js?v=2'], current='catalog.html'), encoding='utf-8')
+                                       CATALOG, ['catalog-page.js?v=2', 'modal.js?v=2'], current='catalog.html'), encoding='utf-8')
 print('готово: product.html, catalog.html')

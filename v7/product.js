@@ -23,6 +23,7 @@
   const priceHref = `index.html?goal=${encodeURIComponent(DIRECTION[item.cat])}#price`;
 
   const esc = (v) => String(v).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const productAttr = `data-product="${esc(`${item.brand} — ${item.title}${item.volume ? `, ${item.volume}` : ''}`)}"`;
   const todo = (what) => (DRAFT ? `<p class="todo"><b>Нужно заполнить:</b> ${what}</p>` : '');
   const tick = '<svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 12.5 4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const arrow = '<svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg>';
@@ -75,7 +76,7 @@
         ${d.label.length ? `<ul class="pp__claims">${d.label.map((c) => `<li>${tick}${esc(c)}</li>`).join('')}</ul>` : todo('надписи-преимущества с этикетки')}
         ${d.lead ? `<p class="pp__lead">${esc(d.lead)}</p>` : todo('короткое описание — 2–3 предложения о продукте')}
         <div class="pp__actions">
-          <a class="btn btn--orange" href="${priceHref}">Запросить прайс ${arrow}</a>
+          <a class="btn btn--orange" href="${priceHref}" ${productAttr}>Запросить прайс ${arrow}</a>
           <a class="btn btn--ghost" href="${esc(d.wb || 'https://www.wildberries.by/seller/450099')}" target="_blank" rel="noopener">${d.wb ? 'Купить на Wildberries' : 'Магазин на Wildberries'} ${arrow}</a>
         </div>
         <ul class="pp__facts">
@@ -118,7 +119,7 @@
     <section class="pp__b2b">
       <div><span class="hand">для бизнеса</span><h2>Опт и производство под вашей маркой</h2>
       <p>Поставляем магазинам и оптовым компаниям в Беларуси, России и Казахстане. Этот продукт можно выпустить под вашим брендом.</p></div>
-      <div class="pp__b2b-actions"><a class="btn btn--white" href="${priceHref}">Получить прайс ${arrow}</a><a class="btn btn--line" href="https://agnex.by" target="_blank" rel="noopener">Контрактное производство</a></div>
+      <div class="pp__b2b-actions"><a class="btn btn--white" href="${priceHref}" ${productAttr}>Получить прайс ${arrow}</a><a class="btn btn--line" href="https://agnex.by" target="_blank" rel="noopener">Контрактное производство</a></div>
     </section>
 
     ${related.length ? `<section class="pp__related"><div class="head"><div><span class="hand">из той же категории</span><h2>Похожие товары</h2></div></div>

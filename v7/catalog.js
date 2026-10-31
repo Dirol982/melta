@@ -43,7 +43,7 @@
           <h3 class="pcard__title"><a href="product.html?p=${i.slug}"><span>${esc(i.brand)}</span> ${esc(i.title)}</a></h3>
           <div class="pcard__foot">
             ${i.volume ? `<span class="pcard__vol">${esc(i.volume)}</span>` : '<span></span>'}
-            <a class="pcard__btn" href="#price" data-direction="${DIRECTION[i.cat]}">Прайс</a>
+            <a class="pcard__btn" href="#price" data-direction="${DIRECTION[i.cat]}" data-product="${esc(`${i.brand} — ${i.title}${i.volume ? `, ${i.volume}` : ''}`)}">Прайс</a>
           </div>
         </div>
       </article>`).join('');
