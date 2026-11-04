@@ -383,3 +383,70 @@ html.has-dialog { overflow: hidden; }
   .ccard__go { padding: 7px 11px; font-size: 12px; }
 }
 .ccard:not(.ccard--all) .ccard__sub { display: none; }
+
+/* ===== страница каталога ===== */
+.catalog__btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.cp { padding: 30px 0 100px; }
+.crumbs { display: flex; gap: 8px; font-size: 13px; color: var(--muted); margin: 10px 0 28px; }
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a:hover { color: var(--ink); }
+.cp__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px; margin-bottom: 28px; }
+.cp__head .eyebrow { margin-bottom: 10px; }
+.cp__total { margin: 0; color: var(--muted); font-weight: 600; }
+.cp__cats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; margin-bottom: 40px; }
+.cp__cat { display: grid; grid-template-columns: 52px 1fr auto; align-items: center; gap: 12px; min-height: 68px; padding: 8px 14px 8px 8px; border-radius: 18px; border: 1px solid var(--line); background: var(--paper); font: 600 14px/1.25 var(--sans); color: var(--ink); text-align: left; cursor: pointer; transition: border-color .25s, background .25s; }
+.cp__cat:hover:not(:disabled) { border-color: var(--ink); }
+.cp__cat:disabled { opacity: .45; cursor: default; }
+.cp__cat[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.cp__cat-img { position: relative; width: 52px; height: 52px; border-radius: 14px; overflow: hidden; background: var(--tone); }
+.cp__cat-img img { position: absolute; inset: 8%; width: 84%; height: 84%; object-fit: contain; }
+.cp__cat--all .cp__cat-img::after { content: "74"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--apricot); font: 600 16px var(--head); }
+.cp__cat-count { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: rgba(21,18,26,.06); }
+.cp__cat[aria-pressed="true"] .cp__cat-count { background: rgba(255,255,255,.18); }
+.cp__layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 32px; align-items: start; }
+.cp__filters { position: sticky; top: 100px; background: var(--paper); border-radius: 24px; padding: 22px; border: 1px solid var(--line); }
+.cp__filters-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.cp__filters-head h2 { margin: 0; font: 600 17px var(--head); }
+.cp__close, .cp__apply { display: none; }
+.cp__group { border: 0; margin: 0; padding: 14px 0; border-top: 1px solid var(--line); }
+.cp__group legend { float: left; width: 100%; padding: 0; margin-bottom: 8px; font-weight: 700; font-size: 14px; }
+.cp__options { clear: both; display: grid; gap: 2px; }
+.cp__option { display: grid; grid-template-columns: 20px 1fr auto; align-items: center; gap: 10px; min-height: 40px; font-size: 14px; cursor: pointer; }
+.cp__option input { width: 18px; height: 18px; margin: 0; accent-color: var(--ink); }
+.cp__option em { font-size: 12px; color: var(--muted); }
+.cp__option.is-off { opacity: .4; cursor: default; }
+.cp__reset { background: none; border: 0; padding: 10px 0 0; font: 600 14px var(--sans); color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.cp__toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+.cp__toolbar .search { flex: 1 1 280px; }
+.cp__sort select { min-height: 52px; padding: 0 42px 0 20px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2315121A' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 16px center / 16px; appearance: none; font: 600 14px var(--sans); color: var(--ink); cursor: pointer; }
+.cp__open { display: none; min-height: 52px; padding: 0 20px; border-radius: 999px; border: 1px solid var(--ink); background: var(--paper); font: 600 14px var(--sans); color: var(--ink); cursor: pointer; align-items: center; gap: 8px; }
+.cp__badge { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--accent); color: #fff; font-size: 12px; display: inline-grid; place-items: center; }
+.cp__badge[hidden] { display: none; }
+.cp__active { display: flex; flex-wrap: wrap; gap: 8px; min-height: 8px; margin-bottom: 18px; }
+.cp__chip { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 6px 14px; border-radius: 999px; border: 0; background: var(--ink); color: #fff; font: 600 13px var(--sans); cursor: pointer; }
+.cp__chip--reset { background: none; color: var(--accent); }
+.cp__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.cp__grid .hit { width: auto; }
+.cp__empty { padding: 50px 0; text-align: center; color: var(--muted); }
+.cp__overlay { position: fixed; inset: 0; z-index: 80; background: rgba(21,18,26,.45); }
+.cp__overlay[hidden] { display: none; }
+@media (max-width: 1100px) { .cp__cats { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 900px) {
+  .cp__cats { display: flex; overflow-x: auto; margin: 0 calc(-1 * var(--gutter)) 28px; padding: 2px var(--gutter) 8px; scrollbar-width: none; }
+  .cp__cat { flex: none; min-width: 210px; }
+  .cp__layout { grid-template-columns: 1fr; }
+  .cp__filters { position: fixed; z-index: 90; top: 0; bottom: 0; left: 0; width: min(340px, 88vw); border-radius: 0 24px 24px 0; overflow-y: auto; transform: translateX(-105%); transition: transform .35s var(--ease); display: flex; flex-direction: column; }
+  .cp__filters.is-open { transform: none; }
+  .cp__close { display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: 50%; background: rgba(21,18,26,.06); cursor: pointer; }
+  .cp__apply { display: inline-flex; margin-top: auto; width: 100%; }
+  .cp__open { display: inline-flex; }
+  .cp__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+}
+@media (max-width: 640px) {
+  .cp__toolbar .search { flex-basis: 100%; }
+  .cp__sort, .cp__open { flex: 1 1 0; }
+  .cp__sort select { width: 100%; padding-left: 14px; }
+  .cp__open { justify-content: center; }
+  .cp__grid .hit__title { font-size: 14px; }
+}
+@media (max-width: 640px) { .cp__sort select { font-size: 13px; padding-right: 34px; background-position: right 12px center; } }

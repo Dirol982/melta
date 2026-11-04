@@ -39,7 +39,9 @@
   });
 
   /* ---------- каталог ---------- */
+  let setFilter = () => {};
   const grid = $('.grid');
+  if (grid) {
   const chipsBox = $('.chips');
   const search = $('.search input');
   const more = $('.catalog__more');
@@ -60,16 +62,18 @@
   }
   // переход между состояниями сетки — View Transitions API, где он есть
   const swap = (fn) => (document.startViewTransition && !reduce ? document.startViewTransition(fn) : fn());
-  function setFilter(c) {
+  setFilter = (c) => {
     filter = c; shown = PAGE;
     $$('.chip-btn', chipsBox).forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.filter === c)));
     swap(renderGrid);
-  }
+  };
   chipsBox.addEventListener('click', (e) => { const b = e.target.closest('.chip-btn'); if (b) setFilter(b.dataset.filter); });
   let t;
   search.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { query = search.value; shown = PAGE; renderGrid(); }, 160); });
   more.addEventListener('click', () => { shown += PAGE; renderGrid(); });
   renderGrid();
+
+  }
 
   /* ---------- строки категорий: фильтр + превью за курсором ---------- */
   const preview = $('.cursor-preview');
@@ -219,7 +223,7 @@
     scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
   if (fine) {
     const banner = $('.hero__banner');
-    banner.addEventListener('mousemove', (e) => {
+    if (banner) banner.addEventListener('mousemove', (e) => {
       const r = banner.getBoundingClientRect();
       gsap.to('.hero__img', { x: ((e.clientX - r.left) / r.width - .5) * -18, y: ((e.clientY - r.top) / r.height - .5) * -12, duration: 1.2, ease: 'power3.out' });
     });
@@ -233,9 +237,9 @@
 
   // бегущая строка ускоряется от скорости прокрутки
   const tickerTrack = $('.ticker__track');
-  tickerTrack.style.animation = 'none';
-  const tick = gsap.to(tickerTrack, { xPercent: -50, duration: 40, ease: 'none', repeat: -1 });
-  ScrollTrigger.create({ onUpdate: (self) => {
+  if (tickerTrack) tickerTrack.style.animation = 'none';
+  const tick = tickerTrack && gsap.to(tickerTrack, { xPercent: -50, duration: 40, ease: 'none', repeat: -1 });
+  if (tick) ScrollTrigger.create({ onUpdate: (self) => {
     const v = Math.min(Math.abs(self.getVelocity()) / 300, 6);
     gsap.to(tick, { timeScale: (self.direction < 0 ? -1 : 1) * (1 + v), duration: .3, overwrite: true });
     gsap.to(tick, { timeScale: self.direction < 0 ? -1 : 1, duration: 1.2, delay: .3 });
@@ -255,7 +259,7 @@
   });
 
   // хиты: секция закрепляется, лента едет по горизонтали
-  gsap.matchMedia().add('(min-width: 901px)', () => {
+  if (track) gsap.matchMedia().add('(min-width: 901px)', () => {
     const dist = () => Math.max(0, track.scrollWidth - innerWidth);
     gsap.to(track, { x: () => -dist(), ease: 'none',
       scrollTrigger: { trigger: '.hscroll', start: 'top top', end: () => `+=${dist()}`, pin: '.hscroll', scrub: .6, invalidateOnRefresh: true,
