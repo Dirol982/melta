@@ -485,3 +485,10 @@ html.has-dialog { overflow: hidden; }
   .pc__foot { flex-wrap: wrap; }
   .pc__btn { min-height: 38px; padding: 8px 14px; font-size: 13px; }
 }
+
+/* шаги «Растопить / Добавить / Залить» на телефоне: номер, слово и пояснение в одну строку с переносом */
+@media (max-width: 640px) {
+  .steps li { display: block; padding: 16px 0; line-height: 1.5; }
+  .steps li::before { display: inline-block; width: 36px; }
+  .steps li b { margin-right: 6px; }
+}

@@ -529,3 +529,10 @@ html.has-dialog { overflow: hidden; }
 /* меньше размеров шрифта: подзаголовки и цифры приведены к общей шкале */
 .cat-row__name, .scard h3 { letter-spacing: -.03em; }
 .qv__title { font-size: clamp(24px, 2.4vw, 32px); }
+
+/* шаги «Растопить / Добавить / Залить» на телефоне: номер, слово и пояснение в одну строку с переносом */
+@media (max-width: 640px) {
+  .steps li { display: block; padding: 16px 0; line-height: 1.5; }
+  .steps li::before { display: inline-block; width: 36px; }
+  .steps li b { margin-right: 6px; }
+}
