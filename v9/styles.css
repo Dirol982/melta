@@ -79,6 +79,7 @@ i, em { font-style: normal; }
 .h2 { font-weight: 800; font-size: clamp(28px, 4.2vw, 60px); line-height: 1.05; letter-spacing: -.03em; }
 .h2, .hero__title, .cta__title, .req__title, .scard h3, .cat-row__name, .tile__k, .ticker span, .menu nav a, .qv__title, .steps b, .ftr__word { font-family: var(--head); }
 .h2 i, .cta__title i, .req__title i { color: var(--violet); }
+.cats .h2 { font-size: clamp(24px, 2.8vw, 40px); }
 .lead { font-size: clamp(16px, 1.25vw, 19px); color: var(--muted); max-width: 560px; }
 
 /* 1. первый экран: надписи на баннере */
@@ -213,8 +214,8 @@ i, em { font-style: normal; }
 .stores { padding-top: 0; }
 .logos { overflow: hidden; padding: 10px 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
 .logos__track { display: flex; align-items: center; gap: 64px; width: max-content; animation: ticker 45s linear infinite; }
-.logos img { height: 40px; width: auto; filter: grayscale(1); opacity: .65; transition: filter .3s, opacity .3s; }
-.logos img:hover { filter: none; opacity: 1; }
+.logos img { height: 40px; width: auto; transition: transform .3s var(--ease); }
+.logos img:hover { transform: scale(1.08); }
 .logos:hover .logos__track { animation-play-state: paused; }
 
 /* 10. заявка: круг раскрывается при прокрутке */
