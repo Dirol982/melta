@@ -79,7 +79,6 @@ i, em { font-style: normal; }
 .h2 { font-weight: 800; font-size: clamp(28px, 4.2vw, 60px); line-height: 1.05; letter-spacing: -.03em; }
 .h2, .hero__title, .cta__title, .req__title, .scard h3, .cat-row__name, .tile__k, .ticker span, .menu nav a, .qv__title, .steps b, .ftr__word { font-family: var(--head); }
 .h2 i, .cta__title i, .req__title i { color: var(--violet); }
-.cats .h2 { font-size: clamp(24px, 2.8vw, 40px); }
 .lead { font-size: clamp(16px, 1.25vw, 19px); color: var(--muted); max-width: 560px; }
 
 /* 1. первый экран: надписи на баннере */
@@ -108,11 +107,11 @@ i, em { font-style: normal; }
 
 /* 3. категории: список + превью за курсором */
 .cats__list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
-.cat-row { display: grid; grid-template-columns: 48px 1fr auto auto 24px; align-items: center; gap: 20px; padding: clamp(18px, 2.4vw, 30px) 8px; border-bottom: 1px solid var(--line); text-decoration: none; position: relative; isolation: isolate; }
+.cat-row { display: grid; grid-template-columns: 40px 1fr auto auto 24px; align-items: center; gap: 18px; padding: clamp(12px, 1.3vw, 18px) 8px; border-bottom: 1px solid var(--line); text-decoration: none; position: relative; isolation: isolate; }
 .cat-row::before { content: ""; position: absolute; inset: 0; background: var(--paper); border-radius: 18px; transform: scaleY(0); transform-origin: bottom; transition: transform .45s var(--ease); z-index: -1; }
 .cat-row:hover::before, .cat-row:focus-visible::before { transform: scaleY(1); }
 .cat-row em { font-size: 13px; font-weight: 600; color: var(--muted); }
-.cat-row__name { font-weight: 600; font-size: clamp(20px, 2.8vw, 40px); letter-spacing: -.03em; line-height: 1.05; transition: transform .45s var(--ease); }
+.cat-row__name { font-weight: 600; font-size: clamp(18px, 1.8vw, 26px); letter-spacing: -.03em; line-height: 1.05; transition: transform .45s var(--ease); }
 .cat-row:hover .cat-row__name { transform: translateX(12px); }
 .cat-row__sub { color: var(--muted); font-size: 15px; }
 .cat-row__count { font-size: 13px; font-weight: 700; padding: 6px 12px; border-radius: 999px; background: rgba(21,18,26,.06); }
@@ -347,3 +346,8 @@ html.has-dialog { overflow: hidden; }
   .js .hero__title .line > span { transform: none; }
 }
 .menu[hidden] { display: none; }
+
+/* категории — компактный раздел */
+.sec.cats { padding: clamp(56px, 6vw, 96px) 0; }
+.cats .sec__head { margin-bottom: clamp(24px, 3vw, 40px); }
+.cursor-preview { width: 200px; }
