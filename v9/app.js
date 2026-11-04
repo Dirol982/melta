@@ -267,7 +267,7 @@
   gsap.from('.steps li', { x: -30, opacity: 0, stagger: .12, duration: .8, ease: 'power3.out', scrollTrigger: { trigger: '.steps', start: 'top 85%' } });
 
   // бенто: плитки поднимаются по очереди, числа считаются
-  gsap.from('.tile', { y: 50, opacity: 0, duration: .9, stagger: .08, ease: 'power3.out', scrollTrigger: { trigger: '.bento', start: 'top 80%' } });
+  gsap.from('.tile', { y: 50, opacity: 0, duration: .8, stagger: .07, ease: 'power3.out', clearProps: 'transform,opacity', scrollTrigger: { trigger: '.bento', start: 'top 85%', once: true } });
   $$('[data-count]').forEach((el) => {
     const to = +el.dataset.count, from = to > 1000 ? to - 13 : 0, o = { v: from };
     el.textContent = from;
