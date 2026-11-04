@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каталог — Melta</title>
+  <meta name="description" content="Melta: косметика, бытовая химия Biolut, мыльные основы, мыло ручной работы и средства для животных. Собственное производство в Минске с 2013 года, опт и контрактное производство.">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div class="variants">
+  <span>Концепт редизайна melta.by</span>
+  <nav aria-label="Варианты дизайна"><a href="../">1</a><a href="../v4/">4</a><a href="../v6/">6</a><a href="../v7/">7</a><a href="../v8/">8</a><a href="../v9/">9</a><a href="./" aria-current="page">10</a></nav>
+</div>
+
+<header class="hdr" id="top">
+  <div class="hdr__bar">
+    <a class="hdr__logo" href="index.html" aria-label="Melta — на главную"><img src="../assets/melta-logo-header.png" alt="Melta" width="118" height="42"></a>
+    <nav class="hdr__nav" aria-label="Основное меню">
+      <a href="index.html#categories">Категории</a>
+      <a href="index.html#directions">Направления</a>
+      <a href="catalog.html" aria-current="page">Каталог</a>
+      <a href="index.html#about">О бренде</a>
+      <a href="index.html#contract">Под вашей маркой</a>
+    </nav>
+    <a class="btn btn--dark hdr__cta magnetic" href="#request" data-popup="price">Запросить прайс</a>
+    <button class="hdr__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Меню">
+    <a href="index.html#categories"><em>01</em>Категории</a>
+    <a href="index.html#directions"><em>02</em>Направления</a>
+    <a href="catalog.html"><em>03</em>Каталог</a>
+    <a href="index.html#about"><em>04</em>О бренде</a>
+    <a href="index.html#contract"><em>05</em>Под вашей маркой</a>
+    <a href="index.html#contacts"><em>06</em>Контакты</a>
+  </nav>
+  <a class="btn btn--dark" href="#request" data-popup="price">Запросить прайс <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+</div>
+
+<main id="main" class="cp">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Навигация"><a href="index.html">Главная</a><span>/</span><span aria-current="page">Каталог</span></nav>
+    <div class="cp__head">
+      <div><p class="eyebrow">Собственное производство</p><h1 class="h2 split">Каталог <i>Melta</i></h1></div>
+      <p class="cp__total"></p>
+    </div>
+    <div class="cp__cats" role="group" aria-label="Категории"></div>
+    <div class="cp__layout">
+      <aside class="cp__filters" id="cp-filters" aria-label="Фильтры">
+        <div class="cp__filters-head"><h2>Фильтры</h2><button type="button" class="cp__close" aria-label="Закрыть фильтры"><svg class="i" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+        <fieldset class="cp__group" data-facet="brand"><legend>Бренд</legend><div class="cp__options"></div></fieldset>
+        <fieldset class="cp__group" data-facet="pack"><legend>Фасовка</legend><div class="cp__options"></div></fieldset>
+        <button type="button" class="cp__reset">Сбросить фильтры</button>
+        <button type="button" class="btn btn--dark cp__apply">Показать</button>
+      </aside>
+      <section class="cp__results" aria-label="Товары">
+        <div class="cp__toolbar">
+          <label class="search shop__search"><span class="visually-hidden">Поиск по каталогу</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input type="search" placeholder="Keratin, лаванда, 5 л…" autocomplete="off"></label>
+          <label class="cp__sort"><span class="visually-hidden">Сортировка</span>
+            <select><option value="cat">По категориям</option><option value="name">По названию</option><option value="vol-asc">Объём: по возрастанию</option><option value="vol-desc">Объём: по убыванию</option></select></label>
+          <button type="button" class="cp__open" aria-controls="cp-filters" aria-expanded="false">Фильтры <span class="cp__badge" hidden></span></button>
+        </div>
+        <div class="cp__active" aria-live="polite"></div>
+        <div class="cp__grid"></div>
+        <div class="cp__empty" hidden><p>Ничего не нашлось. Попробуйте другое слово или сбросьте фильтры.</p><button type="button" class="btn btn--dark cp__reset">Сбросить фильтры</button></div>
+        <div class="catalog__foot"><span></span><button type="button" class="btn btn--ghost cp__more" hidden>Показать ещё</button></div>
+      </section>
+    </div>
+  </div>
+  <div class="cp__overlay" hidden></div>
+</main>
+
+<footer class="ftr" id="contacts">
+  <div class="wrap ftr__grid">
+    <div><img src="../assets/melta-logo-header.png" alt="Melta" width="118" height="42"><p>Косметика и бытовая химия из&nbsp;Беларуси</p></div>
+    <div><p class="ftr__h">Адрес</p><p>г. Минск, ул. Машинистов, д. 80, каб. 10</p><p>Пн–Пт: 8:30–17:00</p></div>
+    <div><p class="ftr__h">Связь</p><p><a href="tel:+375291041703">+375 (29) 104-17-03</a></p><p><a href="mailto:sales@agnex.by">sales@agnex.by</a></p></div>
+    <div><p class="ftr__h">Купить</p><p><a href="https://www.wildberries.by/seller/450099" target="_blank" rel="noopener">Магазин на Wildberries</a></p></div>
+  </div>
+  <p class="ftr__word" aria-hidden="true">melta</p>
+  <div class="wrap ftr__legal">ООО «Агнекс Компани», УНП 193596966. 220014, Республика Беларусь, г. Минск, ул. Машинистов, д. 80, каб. 10</div>
+</footer>
+
+<!-- Быстрый просмотр товара -->
+<dialog class="qv" aria-labelledby="qv-title">
+  <button class="qv__close" type="button" aria-label="Закрыть"><svg class="i" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <div class="qv__media"><img alt=""></div>
+  <div class="qv__body">
+    <p class="qv__cat"></p>
+    <p class="qv__brand"></p>
+    <h3 class="qv__title" id="qv-title"></h3>
+    <p class="qv__vol"></p>
+    <div class="qv__actions">
+      <a class="btn btn--dark" href="#request" data-popup="price">Запросить прайс <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--ghost qv__more" href="#">Подробная карточка</a>
+    </div>
+  </div>
+</dialog>
+
+<!-- Форма заявки -->
+<dialog class="req" aria-labelledby="req-title">
+  <button class="qv__close" type="button" aria-label="Закрыть"><svg class="i" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <p class="eyebrow">Ответим в рабочее время</p>
+  <h2 class="req__title" id="req-title">Запросить <i>прайс</i></h2>
+  <p class="req__product" hidden></p>
+  <form class="req__form" novalidate>
+    <label>Имя<input name="name" type="text" autocomplete="name" required></label>
+    <label>Телефон<input name="phone" type="tel" autocomplete="tel" placeholder="+375 …" required></label>
+    <label class="full">Электронная почта<input name="email" type="email" autocomplete="email"></label>
+    <label class="full">Направление
+      <select name="goal"><option>Мыльные основы</option><option>Бытовая химия</option><option>Косметика</option><option>Косметика для животных</option><option>Мыло ручной работы</option><option>Контрактное производство</option><option>Сотрудничество (экспорт)</option><option>Пожелания и предложения</option></select>
+    </label>
+    <label class="full">Комментарий<textarea name="comment" rows="3" placeholder="Объёмы, регион поставки, вопросы"></textarea></label>
+    <label class="check full"><input name="agree" type="checkbox" required> Даю согласие на обработку персональных данных</label>
+    <button class="btn btn--dark full" type="submit">Отправить заявку <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    <p class="req__msg full" role="status" aria-live="polite"></p>
+  </form>
+</dialog>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__label">Смотреть</span></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="../v7/catalog-data.js?v=12"></script>
+<script src="catalog-page.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
