@@ -182,7 +182,7 @@ i, em { font-style: normal; }
 .tile { position: relative; border-radius: 28px; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; gap: 18px; overflow: hidden; transition: box-shadow .4s var(--ease); }
 .tile:hover { box-shadow: 0 24px 40px -30px rgba(30,20,50,.45); }
 .tile p { margin: 0; font-size: 16px; color: var(--muted); max-width: 320px; }
-.tile__k { font-weight: 600; font-size: clamp(44px, 5.6vw, 88px); letter-spacing: -.05em; line-height: .9; }
+.tile__k { font-weight: 600; font-size: clamp(44px, 5vw, 76px); letter-spacing: -.05em; line-height: .9; }
 .tile__k--s { font-size: clamp(20px, 2vw, 28px); letter-spacing: -.03em; line-height: 1.05; }
 .tile--peach { background: var(--peach); } .tile--lilac { background: var(--lilac); } .tile--mint { background: var(--mint); }
 .tile--sky { background: var(--sky); } .tile--rose { background: var(--rose); }
