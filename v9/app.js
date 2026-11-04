@@ -209,27 +209,18 @@
   const intro = gsap.timeline({ defaults: { ease: 'expo.out' } });
   intro.fromTo('.hero__title .line > span', { yPercent: 105, y: 0 }, { yPercent: 0, y: 0, duration: 1.3, stagger: .12 })
     .fromTo('.reveal-up', { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 1, stagger: .1 }, '-=1')
-    .from('.hero__frame', { y: 60, opacity: 0, duration: 1.2 }, '-=1')
-    .from('.chip', { y: 30, opacity: 0, duration: .9, stagger: .1 }, '-=.7');
+    .from('.hero__img', { scale: 1.15, opacity: 0, duration: 1.6, ease: 'power2.out' }, 0);
 
-  const frame = $('.hero__frame');
-  gsap.matchMedia().add('(min-width: 901px)', () => {
-    gsap.to(frame, { width: () => document.documentElement.clientWidth, maxWidth: 'none', borderRadius: 0, ease: 'none',
-      scrollTrigger: { trigger: '.hero__stage', start: 'top 70%', end: 'bottom 30%', scrub: true, invalidateOnRefresh: true } });
-    gsap.fromTo('.hero__img', { scale: 1.12 }, { scale: 1, ease: 'none',
-      scrollTrigger: { trigger: '.hero__stage', start: 'top bottom', end: 'bottom top', scrub: true } });
-    gsap.to('.chip', { y: (i) => [-60, -30, -80][i], ease: 'none',
-      scrollTrigger: { trigger: '.hero__stage', start: 'top 60%', end: 'bottom top', scrub: true } });
-  });
-
-  // фишки на фото слегка следуют за курсором
+  // баннер: фото медленно приближается и уходит вверх при прокрутке, текст — быстрее (параллакс)
+  gsap.to('.hero__img', { scale: 1.08, yPercent: 6, ease: 'none',
+    scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+  gsap.to('.hero__content', { yPercent: -18, opacity: .2, ease: 'none',
+    scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
   if (fine) {
-    const stage = $('.hero__stage');
-    stage.addEventListener('mousemove', (e) => {
-      const r = stage.getBoundingClientRect();
-      const dx = (e.clientX - r.left) / r.width - .5, dy = (e.clientY - r.top) / r.height - .5;
-      $$('.chip', stage).forEach((c) => gsap.to(c, { x: dx * c.dataset.depth * 2, rotate: 0, duration: .8, ease: 'power3.out', overwrite: 'auto' }));
-      gsap.to('.hero__img', { xPercent: dx * -1.5, yPercent: dy * -1.5, duration: 1.2, ease: 'power3.out' });
+    const banner = $('.hero__banner');
+    banner.addEventListener('mousemove', (e) => {
+      const r = banner.getBoundingClientRect();
+      gsap.to('.hero__img', { x: ((e.clientX - r.left) / r.width - .5) * -18, y: ((e.clientY - r.top) / r.height - .5) * -12, duration: 1.2, ease: 'power3.out' });
     });
   }
 

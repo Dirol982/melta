@@ -8,8 +8,8 @@
   <meta name="theme-color" content="#FAF7F2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=1">
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -57,28 +57,21 @@
 
   <!-- 1. Первый экран -->
   <section class="hero" data-bg="#FAF7F2">
-    <div class="wrap hero__top">
-      <p class="pill reveal-up"><span class="pill__dot" aria-hidden="true"></span>Собственное производство с&nbsp;2013&nbsp;года</p>
-      <h1 class="hero__title">
-        <span class="line"><span>Косметика</span></span>
-        <span class="line"><span>и&nbsp;бытовая химия</span></span>
-        <span class="line"><span><i>из&nbsp;Беларуси</i></span></span>
-      </h1>
-      <div class="hero__side reveal-up">
-        <p>Melta — средства для дома, красоты и&nbsp;заботы о&nbsp;самых близких. Опт, розница и&nbsp;выпуск под вашей маркой.</p>
-        <div class="hero__actions">
+    <div class="hero__banner">
+      <picture><source media="(min-width: 1101px)" srcset="hero-wide.webp"><img class="hero__img" src="../assets/products/hero-slide-1x.webp" alt="Продукция Melta на подиумах: бальзам Keratin+, шампунь для собак, детский гель «Заюшка», Biolut Oxygen, гель для стирки Biolut Professional 5 л и мыло с люфой" width="1536" height="780" fetchpriority="high"></picture>
+      <div class="wrap hero__content">
+        <p class="pill reveal-up"><span class="pill__dot" aria-hidden="true"></span>Собственное производство с&nbsp;2013&nbsp;года</p>
+        <h1 class="hero__title">
+          <span class="line"><span>Косметика</span></span>
+          <span class="line"><span>и&nbsp;бытовая химия</span></span>
+          <span class="line"><span><i>из&nbsp;Беларуси</i></span></span>
+        </h1>
+        <p class="hero__lead reveal-up">Средства для дома, красоты и&nbsp;заботы о&nbsp;самых близких. Опт, розница и&nbsp;выпуск под вашей маркой.</p>
+        <div class="hero__actions reveal-up">
           <a class="btn btn--dark magnetic" href="#catalog">Смотреть каталог <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-          <a class="btn btn--ghost magnetic" href="#request" data-popup="price">Запросить прайс</a>
+          <a class="btn btn--light magnetic" href="#request" data-popup="price">Запросить прайс</a>
         </div>
       </div>
-    </div>
-    <div class="hero__stage">
-      <figure class="hero__frame">
-        <img class="hero__img" src="../assets/products/hero-slide-1x.webp" alt="Продукция Melta на подиумах: бальзам Keratin+, шампунь для собак, детский гель «Заюшка», Biolut Oxygen, гель для стирки Biolut Professional 5 л и мыло с люфой" width="1536" height="780" fetchpriority="high">
-      </figure>
-      <div class="chip chip--a" data-depth="18"><b data-count="74">74</b><span>позиции в&nbsp;каталоге</span></div>
-      <div class="chip chip--b" data-depth="-14"><b>BY · RU · KZ</b><span>поставки в&nbsp;3&nbsp;страны</span></div>
-      <div class="chip chip--c" data-depth="10"><b>Минск</b><span>своё производство</span></div>
     </div>
   </section>
 
@@ -338,6 +331,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="../v7/catalog-data.js?v=12"></script>
-<script src="app.js?v=1"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>
