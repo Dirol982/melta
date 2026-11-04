@@ -80,13 +80,18 @@
 
   const TONES = { kosmetika: '#FCE8D6', volosy: '#F5EFE6', detskaya: '#E2EFFA', 'bytovaya-himiya': '#ECE6FB', zhivotnye: '#FBEBDD',
     mylo: '#E6F4EF', 'mylo-ruchnoe': '#E4F2EA', aromaty: '#FBEBD7', lubrikanty: '#FBE4EC' };
+  const PC_DIR = { 'bytovaya-himiya': 'Бытовая химия', zhivotnye: 'Косметика для животных', 'mylo-ruchnoe': 'Мыло ручной работы' };
+  // карточка товара в стиле варианта 7: категория, бренд, название, объём и кнопка «Прайс»
   const card = (i) => `
-    <button class="hit" type="button" data-slug="${i.slug}" style="--tone:${TONES[i.cat] || '#F3EEE6'}" aria-label="Быстрый просмотр: ${esc(i.brand)} — ${esc(i.title)}">
-      <span class="hit__stage"><img src="${i.img}" alt="" loading="lazy"><span class="hit__plus" aria-hidden="true"><svg class="i"><use href="#i-plus"/></svg></span></span>
-      <span class="hit__brand">${esc(i.brand)}</span>
-      <span class="hit__title">${esc(i.title)}</span>
-      ${i.volume ? `<span class="hit__vol">${esc(i.volume)}</span>` : ''}
-    </button>`;
+    <article class="pc pc--${i.cat}">
+      <button class="pc__stage" type="button" data-quick="${i.slug}" aria-label="Быстрый просмотр: ${esc(i.brand)} — ${esc(i.title)}"><img src="${i.img}" alt="" loading="lazy"></button>
+      <div class="pc__body">
+        <span class="pc__cat">${esc(data.cats[i.cat])}</span>
+        <h3 class="pc__title"><button type="button" data-quick="${i.slug}"><span>${esc(i.brand)}</span> ${esc(i.title)}</button></h3>
+        <div class="pc__foot">${i.volume ? `<span class="pc__vol">${esc(i.volume)}</span>` : '<span></span>'}<a class="pc__btn" href="#request" data-popup="price" data-direction="${PC_DIR[i.cat] || 'Косметика'}" data-product="${esc(`${i.brand} — ${i.title}${i.volume ? `, ${i.volume}` : ''}`)}">Прайс</a></div>
+      </div>
+    </article>`;
+
 
   // плитки категорий с фото типичного товара
   const COVER = { kosmetika: 'melta-bath-foam-raspberry-500', volosy: 'melta-keratin-shampoo-1000ml', 'bytovaya-himiya': 'biolut-professional-gel-5l',

@@ -25,6 +25,18 @@
       ${i.volume ? `<span class="hit__vol">${esc(i.volume)}</span>` : ''}
     </button>`;
 
+  const PC_DIR = { 'bytovaya-himiya': 'Бытовая химия', zhivotnye: 'Косметика для животных', 'mylo-ruchnoe': 'Мыло ручной работы' };
+  // карточка товара в стиле варианта 7: категория, бренд, название, объём и кнопка «Прайс»
+  const pcard = (i) => `
+    <article class="pc pc--${i.cat}">
+      <button class="pc__stage" type="button" data-quick="${i.slug}" aria-label="Быстрый просмотр: ${esc(i.brand)} — ${esc(i.title)}"><img src="${i.img}" alt="" loading="lazy"></button>
+      <div class="pc__body">
+        <span class="pc__cat">${esc(data.cats[i.cat])}</span>
+        <h3 class="pc__title"><button type="button" data-quick="${i.slug}"><span>${esc(i.brand)}</span> ${esc(i.title)}</button></h3>
+        <div class="pc__foot">${i.volume ? `<span class="pc__vol">${esc(i.volume)}</span>` : '<span></span>'}<a class="pc__btn" href="#request" data-popup="price" data-direction="${PC_DIR[i.cat] || 'Косметика'}" data-product="${esc(`${i.brand} — ${i.title}${i.volume ? `, ${i.volume}` : ''}`)}">Прайс</a></div>
+      </div>
+    </article>`;
+
   /* ---------- хиты ---------- */
   const HITS = ['melta-keratin-shampoo-1000ml', 'biolut-oxygen-1kg', 'zayushka-shower-gel', 'melta-pets-shampoo-dogs', 'biolut-dish-gel-raspberry-mint-5l',
     'melta-sun-cream-spf50', 'melta-bath-foam-raspberry-500', 'sliki-h2o-sweet-strawberry-250ml', 'melta-handmade-soap-lavender',
@@ -54,7 +66,7 @@
   function renderGrid() {
     const q = query.trim().toLowerCase();
     const list = data.items.filter((i) => (filter === 'all' || i.cat === filter) && (!q || `${i.brand} ${i.title} ${i.volume}`.toLowerCase().includes(q)));
-    grid.innerHTML = list.slice(0, shown).map(card).join('') || '<p class="catalog__empty">Ничего не нашлось — попробуйте другое слово.</p>';
+    grid.innerHTML = list.slice(0, shown).map(pcard).join('') || '<p class="catalog__empty">Ничего не нашлось — попробуйте другое слово.</p>';
     more.hidden = list.length <= shown;
     const n = list.length, m10 = n % 10, m100 = n % 100;
     $('.catalog__count').textContent = `${n} ${m10 === 1 && m100 !== 11 ? 'товар' : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? 'товара' : 'товаров'}`;
@@ -109,8 +121,8 @@
     showDialog(qv);
   }
   document.addEventListener('click', (e) => {
-    const h = e.target.closest('.hit');
-    if (h) openQuick(h.dataset.slug);
+    const h = e.target.closest('.hit, [data-quick]');
+    if (h) openQuick(h.dataset.slug || h.dataset.quick);
   });
 
   /* ---------- диалоги ---------- */
@@ -304,8 +316,8 @@
       if (px) { px(e.clientX + 24); py(e.clientY); }
     }, { passive: true });
     document.addEventListener('pointerover', (e) => {
-      cur.classList.toggle('is-view', !!e.target.closest('.hit'));
-      cur.classList.toggle('is-link', !e.target.closest('.hit') && !!e.target.closest('a, button, input, select, textarea, label'));
+      cur.classList.toggle('is-view', !!e.target.closest('.hit, .pc__stage'));
+      cur.classList.toggle('is-link', !e.target.closest('.hit, .pc__stage') && !!e.target.closest('a, button, input, select, textarea, label'));
     });
     $$('.magnetic').forEach((b) => {
       b.addEventListener('pointermove', (e) => {

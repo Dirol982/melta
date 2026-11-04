@@ -450,3 +450,38 @@ html.has-dialog { overflow: hidden; }
   .cp__grid .hit__title { font-size: 14px; }
 }
 @media (max-width: 640px) { .cp__sort select { font-size: 13px; padding-right: 34px; background-position: right 12px center; } }
+
+/* карточки товара в стиле варианта 7 (с кнопкой «Прайс») */
+.grid, .cp__grid { align-items: stretch; }
+.pc { display: flex; flex-direction: column; background: var(--paper); border-radius: 24px; overflow: hidden; box-shadow: 0 14px 30px -24px rgba(40,25,60,.4); transition: transform .35s var(--ease), box-shadow .35s var(--ease); }
+.pc:hover { transform: translateY(-6px); box-shadow: 0 26px 44px -26px rgba(40,25,60,.5); }
+.pc__stage { position: relative; display: block; width: 100%; aspect-ratio: 1; border: 0; padding: 0; cursor: pointer; isolation: isolate; background: linear-gradient(160deg, #FFF3E4, #FED6A2); }
+.pc__stage::before { content: ""; position: absolute; inset: 14% 14% 10%; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.95), rgba(255,255,255,0) 70%); z-index: -1; }
+.pc__stage img { position: absolute; inset: 8%; width: 84%; height: 84%; object-fit: contain; transition: transform .45s var(--ease); }
+.pc:hover .pc__stage img { transform: scale(1.05); }
+.pc--volosy .pc__stage { background: linear-gradient(160deg, #F7F4EE, #E9E2D3); }
+.pc--detskaya .pc__stage { background: linear-gradient(160deg, #EEF6FD, #CFE5F7); }
+.pc--bytovaya-himiya .pc__stage { background: linear-gradient(160deg, #F4F1FF, #DED4FA); }
+.pc--zhivotnye .pc__stage { background: linear-gradient(160deg, #FFF6EA, #F4DCBE); }
+.pc--mylo .pc__stage, .pc--mylo-ruchnoe .pc__stage { background: linear-gradient(160deg, #F1FBF6, #D2EFE1); }
+.pc--aromaty .pc__stage { background: linear-gradient(160deg, #FFF8EE, #F6E3C6); }
+.pc--lubrikanty .pc__stage { background: linear-gradient(160deg, #FFF0F5, #F6D2E2); }
+.pc__body { flex: 1; display: flex; flex-direction: column; gap: 8px; padding: 18px 20px 20px; }
+.pc__cat { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.pc__title { flex: 1; margin: 0; font: 500 15px/1.35 var(--sans); }
+.pc__title button { all: unset; cursor: pointer; }
+.pc__title button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.pc__title span { display: block; margin-bottom: 2px; font-weight: 700; font-size: 14px; }
+.pc__title button:hover { color: var(--accent); }
+.pc__foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 6px; }
+.pc__vol { font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: #F4EEE6; }
+.pc__btn { display: inline-flex; align-items: center; min-height: 42px; padding: 10px 20px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 700; font-size: 14px; text-decoration: none; transition: background .25s; }
+.pc__btn:hover { background: #A63609; color: #fff; }
+@media (max-width: 640px) {
+  .pc { border-radius: 20px; }
+  .pc__body { padding: 12px; gap: 6px; }
+  .pc__title { font-size: 13px; }
+  .pc__title span { font-size: 13px; }
+  .pc__foot { flex-wrap: wrap; }
+  .pc__btn { min-height: 38px; padding: 8px 14px; font-size: 13px; }
+}
