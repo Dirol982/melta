@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=8">
+  <link rel="stylesheet" href="styles.css?v=9">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -90,17 +90,15 @@
         <p class="eyebrow">Категории</p>
         <h2 class="h2 split">Всё для дома, красоты <i>и&nbsp;заботы</i></h2>
       </div>
-      <ul class="cats__list">
-        <li><a class="cat-row" href="#catalog" data-filter="kosmetika" data-img="../assets/products/cat-kosmetika.webp"><em>01</em><span class="cat-row__name">Косметика и&nbsp;уход</span><span class="cat-row__sub">кремы, гели, пена для ванн</span><span class="cat-row__count" data-cat-count="kosmetika,volosy"></span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg><img class="cat-row__thumb" src="../assets/products/cat-kosmetika.webp" alt="" loading="lazy"></a></li>
-        <li><a class="cat-row" href="#catalog" data-filter="bytovaya-himiya" data-img="../assets/products/cat-himiya.webp"><em>02</em><span class="cat-row__name">Бытовая химия</span><span class="cat-row__sub">стирка, посуда, уборка</span><span class="cat-row__count" data-cat-count="bytovaya-himiya"></span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg><img class="cat-row__thumb" src="../assets/products/cat-himiya.webp" alt="" loading="lazy"></a></li>
-        <li><a class="cat-row" href="#catalog" data-filter="detskaya" data-img="../assets/products/cat-kids.webp"><em>03</em><span class="cat-row__name">Для детей</span><span class="cat-row__sub">нежный уход 0+</span><span class="cat-row__count" data-cat-count="detskaya"></span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg><img class="cat-row__thumb" src="../assets/products/cat-kids.webp" alt="" loading="lazy"></a></li>
-        <li><a class="cat-row" href="#catalog" data-filter="zhivotnye" data-img="../assets/products/cat-pets.webp"><em>04</em><span class="cat-row__name">Для животных</span><span class="cat-row__sub">шампуни, пенки, воск для лап</span><span class="cat-row__count" data-cat-count="zhivotnye"></span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg><img class="cat-row__thumb" src="../assets/products/cat-pets.webp" alt="" loading="lazy"></a></li>
-        <li><a class="cat-row" href="#catalog" data-filter="mylo-ruchnoe" data-img="../assets/library/sets/handmade.webp" data-tint="#E3F3EA"><em>05</em><span class="cat-row__name">Мыло ручной работы</span><span class="cat-row__sub">эфирные масла, наборы</span><span class="cat-row__count" data-cat-count="mylo-ruchnoe,mylo"></span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg><img class="cat-row__thumb cat-row__thumb--cut" src="../assets/library/sets/handmade.webp" alt="" loading="lazy"></a></li>
-        <li><a class="cat-row" href="#catalog" data-filter="lubrikanty" data-img="../assets/products/cat-lube.webp"><em>06</em><span class="cat-row__name">Лубриканты и&nbsp;вазелин</span><span class="cat-row__sub">гели SLIKI на водной основе</span><span class="cat-row__count" data-cat-count="lubrikanty"></span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg><img class="cat-row__thumb" src="../assets/products/cat-lube.webp" alt="" loading="lazy"></a></li>
-        <li><a class="cat-row" href="#catalog" data-filter="aromaty" data-img="../assets/library/web/aromaty/melta-air-freshener-red-amber-7ml.webp" data-tint="#FBEBD7"><em>07</em><span class="cat-row__name">Ароматы для дома и&nbsp;авто</span><span class="cat-row__sub">саше и ароматизаторы</span><span class="cat-row__count" data-cat-count="aromaty"></span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg><img class="cat-row__thumb cat-row__thumb--cut" src="../assets/library/web/aromaty/melta-air-freshener-red-amber-7ml.webp" alt="" loading="lazy"></a></li>
-      </ul>
+      <div class="ccards">
+        <a class="ccard" href="#catalog" data-filter="kosmetika" style="--tone:#FBD3A2"><img class="ccard__img" src="../assets/products/cat-kosmetika.webp" alt="" loading="lazy"><span class="ccard__title">Косметика<br>и&nbsp;уход</span><span class="ccard__sub">Кремы, гели и&nbsp;пена</span><span class="ccard__count" data-cat-count="kosmetika"></span><span class="ccard__go">Перейти <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="ccard__bub" aria-hidden="true"><i></i><i></i><i></i></span></a>
+        <a class="ccard" href="#catalog" data-filter="bytovaya-himiya" style="--tone:#D9CBF6"><img class="ccard__img" src="../assets/products/cat-himiya.webp" alt="" loading="lazy"><span class="ccard__title">Бытовая<br>химия</span><span class="ccard__sub">Стирка, посуда, уборка</span><span class="ccard__count" data-cat-count="bytovaya-himiya"></span><span class="ccard__go">Перейти <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="ccard__bub" aria-hidden="true"><i></i><i></i><i></i></span></a>
+        <a class="ccard" href="#catalog" data-filter="detskaya" style="--tone:#BFE3F5"><img class="ccard__img" src="../assets/products/cat-kids.webp" alt="" loading="lazy"><span class="ccard__title">Для детей</span><span class="ccard__sub">Нежный уход 0+</span><span class="ccard__count" data-cat-count="detskaya"></span><span class="ccard__go">Перейти <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="ccard__bub" aria-hidden="true"><i></i><i></i><i></i></span></a>
+        <a class="ccard" href="#catalog" data-filter="zhivotnye" style="--tone:#F6DDBF"><img class="ccard__img" src="../assets/products/cat-pets.webp" alt="" loading="lazy"><span class="ccard__title">Для животных</span><span class="ccard__sub">Забота и&nbsp;комфорт</span><span class="ccard__count" data-cat-count="zhivotnye"></span><span class="ccard__go">Перейти <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="ccard__bub" aria-hidden="true"><i></i><i></i><i></i></span></a>
+        <a class="ccard" href="#catalog" data-filter="lubrikanty" style="--tone:#F3B9D6"><img class="ccard__img" src="../assets/products/cat-lube.webp" alt="" loading="lazy"><span class="ccard__title">Лубриканты<br>и&nbsp;вазелин</span><span class="ccard__sub">Гели SLIKI</span><span class="ccard__count" data-cat-count="lubrikanty"></span><span class="ccard__go">Перейти <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="ccard__bub" aria-hidden="true"><i></i><i></i><i></i></span></a>
+        <a class="ccard ccard--all" href="#catalog" data-filter="all"><span class="ccard__title">Весь каталог</span><span class="ccard__sub">Мыло, ароматы, уход за&nbsp;волосами и&nbsp;другое</span><span class="ccard__big" data-count="74">74</span><span class="ccard__sub">позиции</span><span class="ccard__go">Перейти <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="ccard__bub" aria-hidden="true"><i></i><i></i><i></i></span></a>
+      </div>
     </div>
-    <div class="cursor-preview" aria-hidden="true"><div class="cursor-preview__in"><img alt=""></div></div>
   </section>
 
   <!-- 4. Направления: карточки складываются стопкой -->
@@ -331,6 +329,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="../v7/catalog-data.js?v=12"></script>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

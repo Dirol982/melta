@@ -74,6 +74,7 @@
   /* ---------- строки категорий: фильтр + превью за курсором ---------- */
   const preview = $('.cursor-preview');
   const pImg = preview && $('img', preview);
+  $$('.ccard').forEach((c) => c.addEventListener('click', () => setFilter(c.dataset.filter)));
   $$('.cat-row').forEach((row) => {
     row.addEventListener('click', () => setFilter(row.dataset.filter));
     if (!fine || !preview) return;
@@ -260,6 +261,12 @@
       scrollTrigger: { trigger: '.hscroll', start: 'top top', end: () => `+=${dist()}`, pin: '.hscroll', scrub: .6, invalidateOnRefresh: true,
         onUpdate: (self) => gsap.set('.hscroll__progress span', { scaleX: self.progress }) } });
   });
+
+  // карточки категорий: поднимаются по очереди, сцена слегка «дышит» при прокрутке
+  gsap.from('.ccard', { y: 60, opacity: 0, duration: .9, stagger: .07, ease: 'power3.out', clearProps: 'transform,opacity',
+    scrollTrigger: { trigger: '.ccards', start: 'top 85%', once: true } });
+  $$('.ccard__img').forEach((im) => gsap.fromTo(im, { yPercent: 4 }, { yPercent: -4, ease: 'none',
+    scrollTrigger: { trigger: im.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } }));
 
   // о бренде: штамп и шаги
   gsap.from('.about__media img', { clipPath: 'inset(18% 18% 18% 18% round 50%)', scale: 1.08, duration: 1.4, ease: 'expo.out',
